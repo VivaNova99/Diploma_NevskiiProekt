@@ -700,9 +700,9 @@
             vidRabotiLabel1.AutoSize = true;
             vidRabotiLabel1.Location = new System.Drawing.Point(36, 184);
             vidRabotiLabel1.Name = "vidRabotiLabel1";
-            vidRabotiLabel1.Size = new System.Drawing.Size(98, 13);
+            vidRabotiLabel1.Size = new System.Drawing.Size(69, 13);
             vidRabotiLabel1.TabIndex = 250;
-            vidRabotiLabel1.Text = "Характер работы:";
+            vidRabotiLabel1.Text = "Вид работы:";
             // 
             // personalBindingSource
             // 

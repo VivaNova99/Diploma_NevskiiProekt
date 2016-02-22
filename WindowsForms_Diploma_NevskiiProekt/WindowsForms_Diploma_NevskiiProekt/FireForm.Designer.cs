@@ -35,13 +35,13 @@
             System.Windows.Forms.Label fioPolnostjuLabel1;
             System.Windows.Forms.Label professijaLabel1;
             System.Windows.Forms.Label vidRabotiLabel1;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FireForm));
             System.Windows.Forms.Label dataUvolnenijaLabel;
             System.Windows.Forms.Label osnovanijeUvolnenijaLabel;
             System.Windows.Forms.Label statusVOrganizatsiiLabel;
             System.Windows.Forms.Label dljaZapolnenijaOsnovanijeUvolnenijaLine1Label;
             System.Windows.Forms.Label dljaZapolnenijaOsnovanijeUvolnenijaLine2Label;
             System.Windows.Forms.Label dljaZapolnenijaOsnovanijePrikazaObUvolnLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FireForm));
             this.personalBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.diploma_NevskiiProectDataSet = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSet();
             this.personalTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.PersonalTableAdapter();
@@ -95,6 +95,15 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.formPanel = new System.Windows.Forms.Panel();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.dismissalReasonBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.statusInOrganizationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.osnovanijeUvolnenijaComboBox = new System.Windows.Forms.ComboBox();
+            this.dataUvolnenijaDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
             this.formButton = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -116,6 +125,16 @@
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.docPanel = new System.Windows.Forms.Panel();
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox = new System.Windows.Forms.CheckBox();
+            this.nalichiePodpisiNaLichnKart4strCheckBox = new System.Windows.Forms.CheckBox();
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox = new System.Windows.Forms.CheckBox();
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox = new System.Windows.Forms.CheckBox();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.nalichiePrikazaObUvolneniiCheckBox = new System.Windows.Forms.CheckBox();
+            this.nalichieZajavlObUvolneniiCheckBox = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -123,26 +142,7 @@
             this.vidRabotiTextBox1 = new System.Windows.Forms.TextBox();
             this.professijaTextBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.nalichieZajavlObUvolneniiCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePrikazaObUvolneniiCheckBox = new System.Windows.Forms.CheckBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiNaLichnKart4strCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox = new System.Windows.Forms.CheckBox();
-            this.dataUvolnenijaDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.osnovanijeUvolnenijaComboBox = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox = new System.Windows.Forms.TextBox();
-            this.dismissalReasonBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dismissalReasonTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.DismissalReasonTableAdapter();
-            this.statusInOrganizationBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.statusInOrganizationTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.StatusInOrganizationTableAdapter();
             label1 = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
@@ -161,11 +161,11 @@
             ((System.ComponentModel.ISupportInitialize)(this.personalBindingNavigator)).BeginInit();
             this.personalBindingNavigator.SuspendLayout();
             this.formPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dismissalReasonBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statusInOrganizationBindingSource)).BeginInit();
             this.docPanel.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dismissalReasonBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.statusInOrganizationBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -221,9 +221,63 @@
             vidRabotiLabel1.AutoSize = true;
             vidRabotiLabel1.Location = new System.Drawing.Point(35, 80);
             vidRabotiLabel1.Name = "vidRabotiLabel1";
-            vidRabotiLabel1.Size = new System.Drawing.Size(98, 13);
+            vidRabotiLabel1.Size = new System.Drawing.Size(69, 13);
             vidRabotiLabel1.TabIndex = 250;
-            vidRabotiLabel1.Text = "Характер работы:";
+            vidRabotiLabel1.Text = "Вид работы:";
+            // 
+            // dataUvolnenijaLabel
+            // 
+            dataUvolnenijaLabel.AutoSize = true;
+            dataUvolnenijaLabel.Location = new System.Drawing.Point(38, 55);
+            dataUvolnenijaLabel.Name = "dataUvolnenijaLabel";
+            dataUvolnenijaLabel.Size = new System.Drawing.Size(98, 13);
+            dataUvolnenijaLabel.TabIndex = 244;
+            dataUvolnenijaLabel.Text = "Дата увольнения:";
+            // 
+            // osnovanijeUvolnenijaLabel
+            // 
+            osnovanijeUvolnenijaLabel.AutoSize = true;
+            osnovanijeUvolnenijaLabel.Location = new System.Drawing.Point(38, 84);
+            osnovanijeUvolnenijaLabel.Name = "osnovanijeUvolnenijaLabel";
+            osnovanijeUvolnenijaLabel.Size = new System.Drawing.Size(128, 13);
+            osnovanijeUvolnenijaLabel.TabIndex = 245;
+            osnovanijeUvolnenijaLabel.Text = "Основание увольнения:";
+            // 
+            // statusVOrganizatsiiLabel
+            // 
+            statusVOrganizatsiiLabel.AutoSize = true;
+            statusVOrganizatsiiLabel.Location = new System.Drawing.Point(38, 111);
+            statusVOrganizatsiiLabel.Name = "statusVOrganizatsiiLabel";
+            statusVOrganizatsiiLabel.Size = new System.Drawing.Size(121, 13);
+            statusVOrganizatsiiLabel.TabIndex = 246;
+            statusVOrganizatsiiLabel.Text = "Статус в организации:";
+            // 
+            // dljaZapolnenijaOsnovanijeUvolnenijaLine1Label
+            // 
+            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.AutoSize = true;
+            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Location = new System.Drawing.Point(526, 51);
+            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine1Label";
+            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Size = new System.Drawing.Size(178, 13);
+            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.TabIndex = 248;
+            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Text = "Основание увольнения, строка 1:";
+            // 
+            // dljaZapolnenijaOsnovanijeUvolnenijaLine2Label
+            // 
+            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.AutoSize = true;
+            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Location = new System.Drawing.Point(526, 79);
+            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine2Label";
+            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Size = new System.Drawing.Size(178, 13);
+            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.TabIndex = 249;
+            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Text = "Основание увольнения, строка 2:";
+            // 
+            // dljaZapolnenijaOsnovanijePrikazaObUvolnLabel
+            // 
+            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.AutoSize = true;
+            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Location = new System.Drawing.Point(526, 107);
+            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Name = "dljaZapolnenijaOsnovanijePrikazaObUvolnLabel";
+            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Size = new System.Drawing.Size(233, 13);
+            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.TabIndex = 250;
+            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Text = "Основание издания приказа об увольнении:";
             // 
             // personalBindingSource
             // 
@@ -792,6 +846,88 @@
             this.formPanel.TabIndex = 224;
             this.formPanel.Visible = false;
             // 
+            // comboBox3
+            // 
+            this.comboBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
+            this.comboBox3.DataSource = this.dismissalReasonBindingSource;
+            this.comboBox3.DisplayMember = "DljaZapolnenijaOsnovanijeUvolnenijaLine2";
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(779, 77);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(200, 21);
+            this.comboBox3.TabIndex = 253;
+            // 
+            // dismissalReasonBindingSource
+            // 
+            this.dismissalReasonBindingSource.DataMember = "DismissalReason";
+            this.dismissalReasonBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
+            this.comboBox2.DataSource = this.dismissalReasonBindingSource;
+            this.comboBox2.DisplayMember = "DljaZapolnenijaOsnovanijeUvolnenijaLine1";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(779, 47);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(200, 21);
+            this.comboBox2.TabIndex = 252;
+            // 
+            // dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox
+            // 
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOsnovanijePrikazaObUvoln", true));
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Location = new System.Drawing.Point(779, 104);
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Name = "dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox";
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Size = new System.Drawing.Size(200, 20);
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.TabIndex = 251;
+            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Enter += new System.EventHandler(this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox_Enter);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(553, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(403, 20);
+            this.label6.TabIndex = 248;
+            this.label6.Text = "Данные для заполнения бланков документов ";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
+            this.comboBox1.DataSource = this.statusInOrganizationBindingSource;
+            this.comboBox1.DisplayMember = "StatusVOrganizatsii";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(205, 103);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 21);
+            this.comboBox1.TabIndex = 247;
+            // 
+            // statusInOrganizationBindingSource
+            // 
+            this.statusInOrganizationBindingSource.DataMember = "StatusInOrganization";
+            this.statusInOrganizationBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // osnovanijeUvolnenijaComboBox
+            // 
+            this.osnovanijeUvolnenijaComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
+            this.osnovanijeUvolnenijaComboBox.DataSource = this.dismissalReasonBindingSource;
+            this.osnovanijeUvolnenijaComboBox.DisplayMember = "OsnovanijeUvolnenija";
+            this.osnovanijeUvolnenijaComboBox.FormattingEnabled = true;
+            this.osnovanijeUvolnenijaComboBox.Location = new System.Drawing.Point(205, 76);
+            this.osnovanijeUvolnenijaComboBox.Name = "osnovanijeUvolnenijaComboBox";
+            this.osnovanijeUvolnenijaComboBox.Size = new System.Drawing.Size(200, 21);
+            this.osnovanijeUvolnenijaComboBox.TabIndex = 246;
+            // 
+            // dataUvolnenijaDateTimePicker
+            // 
+            this.dataUvolnenijaDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataUvolnenija", true));
+            this.dataUvolnenijaDateTimePicker.Location = new System.Drawing.Point(205, 49);
+            this.dataUvolnenijaDateTimePicker.Name = "dataUvolnenijaDateTimePicker";
+            this.dataUvolnenijaDateTimePicker.Size = new System.Drawing.Size(200, 20);
+            this.dataUvolnenijaDateTimePicker.TabIndex = 245;
+            this.dataUvolnenijaDateTimePicker.Enter += new System.EventHandler(this.dataUvolnenijaDateTimePicker_Enter);
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -1049,6 +1185,103 @@
             this.docPanel.TabIndex = 244;
             this.docPanel.Visible = false;
             // 
+            // nalichiePodpisiVKnigeUchetaTrudKnCheckBox
+            // 
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiVKnigeUchetaTrudKn", true));
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Location = new System.Drawing.Point(768, 152);
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Name = "nalichiePodpisiVKnigeUchetaTrudKnCheckBox";
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Size = new System.Drawing.Size(163, 24);
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.TabIndex = 253;
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Text = "В книге учета труд. кн-к";
+            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // nalichiePodpisiNaLichnKart4strCheckBox
+            // 
+            this.nalichiePodpisiNaLichnKart4strCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaLichnKart4str", true));
+            this.nalichiePodpisiNaLichnKart4strCheckBox.Location = new System.Drawing.Point(768, 122);
+            this.nalichiePodpisiNaLichnKart4strCheckBox.Name = "nalichiePodpisiNaLichnKart4strCheckBox";
+            this.nalichiePodpisiNaLichnKart4strCheckBox.Size = new System.Drawing.Size(188, 24);
+            this.nalichiePodpisiNaLichnKart4strCheckBox.TabIndex = 252;
+            this.nalichiePodpisiNaLichnKart4strCheckBox.Text = "На 4-й стр. личн. карт.";
+            this.nalichiePodpisiNaLichnKart4strCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // nalichiePodpisiNaPrikazeObUvolnCheckBox
+            // 
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaPrikazeObUvoln", true));
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Location = new System.Drawing.Point(768, 92);
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Name = "nalichiePodpisiNaPrikazeObUvolnCheckBox";
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Size = new System.Drawing.Size(156, 24);
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.TabIndex = 251;
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Text = "На приказе об увольн.";
+            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // nalichiePodpisiNaZajavlObUvolnCheckBox
+            // 
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaZajavlObUvoln", true));
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Location = new System.Drawing.Point(768, 62);
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Name = "nalichiePodpisiNaZajavlObUvolnCheckBox";
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Size = new System.Drawing.Size(156, 24);
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.TabIndex = 250;
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Text = "На заявл. об увольн.";
+            this.nalichiePodpisiNaZajavlObUvolnCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(508, 92);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(153, 23);
+            this.button9.TabIndex = 249;
+            this.button9.Text = "Приказ об увольнении";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(508, 63);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(153, 23);
+            this.button5.TabIndex = 248;
+            this.button5.Text = "Заявл. об увольнении";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(258, 92);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(153, 23);
+            this.button4.TabIndex = 249;
+            this.button4.Text = "Приказ об увольнении";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(258, 63);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(153, 23);
+            this.button3.TabIndex = 248;
+            this.button3.Text = "Заявл. об увольнении";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // nalichiePrikazaObUvolneniiCheckBox
+            // 
+            this.nalichiePrikazaObUvolneniiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePrikazaObUvolnenii", true));
+            this.nalichiePrikazaObUvolneniiCheckBox.Location = new System.Drawing.Point(35, 92);
+            this.nalichiePrikazaObUvolneniiCheckBox.Name = "nalichiePrikazaObUvolneniiCheckBox";
+            this.nalichiePrikazaObUvolneniiCheckBox.Size = new System.Drawing.Size(162, 24);
+            this.nalichiePrikazaObUvolneniiCheckBox.TabIndex = 247;
+            this.nalichiePrikazaObUvolneniiCheckBox.Text = "Приказ об увольнении";
+            this.nalichiePrikazaObUvolneniiCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // nalichieZajavlObUvolneniiCheckBox
+            // 
+            this.nalichieZajavlObUvolneniiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieZajavlObUvolnenii", true));
+            this.nalichieZajavlObUvolneniiCheckBox.Location = new System.Drawing.Point(35, 63);
+            this.nalichieZajavlObUvolneniiCheckBox.Name = "nalichieZajavlObUvolneniiCheckBox";
+            this.nalichieZajavlObUvolneniiCheckBox.Size = new System.Drawing.Size(169, 24);
+            this.nalichieZajavlObUvolneniiCheckBox.TabIndex = 246;
+            this.nalichieZajavlObUvolneniiCheckBox.Text = "Заявл. об увольнении";
+            this.nalichieZajavlObUvolneniiCheckBox.UseVisualStyleBackColor = true;
+            this.nalichieZajavlObUvolneniiCheckBox.MouseHover += new System.EventHandler(this.nalichieZajavlObUvolneniiCheckBox_MouseHover);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -1119,248 +1352,15 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.docButton_Click);
             // 
-            // nalichieZajavlObUvolneniiCheckBox
-            // 
-            this.nalichieZajavlObUvolneniiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieZajavlObUvolnenii", true));
-            this.nalichieZajavlObUvolneniiCheckBox.Location = new System.Drawing.Point(35, 63);
-            this.nalichieZajavlObUvolneniiCheckBox.Name = "nalichieZajavlObUvolneniiCheckBox";
-            this.nalichieZajavlObUvolneniiCheckBox.Size = new System.Drawing.Size(169, 24);
-            this.nalichieZajavlObUvolneniiCheckBox.TabIndex = 246;
-            this.nalichieZajavlObUvolneniiCheckBox.Text = "Заявл. об увольнении";
-            this.nalichieZajavlObUvolneniiCheckBox.UseVisualStyleBackColor = true;
-            this.nalichieZajavlObUvolneniiCheckBox.MouseHover += new System.EventHandler(this.nalichieZajavlObUvolneniiCheckBox_MouseHover);
-            // 
-            // nalichiePrikazaObUvolneniiCheckBox
-            // 
-            this.nalichiePrikazaObUvolneniiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePrikazaObUvolnenii", true));
-            this.nalichiePrikazaObUvolneniiCheckBox.Location = new System.Drawing.Point(35, 92);
-            this.nalichiePrikazaObUvolneniiCheckBox.Name = "nalichiePrikazaObUvolneniiCheckBox";
-            this.nalichiePrikazaObUvolneniiCheckBox.Size = new System.Drawing.Size(162, 24);
-            this.nalichiePrikazaObUvolneniiCheckBox.TabIndex = 247;
-            this.nalichiePrikazaObUvolneniiCheckBox.Text = "Приказ об увольнении";
-            this.nalichiePrikazaObUvolneniiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(258, 63);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(153, 23);
-            this.button3.TabIndex = 248;
-            this.button3.Text = "Заявл. об увольнении";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(258, 92);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(153, 23);
-            this.button4.TabIndex = 249;
-            this.button4.Text = "Приказ об увольнении";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(508, 63);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(153, 23);
-            this.button5.TabIndex = 248;
-            this.button5.Text = "Заявл. об увольнении";
-            this.button5.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(508, 92);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(153, 23);
-            this.button9.TabIndex = 249;
-            this.button9.Text = "Приказ об увольнении";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaZajavlObUvolnCheckBox
-            // 
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaZajavlObUvoln", true));
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Location = new System.Drawing.Point(768, 62);
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Name = "nalichiePodpisiNaZajavlObUvolnCheckBox";
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Size = new System.Drawing.Size(156, 24);
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.TabIndex = 250;
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Text = "На заявл. об увольн.";
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaPrikazeObUvolnCheckBox
-            // 
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaPrikazeObUvoln", true));
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Location = new System.Drawing.Point(768, 92);
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Name = "nalichiePodpisiNaPrikazeObUvolnCheckBox";
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Size = new System.Drawing.Size(156, 24);
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.TabIndex = 251;
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Text = "На приказе об увольн.";
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaLichnKart4strCheckBox
-            // 
-            this.nalichiePodpisiNaLichnKart4strCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaLichnKart4str", true));
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Location = new System.Drawing.Point(768, 122);
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Name = "nalichiePodpisiNaLichnKart4strCheckBox";
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Size = new System.Drawing.Size(188, 24);
-            this.nalichiePodpisiNaLichnKart4strCheckBox.TabIndex = 252;
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Text = "На 4-й стр. личн. карт.";
-            this.nalichiePodpisiNaLichnKart4strCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiVKnigeUchetaTrudKnCheckBox
-            // 
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiVKnigeUchetaTrudKn", true));
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Location = new System.Drawing.Point(768, 152);
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Name = "nalichiePodpisiVKnigeUchetaTrudKnCheckBox";
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Size = new System.Drawing.Size(163, 24);
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.TabIndex = 253;
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Text = "В книге учета труд. кн-к";
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // dataUvolnenijaLabel
-            // 
-            dataUvolnenijaLabel.AutoSize = true;
-            dataUvolnenijaLabel.Location = new System.Drawing.Point(38, 55);
-            dataUvolnenijaLabel.Name = "dataUvolnenijaLabel";
-            dataUvolnenijaLabel.Size = new System.Drawing.Size(98, 13);
-            dataUvolnenijaLabel.TabIndex = 244;
-            dataUvolnenijaLabel.Text = "Дата увольнения:";
-            // 
-            // dataUvolnenijaDateTimePicker
-            // 
-            this.dataUvolnenijaDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataUvolnenija", true));
-            this.dataUvolnenijaDateTimePicker.Location = new System.Drawing.Point(205, 49);
-            this.dataUvolnenijaDateTimePicker.Name = "dataUvolnenijaDateTimePicker";
-            this.dataUvolnenijaDateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.dataUvolnenijaDateTimePicker.TabIndex = 245;
-            this.dataUvolnenijaDateTimePicker.Enter += new System.EventHandler(this.dataUvolnenijaDateTimePicker_Enter);
-            // 
-            // osnovanijeUvolnenijaLabel
-            // 
-            osnovanijeUvolnenijaLabel.AutoSize = true;
-            osnovanijeUvolnenijaLabel.Location = new System.Drawing.Point(38, 84);
-            osnovanijeUvolnenijaLabel.Name = "osnovanijeUvolnenijaLabel";
-            osnovanijeUvolnenijaLabel.Size = new System.Drawing.Size(128, 13);
-            osnovanijeUvolnenijaLabel.TabIndex = 245;
-            osnovanijeUvolnenijaLabel.Text = "Основание увольнения:";
-            // 
-            // osnovanijeUvolnenijaComboBox
-            // 
-            this.osnovanijeUvolnenijaComboBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
-            this.osnovanijeUvolnenijaComboBox.DataSource = this.dismissalReasonBindingSource;
-            this.osnovanijeUvolnenijaComboBox.DisplayMember = "OsnovanijeUvolnenija";
-            this.osnovanijeUvolnenijaComboBox.FormattingEnabled = true;
-            this.osnovanijeUvolnenijaComboBox.Location = new System.Drawing.Point(205, 76);
-            this.osnovanijeUvolnenijaComboBox.Name = "osnovanijeUvolnenijaComboBox";
-            this.osnovanijeUvolnenijaComboBox.Size = new System.Drawing.Size(200, 21);
-            this.osnovanijeUvolnenijaComboBox.TabIndex = 246;
-            // 
-            // statusVOrganizatsiiLabel
-            // 
-            statusVOrganizatsiiLabel.AutoSize = true;
-            statusVOrganizatsiiLabel.Location = new System.Drawing.Point(38, 111);
-            statusVOrganizatsiiLabel.Name = "statusVOrganizatsiiLabel";
-            statusVOrganizatsiiLabel.Size = new System.Drawing.Size(121, 13);
-            statusVOrganizatsiiLabel.TabIndex = 246;
-            statusVOrganizatsiiLabel.Text = "Статус в организации:";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
-            this.comboBox1.DataSource = this.statusInOrganizationBindingSource;
-            this.comboBox1.DisplayMember = "StatusVOrganizatsii";
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(205, 103);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 247;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(553, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(403, 20);
-            this.label6.TabIndex = 248;
-            this.label6.Text = "Данные для заполнения бланков документов ";
-            // 
-            // dljaZapolnenijaOsnovanijeUvolnenijaLine1Label
-            // 
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.AutoSize = true;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Location = new System.Drawing.Point(526, 51);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine1Label";
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Size = new System.Drawing.Size(178, 13);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.TabIndex = 248;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Text = "Основание увольнения, строка 1:";
-            // 
-            // dljaZapolnenijaOsnovanijeUvolnenijaLine2Label
-            // 
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.AutoSize = true;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Location = new System.Drawing.Point(526, 79);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine2Label";
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Size = new System.Drawing.Size(178, 13);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.TabIndex = 249;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Text = "Основание увольнения, строка 2:";
-            // 
-            // dljaZapolnenijaOsnovanijePrikazaObUvolnLabel
-            // 
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.AutoSize = true;
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Location = new System.Drawing.Point(526, 107);
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Name = "dljaZapolnenijaOsnovanijePrikazaObUvolnLabel";
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Size = new System.Drawing.Size(233, 13);
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.TabIndex = 250;
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Text = "Основание издания приказа об увольнении:";
-            // 
-            // comboBox2
-            // 
-            this.comboBox2.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
-            this.comboBox2.DataSource = this.dismissalReasonBindingSource;
-            this.comboBox2.DisplayMember = "DljaZapolnenijaOsnovanijeUvolnenijaLine1";
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(779, 47);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(200, 21);
-            this.comboBox2.TabIndex = 252;
-            // 
-            // comboBox3
-            // 
-            this.comboBox3.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
-            this.comboBox3.DataSource = this.dismissalReasonBindingSource;
-            this.comboBox3.DisplayMember = "DljaZapolnenijaOsnovanijeUvolnenijaLine2";
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.Location = new System.Drawing.Point(779, 77);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(200, 21);
-            this.comboBox3.TabIndex = 253;
-            // 
-            // dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox
-            // 
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOsnovanijePrikazaObUvoln", true));
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Location = new System.Drawing.Point(779, 104);
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Name = "dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox";
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.TabIndex = 251;
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Enter += new System.EventHandler(this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox_Enter);
-            // 
-            // dismissalReasonBindingSource
-            // 
-            this.dismissalReasonBindingSource.DataMember = "DismissalReason";
-            this.dismissalReasonBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
-            // 
             // dismissalReasonTableAdapter
             // 
             this.dismissalReasonTableAdapter.ClearBeforeFill = true;
-            // 
-            // statusInOrganizationBindingSource
-            // 
-            this.statusInOrganizationBindingSource.DataMember = "StatusInOrganization";
-            this.statusInOrganizationBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
             // 
             // statusInOrganizationTableAdapter
             // 
             this.statusInOrganizationTableAdapter.ClearBeforeFill = true;
             // 
-            // FireForm1
+            // FireForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1370,7 +1370,7 @@
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.personalBindingNavigator);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "FireForm1";
+            this.Name = "FireForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Прием на работу";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FireForm_FormClosing);
@@ -1383,13 +1383,13 @@
             this.personalBindingNavigator.PerformLayout();
             this.formPanel.ResumeLayout(false);
             this.formPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dismissalReasonBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statusInOrganizationBindingSource)).EndInit();
             this.docPanel.ResumeLayout(false);
             this.docPanel.PerformLayout();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dismissalReasonBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.statusInOrganizationBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
