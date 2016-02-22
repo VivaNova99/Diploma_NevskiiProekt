@@ -29,9 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddForm));
-            System.Windows.Forms.Label personal_pkLabel;
-            System.Windows.Forms.Label nazvanijeOrganizatsi_fkLabel;
             System.Windows.Forms.Label fioPolnostjuLabel;
             System.Windows.Forms.Label innLabel;
             System.Windows.Forms.Label snilsLabel;
@@ -66,110 +63,26 @@
             System.Windows.Forms.Label dataPrikazaOPriemeLabel;
             System.Windows.Forms.Label okonchanijeTDLabel;
             System.Windows.Forms.Label ispitSrokLabel;
-            System.Windows.Forms.Label dataUvolnenijaLabel;
-            System.Windows.Forms.Label osnovanijeUvolnenijaLabel;
             System.Windows.Forms.Label primechanijaLabel;
-            System.Windows.Forms.Label dljaZapolnenijaIOFamilijaLabel;
-            System.Windows.Forms.Label dljaZapolnenijaFamilijaIOLabel;
-            System.Windows.Forms.Label dljaZapolnenijaFamilijaLabel;
-            System.Windows.Forms.Label dljaZapolnenijaImjaLabel;
-            System.Windows.Forms.Label dljaZapolnenijaOtchestvoLabel;
-            System.Windows.Forms.Label dljaZapolnenijaLKPasportVidanLine1Label;
-            System.Windows.Forms.Label dljaZapolnenijaLKPasportVidanLine2Label;
-            System.Windows.Forms.Label dljaZapolnenijaLKAdresPoPropiskeLine1Label;
-            System.Windows.Forms.Label dljaZapolnenijaLKAdresPoPropiskeLine2Label;
-            System.Windows.Forms.Label dljaZapolnenijaLKAdresFakticheskiiLine1Label;
-            System.Windows.Forms.Label dljaZapolnenijaLKAdresFakticheskiiLine2Label;
-            System.Windows.Forms.Label dljaZapolnenijaDogMOAdresLine1Label;
-            System.Windows.Forms.Label dljaZapolnenijaDogMOAdresLine2Label;
-            System.Windows.Forms.Label dljaZapolnenijaZajavlenijaFIOLine1Label;
-            System.Windows.Forms.Label dljaZapolnenijaZajavlenijaFIOLine2Label;
-            System.Windows.Forms.Label dljaZapolnenijaOsnovanijePrikazaOPriemeLabel;
-            System.Windows.Forms.Label dljaZapolnenijaOsnovanijeUvolnenijaLine1Label;
-            System.Windows.Forms.Label dljaZapolnenijaOsnovanijeUvolnenijaLine2Label;
-            System.Windows.Forms.Label dljaZapolnenijaOsnovanijePrikazaObUvolnLabel;
-            System.Windows.Forms.Label nalichieAnketiLabel;
-            System.Windows.Forms.Label nalichieLichnKartochkiLabel;
-            System.Windows.Forms.Label nalichieFotoLabel;
-            System.Windows.Forms.Label nalichieKopiiPasportaLabel;
-            System.Windows.Forms.Label nalichiePrikazaOPriemeLabel;
-            System.Windows.Forms.Label nalichieTrudovogoDogovoraLabel;
-            System.Windows.Forms.Label nalichieZajavlenijaNaRabotuLabel;
-            System.Windows.Forms.Label nalichieDogOMatOtvetstvennostiLabel;
-            System.Windows.Forms.Label nalichieDolzhnInstrukciiLabel;
-            System.Windows.Forms.Label nalichieSoglasijaNaNochLabel;
-            System.Windows.Forms.Label nalichieSoglasijaNaFotoLabel;
-            System.Windows.Forms.Label nalichieTrudovojKnijkiLabel;
-            System.Windows.Forms.Label nalichieZajavlNaVidachuTrudovojLabel;
-            System.Windows.Forms.Label nalichieZajavlNaPolstavkiLabel;
-            System.Windows.Forms.Label nalichieKopiiInnLabel;
-            System.Windows.Forms.Label nalichieKopiiSnilsLabel;
-            System.Windows.Forms.Label nalichieSanKnizhkiLabel;
-            System.Windows.Forms.Label nalichieZajavlObUvolneniiLabel;
-            System.Windows.Forms.Label nalichiePrikazaObUvolneniiLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaAnketeLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaLichnKart2strLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaPrikazeOPriemeLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaTrudovomDogovoreLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaZajavleniiNaRabotuLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaDogOMatOtvetstvennostiLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaDolzhnInstrukciiLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaSoglasiiNaNochLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaSoglasiiNaFotoLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaZajavlNaVidachuTrudovojLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaZajavlNaPolstavkiLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaPVTRLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaPravIspPersDannihLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaInstrPoOhrTrudaLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaZajavlObUvolnLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaPrikazeObUvolnLabel;
-            System.Windows.Forms.Label nalichiePodpisiNaLichnKart4strLabel;
-            System.Windows.Forms.Label nalichiePodpisiVKnigeUchetaTrudKnLabel;
             System.Windows.Forms.Label tabNomerLabel;
             System.Windows.Forms.Label label1;
-            System.Windows.Forms.Label label2;
             System.Windows.Forms.Label label3;
             System.Windows.Forms.Label label4;
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.diploma_NevskiiProectDataSet = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSet();
+            System.Windows.Forms.Label label7;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AddForm));
             this.personalBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.diploma_NevskiiProectDataSet = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSet();
             this.personalTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.PersonalTableAdapter();
             this.tableAdapterManager = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.TableAdapterManager();
             this.personalBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
-            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
-            this.personalBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
-            this.personal_pkTextBox = new System.Windows.Forms.TextBox();
-            this.nazvanijeOrganizatsi_fkTextBox = new System.Windows.Forms.TextBox();
             this.fioPolnostjuTextBox = new System.Windows.Forms.TextBox();
             this.innTextBox = new System.Windows.Forms.TextBox();
             this.snilsTextBox = new System.Windows.Forms.TextBox();
-            this.polTextBox = new System.Windows.Forms.TextBox();
             this.pasportNoTextBox = new System.Windows.Forms.TextBox();
             this.dataVidachiPasportaDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.pasportVidanTextBox = new System.Windows.Forms.TextBox();
@@ -181,18 +94,11 @@
             this.dataRozhdenijaDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.mestoRozhdenijaTextBox = new System.Windows.Forms.TextBox();
             this.mestoRozhdenijaKodTextBox = new System.Windows.Forms.TextBox();
-            this.grazhdanstvoTextBox = new System.Windows.Forms.TextBox();
             this.grazhdanstvoKodTextBox = new System.Windows.Forms.TextBox();
-            this.obrazovanijeTextBox = new System.Windows.Forms.TextBox();
             this.obrazovanijeKodTextBox = new System.Windows.Forms.TextBox();
-            this.statusVOrganizatsiiTextBox = new System.Windows.Forms.TextBox();
-            this.professijaTextBox = new System.Windows.Forms.TextBox();
             this.professijaKodTextBox = new System.Windows.Forms.TextBox();
-            this.professijaDrugajaTextBox = new System.Windows.Forms.TextBox();
             this.professijaDrugajaKodTextBox = new System.Windows.Forms.TextBox();
             this.dataNachalaRabotiDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.kharakterRabotiTextBox = new System.Windows.Forms.TextBox();
-            this.vidRabotiTextBox = new System.Windows.Forms.TextBox();
             this.okladCiframiTextBox = new System.Windows.Forms.TextBox();
             this.okladPropisjuTextBox = new System.Windows.Forms.TextBox();
             this.nomerTDTextBox = new System.Windows.Forms.TextBox();
@@ -200,28 +106,7 @@
             this.dataPrikazaOPriemeDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.okonchanijeTDDateTimePicker = new System.Windows.Forms.DateTimePicker();
             this.ispitSrokTextBox = new System.Windows.Forms.TextBox();
-            this.dataUvolnenijaDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.osnovanijeUvolnenijaTextBox = new System.Windows.Forms.TextBox();
             this.primechanijaTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaIOFamilijaTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaFamilijaIOTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaFamilijaTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaImjaTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaOtchestvoTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaLKPasportVidanLine1TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaLKPasportVidanLine2TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaDogMOAdresLine1TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaDogMOAdresLine2TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaZajavlenijaFIOLine1TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaZajavlenijaFIOLine2TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox = new System.Windows.Forms.TextBox();
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox = new System.Windows.Forms.TextBox();
             this.nalichieAnketiCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichieLichnKartochkiCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichieFotoCheckBox = new System.Windows.Forms.CheckBox();
@@ -239,8 +124,6 @@
             this.nalichieKopiiInnCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichieKopiiSnilsCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichieSanKnizhkiCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichieZajavlObUvolneniiCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePrikazaObUvolneniiCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichiePodpisiNaAnketeCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichiePodpisiNaLichnKart2strCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichiePodpisiNaPrikazeOPriemeCheckBox = new System.Windows.Forms.CheckBox();
@@ -255,23 +138,72 @@
             this.nalichiePodpisiNaPVTRCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichiePodpisiNaPravIspPersDannihCheckBox = new System.Windows.Forms.CheckBox();
             this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiNaLichnKart4strCheckBox = new System.Windows.Forms.CheckBox();
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox = new System.Windows.Forms.CheckBox();
             this.tabNomerTextBox = new System.Windows.Forms.TextBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.button6 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            personal_pkLabel = new System.Windows.Forms.Label();
-            nazvanijeOrganizatsi_fkLabel = new System.Windows.Forms.Label();
+            this.formPanel = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.formButton = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button27 = new System.Windows.Forms.Button();
+            this.docPanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.toDocFormButton = new System.Windows.Forms.Button();
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
+            this.personalBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
+            this.toolStripMainButton = new System.Windows.Forms.ToolStripButton();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.kindOfWorkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kindOfWorkTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.KindOfWorkTableAdapter();
+            this.comboBox6 = new System.Windows.Forms.ComboBox();
+            this.sexBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sexTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.SexTableAdapter();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.kodiOkinObrazovanijeBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kodiOkinObrazovanijeTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.KodiOkinObrazovanijeTableAdapter();
+            this.kodiOkinGrazhdanstvoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.kodiOkinGrazhdanstvoTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.KodiOkinGrazhdanstvoTableAdapter();
+            this.comboBox4 = new System.Windows.Forms.ComboBox();
+            this.statusInOrganizationBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.statusInOrganizationTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.StatusInOrganizationTableAdapter();
+            this.comboBox5 = new System.Windows.Forms.ComboBox();
+            this.languagesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.languagesTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.LanguagesTableAdapter();
+            this.manningTableBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.manningTableTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.ManningTableTableAdapter();
+            this.personalBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.characterOfWorkBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.characterOfWorkTableAdapter = new WindowsForms_Diploma_NevskiiProekt.Diploma_NevskiiProectDataSetTableAdapters.CharacterOfWorkTableAdapter();
             fioPolnostjuLabel = new System.Windows.Forms.Label();
             innLabel = new System.Windows.Forms.Label();
             snilsLabel = new System.Windows.Forms.Label();
@@ -306,255 +238,393 @@
             dataPrikazaOPriemeLabel = new System.Windows.Forms.Label();
             okonchanijeTDLabel = new System.Windows.Forms.Label();
             ispitSrokLabel = new System.Windows.Forms.Label();
-            dataUvolnenijaLabel = new System.Windows.Forms.Label();
-            osnovanijeUvolnenijaLabel = new System.Windows.Forms.Label();
             primechanijaLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaIOFamilijaLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaFamilijaIOLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaFamilijaLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaImjaLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaOtchestvoLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaLKPasportVidanLine1Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaLKPasportVidanLine2Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaDogMOAdresLine1Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaDogMOAdresLine2Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaZajavlenijaFIOLine1Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaZajavlenijaFIOLine2Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel = new System.Windows.Forms.Label();
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label = new System.Windows.Forms.Label();
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel = new System.Windows.Forms.Label();
-            nalichieAnketiLabel = new System.Windows.Forms.Label();
-            nalichieLichnKartochkiLabel = new System.Windows.Forms.Label();
-            nalichieFotoLabel = new System.Windows.Forms.Label();
-            nalichieKopiiPasportaLabel = new System.Windows.Forms.Label();
-            nalichiePrikazaOPriemeLabel = new System.Windows.Forms.Label();
-            nalichieTrudovogoDogovoraLabel = new System.Windows.Forms.Label();
-            nalichieZajavlenijaNaRabotuLabel = new System.Windows.Forms.Label();
-            nalichieDogOMatOtvetstvennostiLabel = new System.Windows.Forms.Label();
-            nalichieDolzhnInstrukciiLabel = new System.Windows.Forms.Label();
-            nalichieSoglasijaNaNochLabel = new System.Windows.Forms.Label();
-            nalichieSoglasijaNaFotoLabel = new System.Windows.Forms.Label();
-            nalichieTrudovojKnijkiLabel = new System.Windows.Forms.Label();
-            nalichieZajavlNaVidachuTrudovojLabel = new System.Windows.Forms.Label();
-            nalichieZajavlNaPolstavkiLabel = new System.Windows.Forms.Label();
-            nalichieKopiiInnLabel = new System.Windows.Forms.Label();
-            nalichieKopiiSnilsLabel = new System.Windows.Forms.Label();
-            nalichieSanKnizhkiLabel = new System.Windows.Forms.Label();
-            nalichieZajavlObUvolneniiLabel = new System.Windows.Forms.Label();
-            nalichiePrikazaObUvolneniiLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaAnketeLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaLichnKart2strLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaPrikazeOPriemeLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaTrudovomDogovoreLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaZajavleniiNaRabotuLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaDolzhnInstrukciiLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaSoglasiiNaNochLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaSoglasiiNaFotoLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaZajavlNaPolstavkiLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaPVTRLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaPravIspPersDannihLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaInstrPoOhrTrudaLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaZajavlObUvolnLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaPrikazeObUvolnLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiNaLichnKart4strLabel = new System.Windows.Forms.Label();
-            nalichiePodpisiVKnigeUchetaTrudKnLabel = new System.Windows.Forms.Label();
             tabNomerLabel = new System.Windows.Forms.Label();
             label1 = new System.Windows.Forms.Label();
-            label2 = new System.Windows.Forms.Label();
             label3 = new System.Windows.Forms.Label();
             label4 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.diploma_NevskiiProectDataSet)).BeginInit();
+            label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.personalBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diploma_NevskiiProectDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalBindingNavigator)).BeginInit();
             this.personalBindingNavigator.SuspendLayout();
+            this.formPanel.SuspendLayout();
+            this.docPanel.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kindOfWorkBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sexBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodiOkinObrazovanijeBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodiOkinGrazhdanstvoBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statusInOrganizationBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.languagesBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.manningTableBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personalBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.characterOfWorkBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // fioPolnostjuLabel
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.DataBindings.Add(new System.Windows.Forms.Binding("Checked", this.personalBindingSource, "NalichieAnketi", true));
-            this.checkBox1.Location = new System.Drawing.Point(32, 159);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(62, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "Анкета";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            fioPolnostjuLabel.AutoSize = true;
+            fioPolnostjuLabel.Location = new System.Drawing.Point(26, 141);
+            fioPolnostjuLabel.Name = "fioPolnostjuLabel";
+            fioPolnostjuLabel.Size = new System.Drawing.Size(101, 13);
+            fioPolnostjuLabel.TabIndex = 22;
+            fioPolnostjuLabel.Text = "ФИО (полностью):";
             // 
-            // button1
+            // innLabel
             // 
-            this.button1.Location = new System.Drawing.Point(32, 23);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(135, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "К предыдущей записи";
-            this.button1.UseVisualStyleBackColor = true;
+            innLabel.AutoSize = true;
+            innLabel.Location = new System.Drawing.Point(26, 167);
+            innLabel.Name = "innLabel";
+            innLabel.Size = new System.Drawing.Size(34, 13);
+            innLabel.TabIndex = 24;
+            innLabel.Text = "ИНН:";
             // 
-            // button2
+            // snilsLabel
             // 
-            this.button2.Location = new System.Drawing.Point(189, 22);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(128, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "К следующей записи";
-            this.button2.UseVisualStyleBackColor = true;
+            snilsLabel.AutoSize = true;
+            snilsLabel.Location = new System.Drawing.Point(26, 193);
+            snilsLabel.Name = "snilsLabel";
+            snilsLabel.Size = new System.Drawing.Size(48, 13);
+            snilsLabel.TabIndex = 26;
+            snilsLabel.Text = "СНИЛС:";
             // 
-            // button3
+            // polLabel
             // 
-            this.button3.Location = new System.Drawing.Point(344, 21);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Добавить сотрудника";
-            this.button3.UseVisualStyleBackColor = true;
+            polLabel.AutoSize = true;
+            polLabel.Location = new System.Drawing.Point(26, 219);
+            polLabel.Name = "polLabel";
+            polLabel.Size = new System.Drawing.Size(30, 13);
+            polLabel.TabIndex = 28;
+            polLabel.Text = "Пол:";
             // 
-            // button4
+            // pasportNoLabel
             // 
-            this.button4.Location = new System.Drawing.Point(500, 20);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(120, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Сохранить запись";
-            this.button4.UseVisualStyleBackColor = true;
+            pasportNoLabel.AutoSize = true;
+            pasportNoLabel.Location = new System.Drawing.Point(26, 245);
+            pasportNoLabel.Name = "pasportNoLabel";
+            pasportNoLabel.Size = new System.Drawing.Size(135, 13);
+            pasportNoLabel.TabIndex = 30;
+            pasportNoLabel.Text = "Серия и номер паспорта:";
             // 
-            // button5
+            // dataVidachiPasportaLabel
             // 
-            this.button5.Location = new System.Drawing.Point(449, 72);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(171, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Вернуться в главное меню";
-            this.button5.UseVisualStyleBackColor = true;
+            dataVidachiPasportaLabel.AutoSize = true;
+            dataVidachiPasportaLabel.Location = new System.Drawing.Point(26, 272);
+            dataVidachiPasportaLabel.Name = "dataVidachiPasportaLabel";
+            dataVidachiPasportaLabel.Size = new System.Drawing.Size(126, 13);
+            dataVidachiPasportaLabel.TabIndex = 32;
+            dataVidachiPasportaLabel.Text = "Дата выдачи паспорта:";
             // 
-            // checkBox2
+            // pasportVidanLabel
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(32, 191);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(112, 17);
-            this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "Личная карточка";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            pasportVidanLabel.AutoSize = true;
+            pasportVidanLabel.Location = new System.Drawing.Point(26, 297);
+            pasportVidanLabel.Name = "pasportVidanLabel";
+            pasportVidanLabel.Size = new System.Drawing.Size(231, 13);
+            pasportVidanLabel.TabIndex = 34;
+            pasportVidanLabel.Text = "Наименование органа, выдавшего паспорт:";
             // 
-            // checkBox3
+            // adresPoPropiskeLabel
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(32, 223);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(80, 17);
-            this.checkBox3.TabIndex = 7;
-            this.checkBox3.Text = "checkBox3";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            adresPoPropiskeLabel.AutoSize = true;
+            adresPoPropiskeLabel.Location = new System.Drawing.Point(26, 323);
+            adresPoPropiskeLabel.Name = "adresPoPropiskeLabel";
+            adresPoPropiskeLabel.Size = new System.Drawing.Size(107, 13);
+            adresPoPropiskeLabel.TabIndex = 36;
+            adresPoPropiskeLabel.Text = "Адрес по прописке:";
             // 
-            // checkBox4
+            // indexPoPropiskeLabel
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(32, 257);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(80, 17);
-            this.checkBox4.TabIndex = 8;
-            this.checkBox4.Text = "checkBox4";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
+            indexPoPropiskeLabel.AutoSize = true;
+            indexPoPropiskeLabel.Location = new System.Drawing.Point(26, 349);
+            indexPoPropiskeLabel.Name = "indexPoPropiskeLabel";
+            indexPoPropiskeLabel.Size = new System.Drawing.Size(114, 13);
+            indexPoPropiskeLabel.TabIndex = 38;
+            indexPoPropiskeLabel.Text = "Индекс по прописке:";
             // 
-            // checkBox5
+            // adresFakticheskiiLabel
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(32, 293);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(80, 17);
-            this.checkBox5.TabIndex = 9;
-            this.checkBox5.Text = "checkBox5";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            adresFakticheskiiLabel.AutoSize = true;
+            adresFakticheskiiLabel.Location = new System.Drawing.Point(26, 375);
+            adresFakticheskiiLabel.Name = "adresFakticheskiiLabel";
+            adresFakticheskiiLabel.Size = new System.Drawing.Size(112, 13);
+            adresFakticheskiiLabel.TabIndex = 40;
+            adresFakticheskiiLabel.Text = "Фактический адрес:";
             // 
-            // checkBox6
+            // indexFakticheskiiLabel
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(32, 331);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(80, 17);
-            this.checkBox6.TabIndex = 10;
-            this.checkBox6.Text = "checkBox6";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            this.checkBox6.CheckedChanged += new System.EventHandler(this.checkBox6_CheckedChanged);
+            indexFakticheskiiLabel.AutoSize = true;
+            indexFakticheskiiLabel.Location = new System.Drawing.Point(26, 401);
+            indexFakticheskiiLabel.Name = "indexFakticheskiiLabel";
+            indexFakticheskiiLabel.Size = new System.Drawing.Size(118, 13);
+            indexFakticheskiiLabel.TabIndex = 42;
+            indexFakticheskiiLabel.Text = "Фактический индекс:";
             // 
-            // checkBox7
+            // telefonLabel
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(32, 369);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(80, 17);
-            this.checkBox7.TabIndex = 11;
-            this.checkBox7.Text = "checkBox7";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            telefonLabel.AutoSize = true;
+            telefonLabel.Location = new System.Drawing.Point(26, 427);
+            telefonLabel.Name = "telefonLabel";
+            telefonLabel.Size = new System.Drawing.Size(117, 13);
+            telefonLabel.TabIndex = 44;
+            telefonLabel.Text = "Контантный телефон:";
             // 
-            // checkBox8
+            // dataRozhdenijaLabel
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(32, 404);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(80, 17);
-            this.checkBox8.TabIndex = 12;
-            this.checkBox8.Text = "checkBox8";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            dataRozhdenijaLabel.AutoSize = true;
+            dataRozhdenijaLabel.Location = new System.Drawing.Point(26, 454);
+            dataRozhdenijaLabel.Name = "dataRozhdenijaLabel";
+            dataRozhdenijaLabel.Size = new System.Drawing.Size(89, 13);
+            dataRozhdenijaLabel.TabIndex = 46;
+            dataRozhdenijaLabel.Text = "Дата рождения:";
             // 
-            // checkBox9
+            // mestoRozhdenijaLabel
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(32, 439);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(80, 17);
-            this.checkBox9.TabIndex = 13;
-            this.checkBox9.Text = "checkBox9";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            this.checkBox9.CheckedChanged += new System.EventHandler(this.checkBox9_CheckedChanged);
+            mestoRozhdenijaLabel.AutoSize = true;
+            mestoRozhdenijaLabel.Location = new System.Drawing.Point(26, 479);
+            mestoRozhdenijaLabel.Name = "mestoRozhdenijaLabel";
+            mestoRozhdenijaLabel.Size = new System.Drawing.Size(95, 13);
+            mestoRozhdenijaLabel.TabIndex = 48;
+            mestoRozhdenijaLabel.Text = "Место рождения:";
             // 
-            // checkBox10
+            // mestoRozhdenijaKodLabel
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(32, 476);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(86, 17);
-            this.checkBox10.TabIndex = 14;
-            this.checkBox10.Text = "checkBox10";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            mestoRozhdenijaKodLabel.AutoSize = true;
+            mestoRozhdenijaKodLabel.Location = new System.Drawing.Point(26, 505);
+            mestoRozhdenijaKodLabel.Name = "mestoRozhdenijaKodLabel";
+            mestoRozhdenijaKodLabel.Size = new System.Drawing.Size(171, 13);
+            mestoRozhdenijaKodLabel.TabIndex = 50;
+            mestoRozhdenijaKodLabel.Text = "Код места рождения по ОКАТО:";
             // 
-            // checkBox11
+            // grazhdanstvoLabel
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(32, 512);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(86, 17);
-            this.checkBox11.TabIndex = 15;
-            this.checkBox11.Text = "checkBox11";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            grazhdanstvoLabel.AutoSize = true;
+            grazhdanstvoLabel.Location = new System.Drawing.Point(26, 531);
+            grazhdanstvoLabel.Name = "grazhdanstvoLabel";
+            grazhdanstvoLabel.Size = new System.Drawing.Size(77, 13);
+            grazhdanstvoLabel.TabIndex = 52;
+            grazhdanstvoLabel.Text = "Гражданство:";
             // 
-            // checkBox12
+            // grazhdanstvoKodLabel
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(32, 549);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(86, 17);
-            this.checkBox12.TabIndex = 16;
-            this.checkBox12.Text = "checkBox12";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            grazhdanstvoKodLabel.AutoSize = true;
+            grazhdanstvoKodLabel.Location = new System.Drawing.Point(26, 557);
+            grazhdanstvoKodLabel.Name = "grazhdanstvoKodLabel";
+            grazhdanstvoKodLabel.Size = new System.Drawing.Size(147, 13);
+            grazhdanstvoKodLabel.TabIndex = 54;
+            grazhdanstvoKodLabel.Text = "Код гражданства по ОКИН:";
             // 
-            // diploma_NevskiiProectDataSet
+            // obrazovanijeLabel
             // 
-            this.diploma_NevskiiProectDataSet.DataSetName = "Diploma_NevskiiProectDataSet";
-            this.diploma_NevskiiProectDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            obrazovanijeLabel.AutoSize = true;
+            obrazovanijeLabel.Location = new System.Drawing.Point(26, 583);
+            obrazovanijeLabel.Name = "obrazovanijeLabel";
+            obrazovanijeLabel.Size = new System.Drawing.Size(78, 13);
+            obrazovanijeLabel.TabIndex = 56;
+            obrazovanijeLabel.Text = "Образование:";
+            // 
+            // obrazovanijeKodLabel
+            // 
+            obrazovanijeKodLabel.AutoSize = true;
+            obrazovanijeKodLabel.Location = new System.Drawing.Point(26, 609);
+            obrazovanijeKodLabel.Name = "obrazovanijeKodLabel";
+            obrazovanijeKodLabel.Size = new System.Drawing.Size(147, 13);
+            obrazovanijeKodLabel.TabIndex = 58;
+            obrazovanijeKodLabel.Text = "Код образования по ОКИН:";
+            // 
+            // statusVOrganizatsiiLabel
+            // 
+            statusVOrganizatsiiLabel.AutoSize = true;
+            statusVOrganizatsiiLabel.Location = new System.Drawing.Point(534, 35);
+            statusVOrganizatsiiLabel.Name = "statusVOrganizatsiiLabel";
+            statusVOrganizatsiiLabel.Size = new System.Drawing.Size(121, 13);
+            statusVOrganizatsiiLabel.TabIndex = 60;
+            statusVOrganizatsiiLabel.Text = "Статус в организации:";
+            // 
+            // professijaLabel
+            // 
+            professijaLabel.AutoSize = true;
+            professijaLabel.Location = new System.Drawing.Point(534, 61);
+            professijaLabel.Name = "professijaLabel";
+            professijaLabel.Size = new System.Drawing.Size(68, 13);
+            professijaLabel.TabIndex = 62;
+            professijaLabel.Text = "Профессия:";
+            // 
+            // professijaKodLabel
+            // 
+            professijaKodLabel.AutoSize = true;
+            professijaKodLabel.Location = new System.Drawing.Point(534, 87);
+            professijaKodLabel.Name = "professijaKodLabel";
+            professijaKodLabel.Size = new System.Drawing.Size(152, 13);
+            professijaKodLabel.TabIndex = 64;
+            professijaKodLabel.Text = "Код профессии по ОКПДТР:";
+            // 
+            // professijaDrugajaLabel
+            // 
+            professijaDrugajaLabel.AutoSize = true;
+            professijaDrugajaLabel.Location = new System.Drawing.Point(534, 113);
+            professijaDrugajaLabel.Name = "professijaDrugajaLabel";
+            professijaDrugajaLabel.Size = new System.Drawing.Size(106, 13);
+            professijaDrugajaLabel.TabIndex = 66;
+            professijaDrugajaLabel.Text = "Другая профессия:";
+            // 
+            // professijaDrugajaKodLabel
+            // 
+            professijaDrugajaKodLabel.AutoSize = true;
+            professijaDrugajaKodLabel.Location = new System.Drawing.Point(534, 139);
+            professijaDrugajaKodLabel.Name = "professijaDrugajaKodLabel";
+            professijaDrugajaKodLabel.Size = new System.Drawing.Size(174, 13);
+            professijaDrugajaKodLabel.TabIndex = 68;
+            professijaDrugajaKodLabel.Text = "Код другой профессии ОКПДТР:";
+            // 
+            // dataNachalaRabotiLabel
+            // 
+            dataNachalaRabotiLabel.AutoSize = true;
+            dataNachalaRabotiLabel.Location = new System.Drawing.Point(534, 166);
+            dataNachalaRabotiLabel.Name = "dataNachalaRabotiLabel";
+            dataNachalaRabotiLabel.Size = new System.Drawing.Size(114, 13);
+            dataNachalaRabotiLabel.TabIndex = 70;
+            dataNachalaRabotiLabel.Text = "Дата начала работы:";
+            // 
+            // kharakterRabotiLabel
+            // 
+            kharakterRabotiLabel.AutoSize = true;
+            kharakterRabotiLabel.Location = new System.Drawing.Point(534, 193);
+            kharakterRabotiLabel.Name = "kharakterRabotiLabel";
+            kharakterRabotiLabel.Size = new System.Drawing.Size(98, 13);
+            kharakterRabotiLabel.TabIndex = 72;
+            kharakterRabotiLabel.Text = "Характер работы:";
+            // 
+            // vidRabotiLabel
+            // 
+            vidRabotiLabel.AutoSize = true;
+            vidRabotiLabel.Location = new System.Drawing.Point(26, 35);
+            vidRabotiLabel.Name = "vidRabotiLabel";
+            vidRabotiLabel.Size = new System.Drawing.Size(69, 13);
+            vidRabotiLabel.TabIndex = 74;
+            vidRabotiLabel.Text = "Вид работы:";
+            // 
+            // okladCiframiLabel
+            // 
+            okladCiframiLabel.AutoSize = true;
+            okladCiframiLabel.Location = new System.Drawing.Point(534, 220);
+            okladCiframiLabel.Name = "okladCiframiLabel";
+            okladCiframiLabel.Size = new System.Drawing.Size(113, 13);
+            okladCiframiLabel.TabIndex = 76;
+            okladCiframiLabel.Text = "Должностной оклад:";
+            // 
+            // okladPropisjuLabel
+            // 
+            okladPropisjuLabel.AutoSize = true;
+            okladPropisjuLabel.Location = new System.Drawing.Point(534, 246);
+            okladPropisjuLabel.Name = "okladPropisjuLabel";
+            okladPropisjuLabel.Size = new System.Drawing.Size(172, 13);
+            okladPropisjuLabel.TabIndex = 78;
+            okladPropisjuLabel.Text = "Должностной оклад (прописью):";
+            // 
+            // nomerTDLabel
+            // 
+            nomerTDLabel.AutoSize = true;
+            nomerTDLabel.Location = new System.Drawing.Point(534, 272);
+            nomerTDLabel.Name = "nomerTDLabel";
+            nomerTDLabel.Size = new System.Drawing.Size(148, 13);
+            nomerTDLabel.TabIndex = 80;
+            nomerTDLabel.Text = "Номер трудового договора:";
+            // 
+            // dataTDLabel
+            // 
+            dataTDLabel.AutoSize = true;
+            dataTDLabel.Location = new System.Drawing.Point(534, 299);
+            dataTDLabel.Name = "dataTDLabel";
+            dataTDLabel.Size = new System.Drawing.Size(140, 13);
+            dataTDLabel.TabIndex = 82;
+            dataTDLabel.Text = "Дата трудового договора:";
+            // 
+            // dataPrikazaOPriemeLabel
+            // 
+            dataPrikazaOPriemeLabel.AutoSize = true;
+            dataPrikazaOPriemeLabel.Location = new System.Drawing.Point(534, 351);
+            dataPrikazaOPriemeLabel.Name = "dataPrikazaOPriemeLabel";
+            dataPrikazaOPriemeLabel.Size = new System.Drawing.Size(131, 13);
+            dataPrikazaOPriemeLabel.TabIndex = 84;
+            dataPrikazaOPriemeLabel.Text = "Дата приказа о приеме:";
+            // 
+            // okonchanijeTDLabel
+            // 
+            okonchanijeTDLabel.AutoSize = true;
+            okonchanijeTDLabel.Location = new System.Drawing.Point(534, 377);
+            okonchanijeTDLabel.Name = "okonchanijeTDLabel";
+            okonchanijeTDLabel.Size = new System.Drawing.Size(196, 13);
+            okonchanijeTDLabel.TabIndex = 86;
+            okonchanijeTDLabel.Text = "Дата окончания трудового договора:";
+            // 
+            // ispitSrokLabel
+            // 
+            ispitSrokLabel.AutoSize = true;
+            ispitSrokLabel.Location = new System.Drawing.Point(534, 402);
+            ispitSrokLabel.Name = "ispitSrokLabel";
+            ispitSrokLabel.Size = new System.Drawing.Size(119, 13);
+            ispitSrokLabel.TabIndex = 88;
+            ispitSrokLabel.Text = "Испытательный срок:";
+            // 
+            // primechanijaLabel
+            // 
+            primechanijaLabel.AutoSize = true;
+            primechanijaLabel.Location = new System.Drawing.Point(534, 428);
+            primechanijaLabel.Name = "primechanijaLabel";
+            primechanijaLabel.Size = new System.Drawing.Size(73, 13);
+            primechanijaLabel.TabIndex = 94;
+            primechanijaLabel.Text = "Примечания:";
+            // 
+            // tabNomerLabel
+            // 
+            tabNomerLabel.AutoSize = true;
+            tabNomerLabel.Location = new System.Drawing.Point(26, 61);
+            tabNomerLabel.Name = "tabNomerLabel";
+            tabNomerLabel.Size = new System.Drawing.Size(67, 13);
+            tabNomerLabel.TabIndex = 208;
+            tabNomerLabel.Text = "Таб. номер:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            label1.Location = new System.Drawing.Point(31, 30);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(157, 16);
+            label1.TabIndex = 215;
+            label1.Text = "Наличие документа";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            label3.Location = new System.Drawing.Point(498, 30);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(166, 16);
+            label3.TabIndex = 217;
+            label3.Text = "Образец заполнения";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            label4.Location = new System.Drawing.Point(715, 30);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(239, 16);
+            label4.TabIndex = 218;
+            label4.Text = "Наличие подписей сотрудника";
             // 
             // personalBindingSource
             // 
             this.personalBindingSource.DataMember = "Personal";
             this.personalBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // diploma_NevskiiProectDataSet
+            // 
+            this.diploma_NevskiiProectDataSet.DataSetName = "Diploma_NevskiiProectDataSet";
+            this.diploma_NevskiiProectDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // personalTableAdapter
             // 
@@ -586,6 +656,7 @@
             // personalBindingNavigator
             // 
             this.personalBindingNavigator.AddNewItem = this.bindingNavigatorAddNewItem;
+            this.personalBindingNavigator.AutoSize = false;
             this.personalBindingNavigator.BindingSource = this.personalBindingSource;
             this.personalBindingNavigator.CountItem = this.bindingNavigatorCountItem;
             this.personalBindingNavigator.DeleteItem = this.bindingNavigatorDeleteItem;
@@ -601,7 +672,8 @@
             this.bindingNavigatorSeparator2,
             this.bindingNavigatorAddNewItem,
             this.bindingNavigatorDeleteItem,
-            this.personalBindingNavigatorSaveItem});
+            this.personalBindingNavigatorSaveItem,
+            this.toolStripMainButton});
             this.personalBindingNavigator.Location = new System.Drawing.Point(0, 0);
             this.personalBindingNavigator.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
             this.personalBindingNavigator.MoveLastItem = this.bindingNavigatorMoveLastItem;
@@ -609,32 +681,21 @@
             this.personalBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.personalBindingNavigator.Name = "personalBindingNavigator";
             this.personalBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.personalBindingNavigator.Size = new System.Drawing.Size(917, 25);
+            this.personalBindingNavigator.Size = new System.Drawing.Size(1015, 37);
             this.personalBindingNavigator.TabIndex = 17;
-            this.personalBindingNavigator.Text = "bindingNavigator1";
+            this.personalBindingNavigator.Text = "ц";
             // 
-            // bindingNavigatorMoveFirstItem
+            // bindingNavigatorCountItem
             // 
-            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
-            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
-            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
-            // 
-            // bindingNavigatorMovePreviousItem
-            // 
-            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
-            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
-            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 34);
+            this.bindingNavigatorCountItem.Text = "для {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
             // 
             // bindingNavigatorSeparator
             // 
             this.bindingNavigatorSeparator.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 25);
+            this.bindingNavigatorSeparator.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorPositionItem
             // 
@@ -645,1864 +706,570 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Текущее положение";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(43, 15);
-            this.bindingNavigatorCountItem.Text = "для {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Общее число элементов";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 6);
-            // 
-            // bindingNavigatorMoveNextItem
-            // 
-            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
-            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
-            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
-            // 
-            // bindingNavigatorMoveLastItem
-            // 
-            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
-            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
-            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
+            this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 37);
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
-            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 6);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Добавить";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 20);
-            this.bindingNavigatorDeleteItem.Text = "Удалить";
-            // 
-            // personalBindingNavigatorSaveItem
-            // 
-            this.personalBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.personalBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("personalBindingNavigatorSaveItem.Image")));
-            this.personalBindingNavigatorSaveItem.Name = "personalBindingNavigatorSaveItem";
-            this.personalBindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 23);
-            this.personalBindingNavigatorSaveItem.Text = "Сохранить данные";
-            this.personalBindingNavigatorSaveItem.Click += new System.EventHandler(this.personalBindingNavigatorSaveItem_Click);
-            // 
-            // personal_pkLabel
-            // 
-            personal_pkLabel.AutoSize = true;
-            personal_pkLabel.Location = new System.Drawing.Point(158, 835);
-            personal_pkLabel.Name = "personal_pkLabel";
-            personal_pkLabel.Size = new System.Drawing.Size(66, 13);
-            personal_pkLabel.TabIndex = 18;
-            personal_pkLabel.Text = "Personal pk:";
-            // 
-            // personal_pkTextBox
-            // 
-            this.personal_pkTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Personal_pk", true));
-            this.personal_pkTextBox.Location = new System.Drawing.Point(402, 828);
-            this.personal_pkTextBox.Name = "personal_pkTextBox";
-            this.personal_pkTextBox.Size = new System.Drawing.Size(200, 20);
-            this.personal_pkTextBox.TabIndex = 19;
-            // 
-            // nazvanijeOrganizatsi_fkLabel
-            // 
-            nazvanijeOrganizatsi_fkLabel.AutoSize = true;
-            nazvanijeOrganizatsi_fkLabel.Location = new System.Drawing.Point(158, 861);
-            nazvanijeOrganizatsi_fkLabel.Name = "nazvanijeOrganizatsi_fkLabel";
-            nazvanijeOrganizatsi_fkLabel.Size = new System.Drawing.Size(124, 13);
-            nazvanijeOrganizatsi_fkLabel.TabIndex = 20;
-            nazvanijeOrganizatsi_fkLabel.Text = "Nazvanije Organizatsi fk:";
-            // 
-            // nazvanijeOrganizatsi_fkTextBox
-            // 
-            this.nazvanijeOrganizatsi_fkTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "NazvanijeOrganizatsi_fk", true));
-            this.nazvanijeOrganizatsi_fkTextBox.Location = new System.Drawing.Point(402, 858);
-            this.nazvanijeOrganizatsi_fkTextBox.Name = "nazvanijeOrganizatsi_fkTextBox";
-            this.nazvanijeOrganizatsi_fkTextBox.Size = new System.Drawing.Size(200, 20);
-            this.nazvanijeOrganizatsi_fkTextBox.TabIndex = 21;
-            // 
-            // fioPolnostjuLabel
-            // 
-            fioPolnostjuLabel.AutoSize = true;
-            fioPolnostjuLabel.Location = new System.Drawing.Point(158, 887);
-            fioPolnostjuLabel.Name = "fioPolnostjuLabel";
-            fioPolnostjuLabel.Size = new System.Drawing.Size(70, 13);
-            fioPolnostjuLabel.TabIndex = 22;
-            fioPolnostjuLabel.Text = "Fio Polnostju:";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
+            this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 37);
             // 
             // fioPolnostjuTextBox
             // 
             this.fioPolnostjuTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "FioPolnostju", true));
-            this.fioPolnostjuTextBox.Location = new System.Drawing.Point(402, 884);
+            this.fioPolnostjuTextBox.Location = new System.Drawing.Point(270, 138);
             this.fioPolnostjuTextBox.Name = "fioPolnostjuTextBox";
             this.fioPolnostjuTextBox.Size = new System.Drawing.Size(200, 20);
             this.fioPolnostjuTextBox.TabIndex = 23;
             // 
-            // innLabel
-            // 
-            innLabel.AutoSize = true;
-            innLabel.Location = new System.Drawing.Point(158, 913);
-            innLabel.Name = "innLabel";
-            innLabel.Size = new System.Drawing.Size(25, 13);
-            innLabel.TabIndex = 24;
-            innLabel.Text = "Inn:";
-            // 
             // innTextBox
             // 
             this.innTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Inn", true));
-            this.innTextBox.Location = new System.Drawing.Point(402, 910);
+            this.innTextBox.Location = new System.Drawing.Point(270, 164);
             this.innTextBox.Name = "innTextBox";
             this.innTextBox.Size = new System.Drawing.Size(200, 20);
             this.innTextBox.TabIndex = 25;
-            // 
-            // snilsLabel
-            // 
-            snilsLabel.AutoSize = true;
-            snilsLabel.Location = new System.Drawing.Point(158, 939);
-            snilsLabel.Name = "snilsLabel";
-            snilsLabel.Size = new System.Drawing.Size(32, 13);
-            snilsLabel.TabIndex = 26;
-            snilsLabel.Text = "Snils:";
+            this.innTextBox.Enter += new System.EventHandler(this.innTextBox_Enter);
+            this.innTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.innTextBox_KeyPress);
             // 
             // snilsTextBox
             // 
             this.snilsTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Snils", true));
-            this.snilsTextBox.Location = new System.Drawing.Point(402, 936);
+            this.snilsTextBox.Location = new System.Drawing.Point(270, 190);
             this.snilsTextBox.Name = "snilsTextBox";
             this.snilsTextBox.Size = new System.Drawing.Size(200, 20);
             this.snilsTextBox.TabIndex = 27;
-            // 
-            // polLabel
-            // 
-            polLabel.AutoSize = true;
-            polLabel.Location = new System.Drawing.Point(158, 965);
-            polLabel.Name = "polLabel";
-            polLabel.Size = new System.Drawing.Size(25, 13);
-            polLabel.TabIndex = 28;
-            polLabel.Text = "Pol:";
-            // 
-            // polTextBox
-            // 
-            this.polTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Pol", true));
-            this.polTextBox.Location = new System.Drawing.Point(402, 962);
-            this.polTextBox.Name = "polTextBox";
-            this.polTextBox.Size = new System.Drawing.Size(200, 20);
-            this.polTextBox.TabIndex = 29;
-            // 
-            // pasportNoLabel
-            // 
-            pasportNoLabel.AutoSize = true;
-            pasportNoLabel.Location = new System.Drawing.Point(158, 991);
-            pasportNoLabel.Name = "pasportNoLabel";
-            pasportNoLabel.Size = new System.Drawing.Size(63, 13);
-            pasportNoLabel.TabIndex = 30;
-            pasportNoLabel.Text = "Pasport No:";
+            this.snilsTextBox.Enter += new System.EventHandler(this.snilsTextBox_Enter);
+            this.snilsTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.snilsTextBox_KeyPress);
             // 
             // pasportNoTextBox
             // 
             this.pasportNoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "PasportNo", true));
-            this.pasportNoTextBox.Location = new System.Drawing.Point(402, 988);
+            this.pasportNoTextBox.Location = new System.Drawing.Point(270, 242);
             this.pasportNoTextBox.Name = "pasportNoTextBox";
             this.pasportNoTextBox.Size = new System.Drawing.Size(200, 20);
             this.pasportNoTextBox.TabIndex = 31;
             // 
-            // dataVidachiPasportaLabel
-            // 
-            dataVidachiPasportaLabel.AutoSize = true;
-            dataVidachiPasportaLabel.Location = new System.Drawing.Point(158, 1018);
-            dataVidachiPasportaLabel.Name = "dataVidachiPasportaLabel";
-            dataVidachiPasportaLabel.Size = new System.Drawing.Size(116, 13);
-            dataVidachiPasportaLabel.TabIndex = 32;
-            dataVidachiPasportaLabel.Text = "Data Vidachi Pasporta:";
-            // 
             // dataVidachiPasportaDateTimePicker
             // 
             this.dataVidachiPasportaDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataVidachiPasporta", true));
-            this.dataVidachiPasportaDateTimePicker.Location = new System.Drawing.Point(402, 1014);
+            this.dataVidachiPasportaDateTimePicker.Location = new System.Drawing.Point(270, 268);
             this.dataVidachiPasportaDateTimePicker.Name = "dataVidachiPasportaDateTimePicker";
             this.dataVidachiPasportaDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dataVidachiPasportaDateTimePicker.TabIndex = 33;
             // 
-            // pasportVidanLabel
-            // 
-            pasportVidanLabel.AutoSize = true;
-            pasportVidanLabel.Location = new System.Drawing.Point(158, 1043);
-            pasportVidanLabel.Name = "pasportVidanLabel";
-            pasportVidanLabel.Size = new System.Drawing.Size(76, 13);
-            pasportVidanLabel.TabIndex = 34;
-            pasportVidanLabel.Text = "Pasport Vidan:";
-            // 
             // pasportVidanTextBox
             // 
             this.pasportVidanTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "PasportVidan", true));
-            this.pasportVidanTextBox.Location = new System.Drawing.Point(402, 1040);
+            this.pasportVidanTextBox.Location = new System.Drawing.Point(270, 294);
             this.pasportVidanTextBox.Name = "pasportVidanTextBox";
             this.pasportVidanTextBox.Size = new System.Drawing.Size(200, 20);
             this.pasportVidanTextBox.TabIndex = 35;
             // 
-            // adresPoPropiskeLabel
-            // 
-            adresPoPropiskeLabel.AutoSize = true;
-            adresPoPropiskeLabel.Location = new System.Drawing.Point(158, 1069);
-            adresPoPropiskeLabel.Name = "adresPoPropiskeLabel";
-            adresPoPropiskeLabel.Size = new System.Drawing.Size(97, 13);
-            adresPoPropiskeLabel.TabIndex = 36;
-            adresPoPropiskeLabel.Text = "Adres Po Propiske:";
-            // 
             // adresPoPropiskeTextBox
             // 
             this.adresPoPropiskeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "AdresPoPropiske", true));
-            this.adresPoPropiskeTextBox.Location = new System.Drawing.Point(402, 1066);
+            this.adresPoPropiskeTextBox.Location = new System.Drawing.Point(270, 320);
             this.adresPoPropiskeTextBox.Name = "adresPoPropiskeTextBox";
             this.adresPoPropiskeTextBox.Size = new System.Drawing.Size(200, 20);
             this.adresPoPropiskeTextBox.TabIndex = 37;
             // 
-            // indexPoPropiskeLabel
-            // 
-            indexPoPropiskeLabel.AutoSize = true;
-            indexPoPropiskeLabel.Location = new System.Drawing.Point(158, 1095);
-            indexPoPropiskeLabel.Name = "indexPoPropiskeLabel";
-            indexPoPropiskeLabel.Size = new System.Drawing.Size(96, 13);
-            indexPoPropiskeLabel.TabIndex = 38;
-            indexPoPropiskeLabel.Text = "Index Po Propiske:";
-            // 
             // indexPoPropiskeTextBox
             // 
             this.indexPoPropiskeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "IndexPoPropiske", true));
-            this.indexPoPropiskeTextBox.Location = new System.Drawing.Point(402, 1092);
+            this.indexPoPropiskeTextBox.Location = new System.Drawing.Point(270, 346);
             this.indexPoPropiskeTextBox.Name = "indexPoPropiskeTextBox";
             this.indexPoPropiskeTextBox.Size = new System.Drawing.Size(200, 20);
             this.indexPoPropiskeTextBox.TabIndex = 39;
             // 
-            // adresFakticheskiiLabel
-            // 
-            adresFakticheskiiLabel.AutoSize = true;
-            adresFakticheskiiLabel.Location = new System.Drawing.Point(158, 1121);
-            adresFakticheskiiLabel.Name = "adresFakticheskiiLabel";
-            adresFakticheskiiLabel.Size = new System.Drawing.Size(96, 13);
-            adresFakticheskiiLabel.TabIndex = 40;
-            adresFakticheskiiLabel.Text = "Adres Fakticheskii:";
-            // 
             // adresFakticheskiiTextBox
             // 
             this.adresFakticheskiiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "AdresFakticheskii", true));
-            this.adresFakticheskiiTextBox.Location = new System.Drawing.Point(402, 1118);
+            this.adresFakticheskiiTextBox.Location = new System.Drawing.Point(270, 372);
             this.adresFakticheskiiTextBox.Name = "adresFakticheskiiTextBox";
             this.adresFakticheskiiTextBox.Size = new System.Drawing.Size(200, 20);
             this.adresFakticheskiiTextBox.TabIndex = 41;
             // 
-            // indexFakticheskiiLabel
-            // 
-            indexFakticheskiiLabel.AutoSize = true;
-            indexFakticheskiiLabel.Location = new System.Drawing.Point(158, 1147);
-            indexFakticheskiiLabel.Name = "indexFakticheskiiLabel";
-            indexFakticheskiiLabel.Size = new System.Drawing.Size(95, 13);
-            indexFakticheskiiLabel.TabIndex = 42;
-            indexFakticheskiiLabel.Text = "Index Fakticheskii:";
-            // 
             // indexFakticheskiiTextBox
             // 
             this.indexFakticheskiiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "IndexFakticheskii", true));
-            this.indexFakticheskiiTextBox.Location = new System.Drawing.Point(402, 1144);
+            this.indexFakticheskiiTextBox.Location = new System.Drawing.Point(270, 398);
             this.indexFakticheskiiTextBox.Name = "indexFakticheskiiTextBox";
             this.indexFakticheskiiTextBox.Size = new System.Drawing.Size(200, 20);
             this.indexFakticheskiiTextBox.TabIndex = 43;
             // 
-            // telefonLabel
-            // 
-            telefonLabel.AutoSize = true;
-            telefonLabel.Location = new System.Drawing.Point(158, 1173);
-            telefonLabel.Name = "telefonLabel";
-            telefonLabel.Size = new System.Drawing.Size(46, 13);
-            telefonLabel.TabIndex = 44;
-            telefonLabel.Text = "Telefon:";
-            // 
             // telefonTextBox
             // 
             this.telefonTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Telefon", true));
-            this.telefonTextBox.Location = new System.Drawing.Point(402, 1170);
+            this.telefonTextBox.Location = new System.Drawing.Point(270, 424);
             this.telefonTextBox.Name = "telefonTextBox";
             this.telefonTextBox.Size = new System.Drawing.Size(200, 20);
             this.telefonTextBox.TabIndex = 45;
             // 
-            // dataRozhdenijaLabel
-            // 
-            dataRozhdenijaLabel.AutoSize = true;
-            dataRozhdenijaLabel.Location = new System.Drawing.Point(158, 1200);
-            dataRozhdenijaLabel.Name = "dataRozhdenijaLabel";
-            dataRozhdenijaLabel.Size = new System.Drawing.Size(89, 13);
-            dataRozhdenijaLabel.TabIndex = 46;
-            dataRozhdenijaLabel.Text = "Data Rozhdenija:";
-            // 
             // dataRozhdenijaDateTimePicker
             // 
             this.dataRozhdenijaDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataRozhdenija", true));
-            this.dataRozhdenijaDateTimePicker.Location = new System.Drawing.Point(402, 1196);
+            this.dataRozhdenijaDateTimePicker.Location = new System.Drawing.Point(270, 450);
             this.dataRozhdenijaDateTimePicker.Name = "dataRozhdenijaDateTimePicker";
             this.dataRozhdenijaDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dataRozhdenijaDateTimePicker.TabIndex = 47;
             // 
-            // mestoRozhdenijaLabel
-            // 
-            mestoRozhdenijaLabel.AutoSize = true;
-            mestoRozhdenijaLabel.Location = new System.Drawing.Point(158, 1225);
-            mestoRozhdenijaLabel.Name = "mestoRozhdenijaLabel";
-            mestoRozhdenijaLabel.Size = new System.Drawing.Size(95, 13);
-            mestoRozhdenijaLabel.TabIndex = 48;
-            mestoRozhdenijaLabel.Text = "Mesto Rozhdenija:";
-            // 
             // mestoRozhdenijaTextBox
             // 
             this.mestoRozhdenijaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "MestoRozhdenija", true));
-            this.mestoRozhdenijaTextBox.Location = new System.Drawing.Point(402, 1222);
+            this.mestoRozhdenijaTextBox.Location = new System.Drawing.Point(270, 476);
             this.mestoRozhdenijaTextBox.Name = "mestoRozhdenijaTextBox";
             this.mestoRozhdenijaTextBox.Size = new System.Drawing.Size(200, 20);
             this.mestoRozhdenijaTextBox.TabIndex = 49;
             // 
-            // mestoRozhdenijaKodLabel
-            // 
-            mestoRozhdenijaKodLabel.AutoSize = true;
-            mestoRozhdenijaKodLabel.Location = new System.Drawing.Point(158, 1251);
-            mestoRozhdenijaKodLabel.Name = "mestoRozhdenijaKodLabel";
-            mestoRozhdenijaKodLabel.Size = new System.Drawing.Size(117, 13);
-            mestoRozhdenijaKodLabel.TabIndex = 50;
-            mestoRozhdenijaKodLabel.Text = "Mesto Rozhdenija Kod:";
-            // 
             // mestoRozhdenijaKodTextBox
             // 
             this.mestoRozhdenijaKodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "MestoRozhdenijaKod", true));
-            this.mestoRozhdenijaKodTextBox.Location = new System.Drawing.Point(402, 1248);
+            this.mestoRozhdenijaKodTextBox.Location = new System.Drawing.Point(270, 502);
             this.mestoRozhdenijaKodTextBox.Name = "mestoRozhdenijaKodTextBox";
             this.mestoRozhdenijaKodTextBox.Size = new System.Drawing.Size(200, 20);
             this.mestoRozhdenijaKodTextBox.TabIndex = 51;
             // 
-            // grazhdanstvoLabel
-            // 
-            grazhdanstvoLabel.AutoSize = true;
-            grazhdanstvoLabel.Location = new System.Drawing.Point(158, 1277);
-            grazhdanstvoLabel.Name = "grazhdanstvoLabel";
-            grazhdanstvoLabel.Size = new System.Drawing.Size(76, 13);
-            grazhdanstvoLabel.TabIndex = 52;
-            grazhdanstvoLabel.Text = "Grazhdanstvo:";
-            // 
-            // grazhdanstvoTextBox
-            // 
-            this.grazhdanstvoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Grazhdanstvo", true));
-            this.grazhdanstvoTextBox.Location = new System.Drawing.Point(402, 1274);
-            this.grazhdanstvoTextBox.Name = "grazhdanstvoTextBox";
-            this.grazhdanstvoTextBox.Size = new System.Drawing.Size(200, 20);
-            this.grazhdanstvoTextBox.TabIndex = 53;
-            // 
-            // grazhdanstvoKodLabel
-            // 
-            grazhdanstvoKodLabel.AutoSize = true;
-            grazhdanstvoKodLabel.Location = new System.Drawing.Point(158, 1303);
-            grazhdanstvoKodLabel.Name = "grazhdanstvoKodLabel";
-            grazhdanstvoKodLabel.Size = new System.Drawing.Size(98, 13);
-            grazhdanstvoKodLabel.TabIndex = 54;
-            grazhdanstvoKodLabel.Text = "Grazhdanstvo Kod:";
-            // 
             // grazhdanstvoKodTextBox
             // 
             this.grazhdanstvoKodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "GrazhdanstvoKod", true));
-            this.grazhdanstvoKodTextBox.Location = new System.Drawing.Point(402, 1300);
+            this.grazhdanstvoKodTextBox.Location = new System.Drawing.Point(270, 554);
             this.grazhdanstvoKodTextBox.Name = "grazhdanstvoKodTextBox";
             this.grazhdanstvoKodTextBox.Size = new System.Drawing.Size(200, 20);
             this.grazhdanstvoKodTextBox.TabIndex = 55;
             // 
-            // obrazovanijeLabel
-            // 
-            obrazovanijeLabel.AutoSize = true;
-            obrazovanijeLabel.Location = new System.Drawing.Point(158, 1329);
-            obrazovanijeLabel.Name = "obrazovanijeLabel";
-            obrazovanijeLabel.Size = new System.Drawing.Size(72, 13);
-            obrazovanijeLabel.TabIndex = 56;
-            obrazovanijeLabel.Text = "Obrazovanije:";
-            // 
-            // obrazovanijeTextBox
-            // 
-            this.obrazovanijeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Obrazovanije", true));
-            this.obrazovanijeTextBox.Location = new System.Drawing.Point(402, 1326);
-            this.obrazovanijeTextBox.Name = "obrazovanijeTextBox";
-            this.obrazovanijeTextBox.Size = new System.Drawing.Size(200, 20);
-            this.obrazovanijeTextBox.TabIndex = 57;
-            // 
-            // obrazovanijeKodLabel
-            // 
-            obrazovanijeKodLabel.AutoSize = true;
-            obrazovanijeKodLabel.Location = new System.Drawing.Point(158, 1355);
-            obrazovanijeKodLabel.Name = "obrazovanijeKodLabel";
-            obrazovanijeKodLabel.Size = new System.Drawing.Size(94, 13);
-            obrazovanijeKodLabel.TabIndex = 58;
-            obrazovanijeKodLabel.Text = "Obrazovanije Kod:";
-            // 
             // obrazovanijeKodTextBox
             // 
             this.obrazovanijeKodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "ObrazovanijeKod", true));
-            this.obrazovanijeKodTextBox.Location = new System.Drawing.Point(402, 1352);
+            this.obrazovanijeKodTextBox.Location = new System.Drawing.Point(270, 606);
             this.obrazovanijeKodTextBox.Name = "obrazovanijeKodTextBox";
             this.obrazovanijeKodTextBox.Size = new System.Drawing.Size(200, 20);
             this.obrazovanijeKodTextBox.TabIndex = 59;
             // 
-            // statusVOrganizatsiiLabel
-            // 
-            statusVOrganizatsiiLabel.AutoSize = true;
-            statusVOrganizatsiiLabel.Location = new System.Drawing.Point(158, 1381);
-            statusVOrganizatsiiLabel.Name = "statusVOrganizatsiiLabel";
-            statusVOrganizatsiiLabel.Size = new System.Drawing.Size(104, 13);
-            statusVOrganizatsiiLabel.TabIndex = 60;
-            statusVOrganizatsiiLabel.Text = "Status VOrganizatsii:";
-            // 
-            // statusVOrganizatsiiTextBox
-            // 
-            this.statusVOrganizatsiiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "StatusVOrganizatsii", true));
-            this.statusVOrganizatsiiTextBox.Location = new System.Drawing.Point(402, 1378);
-            this.statusVOrganizatsiiTextBox.Name = "statusVOrganizatsiiTextBox";
-            this.statusVOrganizatsiiTextBox.Size = new System.Drawing.Size(200, 20);
-            this.statusVOrganizatsiiTextBox.TabIndex = 61;
-            // 
-            // professijaLabel
-            // 
-            professijaLabel.AutoSize = true;
-            professijaLabel.Location = new System.Drawing.Point(158, 1407);
-            professijaLabel.Name = "professijaLabel";
-            professijaLabel.Size = new System.Drawing.Size(55, 13);
-            professijaLabel.TabIndex = 62;
-            professijaLabel.Text = "Professija:";
-            // 
-            // professijaTextBox
-            // 
-            this.professijaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Professija", true));
-            this.professijaTextBox.Location = new System.Drawing.Point(402, 1404);
-            this.professijaTextBox.Name = "professijaTextBox";
-            this.professijaTextBox.Size = new System.Drawing.Size(200, 20);
-            this.professijaTextBox.TabIndex = 63;
-            // 
-            // professijaKodLabel
-            // 
-            professijaKodLabel.AutoSize = true;
-            professijaKodLabel.Location = new System.Drawing.Point(158, 1433);
-            professijaKodLabel.Name = "professijaKodLabel";
-            professijaKodLabel.Size = new System.Drawing.Size(77, 13);
-            professijaKodLabel.TabIndex = 64;
-            professijaKodLabel.Text = "Professija Kod:";
-            // 
             // professijaKodTextBox
             // 
             this.professijaKodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "ProfessijaKod", true));
-            this.professijaKodTextBox.Location = new System.Drawing.Point(402, 1430);
+            this.professijaKodTextBox.Location = new System.Drawing.Point(778, 84);
             this.professijaKodTextBox.Name = "professijaKodTextBox";
             this.professijaKodTextBox.Size = new System.Drawing.Size(200, 20);
             this.professijaKodTextBox.TabIndex = 65;
             // 
-            // professijaDrugajaLabel
-            // 
-            professijaDrugajaLabel.AutoSize = true;
-            professijaDrugajaLabel.Location = new System.Drawing.Point(158, 1459);
-            professijaDrugajaLabel.Name = "professijaDrugajaLabel";
-            professijaDrugajaLabel.Size = new System.Drawing.Size(95, 13);
-            professijaDrugajaLabel.TabIndex = 66;
-            professijaDrugajaLabel.Text = "Professija Drugaja:";
-            // 
-            // professijaDrugajaTextBox
-            // 
-            this.professijaDrugajaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "ProfessijaDrugaja", true));
-            this.professijaDrugajaTextBox.Location = new System.Drawing.Point(402, 1456);
-            this.professijaDrugajaTextBox.Name = "professijaDrugajaTextBox";
-            this.professijaDrugajaTextBox.Size = new System.Drawing.Size(200, 20);
-            this.professijaDrugajaTextBox.TabIndex = 67;
-            // 
-            // professijaDrugajaKodLabel
-            // 
-            professijaDrugajaKodLabel.AutoSize = true;
-            professijaDrugajaKodLabel.Location = new System.Drawing.Point(158, 1485);
-            professijaDrugajaKodLabel.Name = "professijaDrugajaKodLabel";
-            professijaDrugajaKodLabel.Size = new System.Drawing.Size(117, 13);
-            professijaDrugajaKodLabel.TabIndex = 68;
-            professijaDrugajaKodLabel.Text = "Professija Drugaja Kod:";
-            // 
             // professijaDrugajaKodTextBox
             // 
             this.professijaDrugajaKodTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "ProfessijaDrugajaKod", true));
-            this.professijaDrugajaKodTextBox.Location = new System.Drawing.Point(402, 1482);
+            this.professijaDrugajaKodTextBox.Location = new System.Drawing.Point(778, 136);
             this.professijaDrugajaKodTextBox.Name = "professijaDrugajaKodTextBox";
             this.professijaDrugajaKodTextBox.Size = new System.Drawing.Size(200, 20);
             this.professijaDrugajaKodTextBox.TabIndex = 69;
             // 
-            // dataNachalaRabotiLabel
-            // 
-            dataNachalaRabotiLabel.AutoSize = true;
-            dataNachalaRabotiLabel.Location = new System.Drawing.Point(158, 1512);
-            dataNachalaRabotiLabel.Name = "dataNachalaRabotiLabel";
-            dataNachalaRabotiLabel.Size = new System.Drawing.Size(110, 13);
-            dataNachalaRabotiLabel.TabIndex = 70;
-            dataNachalaRabotiLabel.Text = "Data Nachala Raboti:";
-            // 
             // dataNachalaRabotiDateTimePicker
             // 
             this.dataNachalaRabotiDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataNachalaRaboti", true));
-            this.dataNachalaRabotiDateTimePicker.Location = new System.Drawing.Point(402, 1508);
+            this.dataNachalaRabotiDateTimePicker.Location = new System.Drawing.Point(778, 162);
             this.dataNachalaRabotiDateTimePicker.Name = "dataNachalaRabotiDateTimePicker";
             this.dataNachalaRabotiDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dataNachalaRabotiDateTimePicker.TabIndex = 71;
-            // 
-            // kharakterRabotiLabel
-            // 
-            kharakterRabotiLabel.AutoSize = true;
-            kharakterRabotiLabel.Location = new System.Drawing.Point(158, 1537);
-            kharakterRabotiLabel.Name = "kharakterRabotiLabel";
-            kharakterRabotiLabel.Size = new System.Drawing.Size(90, 13);
-            kharakterRabotiLabel.TabIndex = 72;
-            kharakterRabotiLabel.Text = "Kharakter Raboti:";
-            // 
-            // kharakterRabotiTextBox
-            // 
-            this.kharakterRabotiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "KharakterRaboti", true));
-            this.kharakterRabotiTextBox.Location = new System.Drawing.Point(402, 1534);
-            this.kharakterRabotiTextBox.Name = "kharakterRabotiTextBox";
-            this.kharakterRabotiTextBox.Size = new System.Drawing.Size(200, 20);
-            this.kharakterRabotiTextBox.TabIndex = 73;
-            // 
-            // vidRabotiLabel
-            // 
-            vidRabotiLabel.AutoSize = true;
-            vidRabotiLabel.Location = new System.Drawing.Point(158, 1563);
-            vidRabotiLabel.Name = "vidRabotiLabel";
-            vidRabotiLabel.Size = new System.Drawing.Size(59, 13);
-            vidRabotiLabel.TabIndex = 74;
-            vidRabotiLabel.Text = "Vid Raboti:";
-            // 
-            // vidRabotiTextBox
-            // 
-            this.vidRabotiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "VidRaboti", true));
-            this.vidRabotiTextBox.Location = new System.Drawing.Point(402, 1560);
-            this.vidRabotiTextBox.Name = "vidRabotiTextBox";
-            this.vidRabotiTextBox.Size = new System.Drawing.Size(200, 20);
-            this.vidRabotiTextBox.TabIndex = 75;
-            // 
-            // okladCiframiLabel
-            // 
-            okladCiframiLabel.AutoSize = true;
-            okladCiframiLabel.Location = new System.Drawing.Point(158, 1589);
-            okladCiframiLabel.Name = "okladCiframiLabel";
-            okladCiframiLabel.Size = new System.Drawing.Size(72, 13);
-            okladCiframiLabel.TabIndex = 76;
-            okladCiframiLabel.Text = "Oklad Ciframi:";
+            this.dataNachalaRabotiDateTimePicker.Enter += new System.EventHandler(this.dataNachalaRabotiDateTimePicker_Enter);
             // 
             // okladCiframiTextBox
             // 
             this.okladCiframiTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OkladCiframi", true));
-            this.okladCiframiTextBox.Location = new System.Drawing.Point(402, 1586);
+            this.okladCiframiTextBox.Location = new System.Drawing.Point(778, 217);
             this.okladCiframiTextBox.Name = "okladCiframiTextBox";
             this.okladCiframiTextBox.Size = new System.Drawing.Size(200, 20);
             this.okladCiframiTextBox.TabIndex = 77;
-            // 
-            // okladPropisjuLabel
-            // 
-            okladPropisjuLabel.AutoSize = true;
-            okladPropisjuLabel.Location = new System.Drawing.Point(158, 1615);
-            okladPropisjuLabel.Name = "okladPropisjuLabel";
-            okladPropisjuLabel.Size = new System.Drawing.Size(78, 13);
-            okladPropisjuLabel.TabIndex = 78;
-            okladPropisjuLabel.Text = "Oklad Propisju:";
+            this.okladCiframiTextBox.Enter += new System.EventHandler(this.okladCiframiTextBox_Enter);
+            this.okladCiframiTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.okladCiframiTextBox_KeyPress);
             // 
             // okladPropisjuTextBox
             // 
             this.okladPropisjuTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OkladPropisju", true));
-            this.okladPropisjuTextBox.Location = new System.Drawing.Point(402, 1612);
+            this.okladPropisjuTextBox.Location = new System.Drawing.Point(778, 243);
             this.okladPropisjuTextBox.Name = "okladPropisjuTextBox";
             this.okladPropisjuTextBox.Size = new System.Drawing.Size(200, 20);
             this.okladPropisjuTextBox.TabIndex = 79;
             // 
-            // nomerTDLabel
-            // 
-            nomerTDLabel.AutoSize = true;
-            nomerTDLabel.Location = new System.Drawing.Point(158, 1641);
-            nomerTDLabel.Name = "nomerTDLabel";
-            nomerTDLabel.Size = new System.Drawing.Size(59, 13);
-            nomerTDLabel.TabIndex = 80;
-            nomerTDLabel.Text = "Nomer TD:";
-            // 
             // nomerTDTextBox
             // 
             this.nomerTDTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "NomerTD", true));
-            this.nomerTDTextBox.Location = new System.Drawing.Point(402, 1638);
+            this.nomerTDTextBox.Location = new System.Drawing.Point(778, 269);
             this.nomerTDTextBox.Name = "nomerTDTextBox";
             this.nomerTDTextBox.Size = new System.Drawing.Size(200, 20);
             this.nomerTDTextBox.TabIndex = 81;
-            // 
-            // dataTDLabel
-            // 
-            dataTDLabel.AutoSize = true;
-            dataTDLabel.Location = new System.Drawing.Point(158, 1668);
-            dataTDLabel.Name = "dataTDLabel";
-            dataTDLabel.Size = new System.Drawing.Size(51, 13);
-            dataTDLabel.TabIndex = 82;
-            dataTDLabel.Text = "Data TD:";
+            this.nomerTDTextBox.Enter += new System.EventHandler(this.nomerTDTextBox_Enter);
             // 
             // dataTDDateTimePicker
             // 
             this.dataTDDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataTD", true));
-            this.dataTDDateTimePicker.Location = new System.Drawing.Point(402, 1664);
+            this.dataTDDateTimePicker.Location = new System.Drawing.Point(778, 295);
             this.dataTDDateTimePicker.Name = "dataTDDateTimePicker";
             this.dataTDDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dataTDDateTimePicker.TabIndex = 83;
-            // 
-            // dataPrikazaOPriemeLabel
-            // 
-            dataPrikazaOPriemeLabel.AutoSize = true;
-            dataPrikazaOPriemeLabel.Location = new System.Drawing.Point(158, 1694);
-            dataPrikazaOPriemeLabel.Name = "dataPrikazaOPriemeLabel";
-            dataPrikazaOPriemeLabel.Size = new System.Drawing.Size(114, 13);
-            dataPrikazaOPriemeLabel.TabIndex = 84;
-            dataPrikazaOPriemeLabel.Text = "Data Prikaza OPrieme:";
+            this.dataTDDateTimePicker.Enter += new System.EventHandler(this.dataTDDateTimePicker_Enter);
             // 
             // dataPrikazaOPriemeDateTimePicker
             // 
             this.dataPrikazaOPriemeDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataPrikazaOPrieme", true));
-            this.dataPrikazaOPriemeDateTimePicker.Location = new System.Drawing.Point(402, 1690);
+            this.dataPrikazaOPriemeDateTimePicker.Location = new System.Drawing.Point(778, 347);
             this.dataPrikazaOPriemeDateTimePicker.Name = "dataPrikazaOPriemeDateTimePicker";
             this.dataPrikazaOPriemeDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dataPrikazaOPriemeDateTimePicker.TabIndex = 85;
-            // 
-            // okonchanijeTDLabel
-            // 
-            okonchanijeTDLabel.AutoSize = true;
-            okonchanijeTDLabel.Location = new System.Drawing.Point(158, 1720);
-            okonchanijeTDLabel.Name = "okonchanijeTDLabel";
-            okonchanijeTDLabel.Size = new System.Drawing.Size(88, 13);
-            okonchanijeTDLabel.TabIndex = 86;
-            okonchanijeTDLabel.Text = "Okonchanije TD:";
+            this.dataPrikazaOPriemeDateTimePicker.Enter += new System.EventHandler(this.dataPrikazaOPriemeDateTimePicker_Enter);
             // 
             // okonchanijeTDDateTimePicker
             // 
             this.okonchanijeTDDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "OkonchanijeTD", true));
-            this.okonchanijeTDDateTimePicker.Location = new System.Drawing.Point(402, 1716);
+            this.okonchanijeTDDateTimePicker.Location = new System.Drawing.Point(778, 373);
             this.okonchanijeTDDateTimePicker.Name = "okonchanijeTDDateTimePicker";
             this.okonchanijeTDDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.okonchanijeTDDateTimePicker.TabIndex = 87;
-            // 
-            // ispitSrokLabel
-            // 
-            ispitSrokLabel.AutoSize = true;
-            ispitSrokLabel.Location = new System.Drawing.Point(158, 1745);
-            ispitSrokLabel.Name = "ispitSrokLabel";
-            ispitSrokLabel.Size = new System.Drawing.Size(54, 13);
-            ispitSrokLabel.TabIndex = 88;
-            ispitSrokLabel.Text = "Ispit Srok:";
+            this.okonchanijeTDDateTimePicker.Enter += new System.EventHandler(this.okonchanijeTDDateTimePicker_Enter);
             // 
             // ispitSrokTextBox
             // 
             this.ispitSrokTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "IspitSrok", true));
-            this.ispitSrokTextBox.Location = new System.Drawing.Point(402, 1742);
+            this.ispitSrokTextBox.Location = new System.Drawing.Point(778, 399);
             this.ispitSrokTextBox.Name = "ispitSrokTextBox";
             this.ispitSrokTextBox.Size = new System.Drawing.Size(200, 20);
             this.ispitSrokTextBox.TabIndex = 89;
-            // 
-            // dataUvolnenijaLabel
-            // 
-            dataUvolnenijaLabel.AutoSize = true;
-            dataUvolnenijaLabel.Location = new System.Drawing.Point(158, 1772);
-            dataUvolnenijaLabel.Name = "dataUvolnenijaLabel";
-            dataUvolnenijaLabel.Size = new System.Drawing.Size(86, 13);
-            dataUvolnenijaLabel.TabIndex = 90;
-            dataUvolnenijaLabel.Text = "Data Uvolnenija:";
-            // 
-            // dataUvolnenijaDateTimePicker
-            // 
-            this.dataUvolnenijaDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.personalBindingSource, "DataUvolnenija", true));
-            this.dataUvolnenijaDateTimePicker.Location = new System.Drawing.Point(402, 1768);
-            this.dataUvolnenijaDateTimePicker.Name = "dataUvolnenijaDateTimePicker";
-            this.dataUvolnenijaDateTimePicker.Size = new System.Drawing.Size(200, 20);
-            this.dataUvolnenijaDateTimePicker.TabIndex = 91;
-            // 
-            // osnovanijeUvolnenijaLabel
-            // 
-            osnovanijeUvolnenijaLabel.AutoSize = true;
-            osnovanijeUvolnenijaLabel.Location = new System.Drawing.Point(158, 1797);
-            osnovanijeUvolnenijaLabel.Name = "osnovanijeUvolnenijaLabel";
-            osnovanijeUvolnenijaLabel.Size = new System.Drawing.Size(116, 13);
-            osnovanijeUvolnenijaLabel.TabIndex = 92;
-            osnovanijeUvolnenijaLabel.Text = "Osnovanije Uvolnenija:";
-            // 
-            // osnovanijeUvolnenijaTextBox
-            // 
-            this.osnovanijeUvolnenijaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "OsnovanijeUvolnenija", true));
-            this.osnovanijeUvolnenijaTextBox.Location = new System.Drawing.Point(402, 1794);
-            this.osnovanijeUvolnenijaTextBox.Name = "osnovanijeUvolnenijaTextBox";
-            this.osnovanijeUvolnenijaTextBox.Size = new System.Drawing.Size(200, 20);
-            this.osnovanijeUvolnenijaTextBox.TabIndex = 93;
-            // 
-            // primechanijaLabel
-            // 
-            primechanijaLabel.AutoSize = true;
-            primechanijaLabel.Location = new System.Drawing.Point(158, 1823);
-            primechanijaLabel.Name = "primechanijaLabel";
-            primechanijaLabel.Size = new System.Drawing.Size(70, 13);
-            primechanijaLabel.TabIndex = 94;
-            primechanijaLabel.Text = "Primechanija:";
+            this.ispitSrokTextBox.Enter += new System.EventHandler(this.ispitSrokTextBox_Enter);
             // 
             // primechanijaTextBox
             // 
             this.primechanijaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "Primechanija", true));
-            this.primechanijaTextBox.Location = new System.Drawing.Point(402, 1820);
+            this.primechanijaTextBox.Location = new System.Drawing.Point(778, 425);
             this.primechanijaTextBox.Name = "primechanijaTextBox";
             this.primechanijaTextBox.Size = new System.Drawing.Size(200, 20);
             this.primechanijaTextBox.TabIndex = 95;
             // 
-            // dljaZapolnenijaIOFamilijaLabel
-            // 
-            dljaZapolnenijaIOFamilijaLabel.AutoSize = true;
-            dljaZapolnenijaIOFamilijaLabel.Location = new System.Drawing.Point(158, 1849);
-            dljaZapolnenijaIOFamilijaLabel.Name = "dljaZapolnenijaIOFamilijaLabel";
-            dljaZapolnenijaIOFamilijaLabel.Size = new System.Drawing.Size(134, 13);
-            dljaZapolnenijaIOFamilijaLabel.TabIndex = 96;
-            dljaZapolnenijaIOFamilijaLabel.Text = "Dlja Zapolnenija IOFamilija:";
-            // 
-            // dljaZapolnenijaIOFamilijaTextBox
-            // 
-            this.dljaZapolnenijaIOFamilijaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaIOFamilija", true));
-            this.dljaZapolnenijaIOFamilijaTextBox.Location = new System.Drawing.Point(402, 1846);
-            this.dljaZapolnenijaIOFamilijaTextBox.Name = "dljaZapolnenijaIOFamilijaTextBox";
-            this.dljaZapolnenijaIOFamilijaTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaIOFamilijaTextBox.TabIndex = 97;
-            // 
-            // dljaZapolnenijaFamilijaIOLabel
-            // 
-            dljaZapolnenijaFamilijaIOLabel.AutoSize = true;
-            dljaZapolnenijaFamilijaIOLabel.Location = new System.Drawing.Point(158, 1875);
-            dljaZapolnenijaFamilijaIOLabel.Name = "dljaZapolnenijaFamilijaIOLabel";
-            dljaZapolnenijaFamilijaIOLabel.Size = new System.Drawing.Size(137, 13);
-            dljaZapolnenijaFamilijaIOLabel.TabIndex = 98;
-            dljaZapolnenijaFamilijaIOLabel.Text = "Dlja Zapolnenija Familija IO:";
-            // 
-            // dljaZapolnenijaFamilijaIOTextBox
-            // 
-            this.dljaZapolnenijaFamilijaIOTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaFamilijaIO", true));
-            this.dljaZapolnenijaFamilijaIOTextBox.Location = new System.Drawing.Point(402, 1872);
-            this.dljaZapolnenijaFamilijaIOTextBox.Name = "dljaZapolnenijaFamilijaIOTextBox";
-            this.dljaZapolnenijaFamilijaIOTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaFamilijaIOTextBox.TabIndex = 99;
-            // 
-            // dljaZapolnenijaFamilijaLabel
-            // 
-            dljaZapolnenijaFamilijaLabel.AutoSize = true;
-            dljaZapolnenijaFamilijaLabel.Location = new System.Drawing.Point(158, 1901);
-            dljaZapolnenijaFamilijaLabel.Name = "dljaZapolnenijaFamilijaLabel";
-            dljaZapolnenijaFamilijaLabel.Size = new System.Drawing.Size(123, 13);
-            dljaZapolnenijaFamilijaLabel.TabIndex = 100;
-            dljaZapolnenijaFamilijaLabel.Text = "Dlja Zapolnenija Familija:";
-            // 
-            // dljaZapolnenijaFamilijaTextBox
-            // 
-            this.dljaZapolnenijaFamilijaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaFamilija", true));
-            this.dljaZapolnenijaFamilijaTextBox.Location = new System.Drawing.Point(402, 1898);
-            this.dljaZapolnenijaFamilijaTextBox.Name = "dljaZapolnenijaFamilijaTextBox";
-            this.dljaZapolnenijaFamilijaTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaFamilijaTextBox.TabIndex = 101;
-            // 
-            // dljaZapolnenijaImjaLabel
-            // 
-            dljaZapolnenijaImjaLabel.AutoSize = true;
-            dljaZapolnenijaImjaLabel.Location = new System.Drawing.Point(158, 1927);
-            dljaZapolnenijaImjaLabel.Name = "dljaZapolnenijaImjaLabel";
-            dljaZapolnenijaImjaLabel.Size = new System.Drawing.Size(108, 13);
-            dljaZapolnenijaImjaLabel.TabIndex = 102;
-            dljaZapolnenijaImjaLabel.Text = "Dlja Zapolnenija Imja:";
-            // 
-            // dljaZapolnenijaImjaTextBox
-            // 
-            this.dljaZapolnenijaImjaTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaImja", true));
-            this.dljaZapolnenijaImjaTextBox.Location = new System.Drawing.Point(402, 1924);
-            this.dljaZapolnenijaImjaTextBox.Name = "dljaZapolnenijaImjaTextBox";
-            this.dljaZapolnenijaImjaTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaImjaTextBox.TabIndex = 103;
-            // 
-            // dljaZapolnenijaOtchestvoLabel
-            // 
-            dljaZapolnenijaOtchestvoLabel.AutoSize = true;
-            dljaZapolnenijaOtchestvoLabel.Location = new System.Drawing.Point(158, 1953);
-            dljaZapolnenijaOtchestvoLabel.Name = "dljaZapolnenijaOtchestvoLabel";
-            dljaZapolnenijaOtchestvoLabel.Size = new System.Drawing.Size(138, 13);
-            dljaZapolnenijaOtchestvoLabel.TabIndex = 104;
-            dljaZapolnenijaOtchestvoLabel.Text = "Dlja Zapolnenija Otchestvo:";
-            // 
-            // dljaZapolnenijaOtchestvoTextBox
-            // 
-            this.dljaZapolnenijaOtchestvoTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOtchestvo", true));
-            this.dljaZapolnenijaOtchestvoTextBox.Location = new System.Drawing.Point(402, 1950);
-            this.dljaZapolnenijaOtchestvoTextBox.Name = "dljaZapolnenijaOtchestvoTextBox";
-            this.dljaZapolnenijaOtchestvoTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaOtchestvoTextBox.TabIndex = 105;
-            // 
-            // dljaZapolnenijaLKPasportVidanLine1Label
-            // 
-            dljaZapolnenijaLKPasportVidanLine1Label.AutoSize = true;
-            dljaZapolnenijaLKPasportVidanLine1Label.Location = new System.Drawing.Point(158, 1979);
-            dljaZapolnenijaLKPasportVidanLine1Label.Name = "dljaZapolnenijaLKPasportVidanLine1Label";
-            dljaZapolnenijaLKPasportVidanLine1Label.Size = new System.Drawing.Size(197, 13);
-            dljaZapolnenijaLKPasportVidanLine1Label.TabIndex = 106;
-            dljaZapolnenijaLKPasportVidanLine1Label.Text = "Dlja Zapolnenija LKPasport Vidan Line1:";
-            // 
-            // dljaZapolnenijaLKPasportVidanLine1TextBox
-            // 
-            this.dljaZapolnenijaLKPasportVidanLine1TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaLKPasportVidanLine1", true));
-            this.dljaZapolnenijaLKPasportVidanLine1TextBox.Location = new System.Drawing.Point(402, 1976);
-            this.dljaZapolnenijaLKPasportVidanLine1TextBox.Name = "dljaZapolnenijaLKPasportVidanLine1TextBox";
-            this.dljaZapolnenijaLKPasportVidanLine1TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaLKPasportVidanLine1TextBox.TabIndex = 107;
-            // 
-            // dljaZapolnenijaLKPasportVidanLine2Label
-            // 
-            dljaZapolnenijaLKPasportVidanLine2Label.AutoSize = true;
-            dljaZapolnenijaLKPasportVidanLine2Label.Location = new System.Drawing.Point(158, 2005);
-            dljaZapolnenijaLKPasportVidanLine2Label.Name = "dljaZapolnenijaLKPasportVidanLine2Label";
-            dljaZapolnenijaLKPasportVidanLine2Label.Size = new System.Drawing.Size(197, 13);
-            dljaZapolnenijaLKPasportVidanLine2Label.TabIndex = 108;
-            dljaZapolnenijaLKPasportVidanLine2Label.Text = "Dlja Zapolnenija LKPasport Vidan Line2:";
-            // 
-            // dljaZapolnenijaLKPasportVidanLine2TextBox
-            // 
-            this.dljaZapolnenijaLKPasportVidanLine2TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaLKPasportVidanLine2", true));
-            this.dljaZapolnenijaLKPasportVidanLine2TextBox.Location = new System.Drawing.Point(402, 2002);
-            this.dljaZapolnenijaLKPasportVidanLine2TextBox.Name = "dljaZapolnenijaLKPasportVidanLine2TextBox";
-            this.dljaZapolnenijaLKPasportVidanLine2TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaLKPasportVidanLine2TextBox.TabIndex = 109;
-            // 
-            // dljaZapolnenijaLKAdresPoPropiskeLine1Label
-            // 
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label.AutoSize = true;
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label.Location = new System.Drawing.Point(158, 2031);
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label.Name = "dljaZapolnenijaLKAdresPoPropiskeLine1Label";
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label.Size = new System.Drawing.Size(218, 13);
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label.TabIndex = 110;
-            dljaZapolnenijaLKAdresPoPropiskeLine1Label.Text = "Dlja Zapolnenija LKAdres Po Propiske Line1:";
-            // 
-            // dljaZapolnenijaLKAdresPoPropiskeLine1TextBox
-            // 
-            this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaLKAdresPoPropiskeLine1", true));
-            this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox.Location = new System.Drawing.Point(402, 2028);
-            this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox.Name = "dljaZapolnenijaLKAdresPoPropiskeLine1TextBox";
-            this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox.TabIndex = 111;
-            // 
-            // dljaZapolnenijaLKAdresPoPropiskeLine2Label
-            // 
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label.AutoSize = true;
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label.Location = new System.Drawing.Point(158, 2057);
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label.Name = "dljaZapolnenijaLKAdresPoPropiskeLine2Label";
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label.Size = new System.Drawing.Size(218, 13);
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label.TabIndex = 112;
-            dljaZapolnenijaLKAdresPoPropiskeLine2Label.Text = "Dlja Zapolnenija LKAdres Po Propiske Line2:";
-            // 
-            // dljaZapolnenijaLKAdresPoPropiskeLine2TextBox
-            // 
-            this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaLKAdresPoPropiskeLine2", true));
-            this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox.Location = new System.Drawing.Point(402, 2054);
-            this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox.Name = "dljaZapolnenijaLKAdresPoPropiskeLine2TextBox";
-            this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox.TabIndex = 113;
-            // 
-            // dljaZapolnenijaLKAdresFakticheskiiLine1Label
-            // 
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label.AutoSize = true;
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label.Location = new System.Drawing.Point(158, 2083);
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label.Name = "dljaZapolnenijaLKAdresFakticheskiiLine1Label";
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label.Size = new System.Drawing.Size(217, 13);
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label.TabIndex = 114;
-            dljaZapolnenijaLKAdresFakticheskiiLine1Label.Text = "Dlja Zapolnenija LKAdres Fakticheskii Line1:";
-            // 
-            // dljaZapolnenijaLKAdresFakticheskiiLine1TextBox
-            // 
-            this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaLKAdresFakticheskiiLine1", true));
-            this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox.Location = new System.Drawing.Point(402, 2080);
-            this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox.Name = "dljaZapolnenijaLKAdresFakticheskiiLine1TextBox";
-            this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox.TabIndex = 115;
-            // 
-            // dljaZapolnenijaLKAdresFakticheskiiLine2Label
-            // 
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label.AutoSize = true;
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label.Location = new System.Drawing.Point(158, 2109);
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label.Name = "dljaZapolnenijaLKAdresFakticheskiiLine2Label";
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label.Size = new System.Drawing.Size(217, 13);
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label.TabIndex = 116;
-            dljaZapolnenijaLKAdresFakticheskiiLine2Label.Text = "Dlja Zapolnenija LKAdres Fakticheskii Line2:";
-            // 
-            // dljaZapolnenijaLKAdresFakticheskiiLine2TextBox
-            // 
-            this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaLKAdresFakticheskiiLine2", true));
-            this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox.Location = new System.Drawing.Point(402, 2106);
-            this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox.Name = "dljaZapolnenijaLKAdresFakticheskiiLine2TextBox";
-            this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox.TabIndex = 117;
-            // 
-            // dljaZapolnenijaDogMOAdresLine1Label
-            // 
-            dljaZapolnenijaDogMOAdresLine1Label.AutoSize = true;
-            dljaZapolnenijaDogMOAdresLine1Label.Location = new System.Drawing.Point(158, 2135);
-            dljaZapolnenijaDogMOAdresLine1Label.Name = "dljaZapolnenijaDogMOAdresLine1Label";
-            dljaZapolnenijaDogMOAdresLine1Label.Size = new System.Drawing.Size(185, 13);
-            dljaZapolnenijaDogMOAdresLine1Label.TabIndex = 118;
-            dljaZapolnenijaDogMOAdresLine1Label.Text = "Dlja Zapolnenija Dog MOAdres Line1:";
-            // 
-            // dljaZapolnenijaDogMOAdresLine1TextBox
-            // 
-            this.dljaZapolnenijaDogMOAdresLine1TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaDogMOAdresLine1", true));
-            this.dljaZapolnenijaDogMOAdresLine1TextBox.Location = new System.Drawing.Point(402, 2132);
-            this.dljaZapolnenijaDogMOAdresLine1TextBox.Name = "dljaZapolnenijaDogMOAdresLine1TextBox";
-            this.dljaZapolnenijaDogMOAdresLine1TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaDogMOAdresLine1TextBox.TabIndex = 119;
-            // 
-            // dljaZapolnenijaDogMOAdresLine2Label
-            // 
-            dljaZapolnenijaDogMOAdresLine2Label.AutoSize = true;
-            dljaZapolnenijaDogMOAdresLine2Label.Location = new System.Drawing.Point(158, 2161);
-            dljaZapolnenijaDogMOAdresLine2Label.Name = "dljaZapolnenijaDogMOAdresLine2Label";
-            dljaZapolnenijaDogMOAdresLine2Label.Size = new System.Drawing.Size(185, 13);
-            dljaZapolnenijaDogMOAdresLine2Label.TabIndex = 120;
-            dljaZapolnenijaDogMOAdresLine2Label.Text = "Dlja Zapolnenija Dog MOAdres Line2:";
-            // 
-            // dljaZapolnenijaDogMOAdresLine2TextBox
-            // 
-            this.dljaZapolnenijaDogMOAdresLine2TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaDogMOAdresLine2", true));
-            this.dljaZapolnenijaDogMOAdresLine2TextBox.Location = new System.Drawing.Point(402, 2158);
-            this.dljaZapolnenijaDogMOAdresLine2TextBox.Name = "dljaZapolnenijaDogMOAdresLine2TextBox";
-            this.dljaZapolnenijaDogMOAdresLine2TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaDogMOAdresLine2TextBox.TabIndex = 121;
-            // 
-            // dljaZapolnenijaZajavlenijaFIOLine1Label
-            // 
-            dljaZapolnenijaZajavlenijaFIOLine1Label.AutoSize = true;
-            dljaZapolnenijaZajavlenijaFIOLine1Label.Location = new System.Drawing.Point(158, 2187);
-            dljaZapolnenijaZajavlenijaFIOLine1Label.Name = "dljaZapolnenijaZajavlenijaFIOLine1Label";
-            dljaZapolnenijaZajavlenijaFIOLine1Label.Size = new System.Drawing.Size(186, 13);
-            dljaZapolnenijaZajavlenijaFIOLine1Label.TabIndex = 122;
-            dljaZapolnenijaZajavlenijaFIOLine1Label.Text = "Dlja Zapolnenija Zajavlenija FIOLine1:";
-            // 
-            // dljaZapolnenijaZajavlenijaFIOLine1TextBox
-            // 
-            this.dljaZapolnenijaZajavlenijaFIOLine1TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaZajavlenijaFIOLine1", true));
-            this.dljaZapolnenijaZajavlenijaFIOLine1TextBox.Location = new System.Drawing.Point(402, 2184);
-            this.dljaZapolnenijaZajavlenijaFIOLine1TextBox.Name = "dljaZapolnenijaZajavlenijaFIOLine1TextBox";
-            this.dljaZapolnenijaZajavlenijaFIOLine1TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaZajavlenijaFIOLine1TextBox.TabIndex = 123;
-            // 
-            // dljaZapolnenijaZajavlenijaFIOLine2Label
-            // 
-            dljaZapolnenijaZajavlenijaFIOLine2Label.AutoSize = true;
-            dljaZapolnenijaZajavlenijaFIOLine2Label.Location = new System.Drawing.Point(158, 2213);
-            dljaZapolnenijaZajavlenijaFIOLine2Label.Name = "dljaZapolnenijaZajavlenijaFIOLine2Label";
-            dljaZapolnenijaZajavlenijaFIOLine2Label.Size = new System.Drawing.Size(186, 13);
-            dljaZapolnenijaZajavlenijaFIOLine2Label.TabIndex = 124;
-            dljaZapolnenijaZajavlenijaFIOLine2Label.Text = "Dlja Zapolnenija Zajavlenija FIOLine2:";
-            // 
-            // dljaZapolnenijaZajavlenijaFIOLine2TextBox
-            // 
-            this.dljaZapolnenijaZajavlenijaFIOLine2TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaZajavlenijaFIOLine2", true));
-            this.dljaZapolnenijaZajavlenijaFIOLine2TextBox.Location = new System.Drawing.Point(402, 2210);
-            this.dljaZapolnenijaZajavlenijaFIOLine2TextBox.Name = "dljaZapolnenijaZajavlenijaFIOLine2TextBox";
-            this.dljaZapolnenijaZajavlenijaFIOLine2TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaZajavlenijaFIOLine2TextBox.TabIndex = 125;
-            // 
-            // dljaZapolnenijaOsnovanijePrikazaOPriemeLabel
-            // 
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel.AutoSize = true;
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel.Location = new System.Drawing.Point(158, 2239);
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel.Name = "dljaZapolnenijaOsnovanijePrikazaOPriemeLabel";
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel.Size = new System.Drawing.Size(223, 13);
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel.TabIndex = 126;
-            dljaZapolnenijaOsnovanijePrikazaOPriemeLabel.Text = "Dlja Zapolnenija Osnovanije Prikaza OPrieme:";
-            // 
-            // dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox
-            // 
-            this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOsnovanijePrikazaOPrieme", true));
-            this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox.Location = new System.Drawing.Point(402, 2236);
-            this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox.Name = "dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox";
-            this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox.TabIndex = 127;
-            // 
-            // dljaZapolnenijaOsnovanijeUvolnenijaLine1Label
-            // 
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.AutoSize = true;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Location = new System.Drawing.Point(158, 2265);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine1Label";
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Size = new System.Drawing.Size(224, 13);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.TabIndex = 128;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine1Label.Text = "Dlja Zapolnenija Osnovanije Uvolnenija Line1:";
-            // 
-            // dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox
-            // 
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOsnovanijeUvolnenijaLine1", true));
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox.Location = new System.Drawing.Point(402, 2262);
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox";
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox.TabIndex = 129;
-            // 
-            // dljaZapolnenijaOsnovanijeUvolnenijaLine2Label
-            // 
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.AutoSize = true;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Location = new System.Drawing.Point(158, 2291);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine2Label";
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Size = new System.Drawing.Size(224, 13);
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.TabIndex = 130;
-            dljaZapolnenijaOsnovanijeUvolnenijaLine2Label.Text = "Dlja Zapolnenija Osnovanije Uvolnenija Line2:";
-            // 
-            // dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox
-            // 
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOsnovanijeUvolnenijaLine2", true));
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox.Location = new System.Drawing.Point(402, 2288);
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox.Name = "dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox";
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox.TabIndex = 131;
-            // 
-            // dljaZapolnenijaOsnovanijePrikazaObUvolnLabel
-            // 
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.AutoSize = true;
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Location = new System.Drawing.Point(158, 2317);
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Name = "dljaZapolnenijaOsnovanijePrikazaObUvolnLabel";
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Size = new System.Drawing.Size(228, 13);
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.TabIndex = 132;
-            dljaZapolnenijaOsnovanijePrikazaObUvolnLabel.Text = "Dlja Zapolnenija Osnovanije Prikaza Ob Uvoln:";
-            // 
-            // dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox
-            // 
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "DljaZapolnenijaOsnovanijePrikazaObUvoln", true));
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Location = new System.Drawing.Point(402, 2314);
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Name = "dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox";
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.Size = new System.Drawing.Size(200, 20);
-            this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox.TabIndex = 133;
-            // 
-            // nalichieAnketiLabel
-            // 
-            nalichieAnketiLabel.AutoSize = true;
-            nalichieAnketiLabel.Location = new System.Drawing.Point(158, 2345);
-            nalichieAnketiLabel.Name = "nalichieAnketiLabel";
-            nalichieAnketiLabel.Size = new System.Drawing.Size(81, 13);
-            nalichieAnketiLabel.TabIndex = 134;
-            nalichieAnketiLabel.Text = "Nalichie Anketi:";
-            // 
             // nalichieAnketiCheckBox
             // 
             this.nalichieAnketiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieAnketi", true));
-            this.nalichieAnketiCheckBox.Location = new System.Drawing.Point(402, 2340);
+            this.nalichieAnketiCheckBox.Location = new System.Drawing.Point(35, 63);
             this.nalichieAnketiCheckBox.Name = "nalichieAnketiCheckBox";
-            this.nalichieAnketiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieAnketiCheckBox.Size = new System.Drawing.Size(131, 24);
             this.nalichieAnketiCheckBox.TabIndex = 135;
-            this.nalichieAnketiCheckBox.Text = "checkBox13";
+            this.nalichieAnketiCheckBox.Text = "Анкета";
             this.nalichieAnketiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieLichnKartochkiLabel
-            // 
-            nalichieLichnKartochkiLabel.AutoSize = true;
-            nalichieLichnKartochkiLabel.Location = new System.Drawing.Point(158, 2375);
-            nalichieLichnKartochkiLabel.Name = "nalichieLichnKartochkiLabel";
-            nalichieLichnKartochkiLabel.Size = new System.Drawing.Size(125, 13);
-            nalichieLichnKartochkiLabel.TabIndex = 136;
-            nalichieLichnKartochkiLabel.Text = "Nalichie Lichn Kartochki:";
             // 
             // nalichieLichnKartochkiCheckBox
             // 
             this.nalichieLichnKartochkiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieLichnKartochki", true));
-            this.nalichieLichnKartochkiCheckBox.Location = new System.Drawing.Point(402, 2370);
+            this.nalichieLichnKartochkiCheckBox.Location = new System.Drawing.Point(35, 93);
             this.nalichieLichnKartochkiCheckBox.Name = "nalichieLichnKartochkiCheckBox";
-            this.nalichieLichnKartochkiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieLichnKartochkiCheckBox.Size = new System.Drawing.Size(162, 24);
             this.nalichieLichnKartochkiCheckBox.TabIndex = 137;
-            this.nalichieLichnKartochkiCheckBox.Text = "checkBox13";
+            this.nalichieLichnKartochkiCheckBox.Text = "Личная карточка";
             this.nalichieLichnKartochkiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieFotoLabel
-            // 
-            nalichieFotoLabel.AutoSize = true;
-            nalichieFotoLabel.Location = new System.Drawing.Point(158, 2405);
-            nalichieFotoLabel.Name = "nalichieFotoLabel";
-            nalichieFotoLabel.Size = new System.Drawing.Size(72, 13);
-            nalichieFotoLabel.TabIndex = 138;
-            nalichieFotoLabel.Text = "Nalichie Foto:";
             // 
             // nalichieFotoCheckBox
             // 
             this.nalichieFotoCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieFoto", true));
-            this.nalichieFotoCheckBox.Location = new System.Drawing.Point(402, 2400);
+            this.nalichieFotoCheckBox.Location = new System.Drawing.Point(35, 123);
             this.nalichieFotoCheckBox.Name = "nalichieFotoCheckBox";
-            this.nalichieFotoCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieFotoCheckBox.Size = new System.Drawing.Size(101, 24);
             this.nalichieFotoCheckBox.TabIndex = 139;
-            this.nalichieFotoCheckBox.Text = "checkBox13";
+            this.nalichieFotoCheckBox.Text = "Фотография 3x4";
             this.nalichieFotoCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieKopiiPasportaLabel
-            // 
-            nalichieKopiiPasportaLabel.AutoSize = true;
-            nalichieKopiiPasportaLabel.Location = new System.Drawing.Point(158, 2435);
-            nalichieKopiiPasportaLabel.Name = "nalichieKopiiPasportaLabel";
-            nalichieKopiiPasportaLabel.Size = new System.Drawing.Size(119, 13);
-            nalichieKopiiPasportaLabel.TabIndex = 140;
-            nalichieKopiiPasportaLabel.Text = "Nalichie Kopii Pasporta:";
             // 
             // nalichieKopiiPasportaCheckBox
             // 
             this.nalichieKopiiPasportaCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieKopiiPasporta", true));
-            this.nalichieKopiiPasportaCheckBox.Location = new System.Drawing.Point(402, 2430);
+            this.nalichieKopiiPasportaCheckBox.Location = new System.Drawing.Point(35, 153);
             this.nalichieKopiiPasportaCheckBox.Name = "nalichieKopiiPasportaCheckBox";
-            this.nalichieKopiiPasportaCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieKopiiPasportaCheckBox.Size = new System.Drawing.Size(150, 24);
             this.nalichieKopiiPasportaCheckBox.TabIndex = 141;
-            this.nalichieKopiiPasportaCheckBox.Text = "checkBox13";
+            this.nalichieKopiiPasportaCheckBox.Text = "Копия паспорта (2 стр.)";
             this.nalichieKopiiPasportaCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePrikazaOPriemeLabel
-            // 
-            nalichiePrikazaOPriemeLabel.AutoSize = true;
-            nalichiePrikazaOPriemeLabel.Location = new System.Drawing.Point(158, 2465);
-            nalichiePrikazaOPriemeLabel.Name = "nalichiePrikazaOPriemeLabel";
-            nalichiePrikazaOPriemeLabel.Size = new System.Drawing.Size(129, 13);
-            nalichiePrikazaOPriemeLabel.TabIndex = 142;
-            nalichiePrikazaOPriemeLabel.Text = "Nalichie Prikaza OPrieme:";
             // 
             // nalichiePrikazaOPriemeCheckBox
             // 
             this.nalichiePrikazaOPriemeCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePrikazaOPrieme", true));
-            this.nalichiePrikazaOPriemeCheckBox.Location = new System.Drawing.Point(402, 2460);
+            this.nalichiePrikazaOPriemeCheckBox.Location = new System.Drawing.Point(35, 183);
             this.nalichiePrikazaOPriemeCheckBox.Name = "nalichiePrikazaOPriemeCheckBox";
-            this.nalichiePrikazaOPriemeCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePrikazaOPriemeCheckBox.Size = new System.Drawing.Size(153, 24);
             this.nalichiePrikazaOPriemeCheckBox.TabIndex = 143;
-            this.nalichiePrikazaOPriemeCheckBox.Text = "checkBox13";
+            this.nalichiePrikazaOPriemeCheckBox.Text = "Приказ о приеме";
             this.nalichiePrikazaOPriemeCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieTrudovogoDogovoraLabel
-            // 
-            nalichieTrudovogoDogovoraLabel.AutoSize = true;
-            nalichieTrudovogoDogovoraLabel.Location = new System.Drawing.Point(158, 2495);
-            nalichieTrudovogoDogovoraLabel.Name = "nalichieTrudovogoDogovoraLabel";
-            nalichieTrudovogoDogovoraLabel.Size = new System.Drawing.Size(153, 13);
-            nalichieTrudovogoDogovoraLabel.TabIndex = 144;
-            nalichieTrudovogoDogovoraLabel.Text = "Nalichie Trudovogo Dogovora:";
             // 
             // nalichieTrudovogoDogovoraCheckBox
             // 
             this.nalichieTrudovogoDogovoraCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieTrudovogoDogovora", true));
-            this.nalichieTrudovogoDogovoraCheckBox.Location = new System.Drawing.Point(402, 2490);
+            this.nalichieTrudovogoDogovoraCheckBox.Location = new System.Drawing.Point(35, 213);
             this.nalichieTrudovogoDogovoraCheckBox.Name = "nalichieTrudovogoDogovoraCheckBox";
-            this.nalichieTrudovogoDogovoraCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieTrudovogoDogovoraCheckBox.Size = new System.Drawing.Size(144, 24);
             this.nalichieTrudovogoDogovoraCheckBox.TabIndex = 145;
-            this.nalichieTrudovogoDogovoraCheckBox.Text = "checkBox13";
+            this.nalichieTrudovogoDogovoraCheckBox.Text = "Трудовой договор";
             this.nalichieTrudovogoDogovoraCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieZajavlenijaNaRabotuLabel
-            // 
-            nalichieZajavlenijaNaRabotuLabel.AutoSize = true;
-            nalichieZajavlenijaNaRabotuLabel.Location = new System.Drawing.Point(158, 2525);
-            nalichieZajavlenijaNaRabotuLabel.Name = "nalichieZajavlenijaNaRabotuLabel";
-            nalichieZajavlenijaNaRabotuLabel.Size = new System.Drawing.Size(157, 13);
-            nalichieZajavlenijaNaRabotuLabel.TabIndex = 146;
-            nalichieZajavlenijaNaRabotuLabel.Text = "Nalichie Zajavlenija Na Rabotu:";
             // 
             // nalichieZajavlenijaNaRabotuCheckBox
             // 
             this.nalichieZajavlenijaNaRabotuCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieZajavlenijaNaRabotu", true));
-            this.nalichieZajavlenijaNaRabotuCheckBox.Location = new System.Drawing.Point(402, 2520);
+            this.nalichieZajavlenijaNaRabotuCheckBox.Location = new System.Drawing.Point(35, 243);
             this.nalichieZajavlenijaNaRabotuCheckBox.Name = "nalichieZajavlenijaNaRabotuCheckBox";
-            this.nalichieZajavlenijaNaRabotuCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieZajavlenijaNaRabotuCheckBox.Size = new System.Drawing.Size(144, 24);
             this.nalichieZajavlenijaNaRabotuCheckBox.TabIndex = 147;
-            this.nalichieZajavlenijaNaRabotuCheckBox.Text = "checkBox13";
+            this.nalichieZajavlenijaNaRabotuCheckBox.Text = "Заявление на работу";
             this.nalichieZajavlenijaNaRabotuCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieDogOMatOtvetstvennostiLabel
-            // 
-            nalichieDogOMatOtvetstvennostiLabel.AutoSize = true;
-            nalichieDogOMatOtvetstvennostiLabel.Location = new System.Drawing.Point(158, 2555);
-            nalichieDogOMatOtvetstvennostiLabel.Name = "nalichieDogOMatOtvetstvennostiLabel";
-            nalichieDogOMatOtvetstvennostiLabel.Size = new System.Drawing.Size(177, 13);
-            nalichieDogOMatOtvetstvennostiLabel.TabIndex = 148;
-            nalichieDogOMatOtvetstvennostiLabel.Text = "Nalichie Dog OMat Otvetstvennosti:";
             // 
             // nalichieDogOMatOtvetstvennostiCheckBox
             // 
             this.nalichieDogOMatOtvetstvennostiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieDogOMatOtvetstvennosti", true));
-            this.nalichieDogOMatOtvetstvennostiCheckBox.Location = new System.Drawing.Point(402, 2550);
+            this.nalichieDogOMatOtvetstvennostiCheckBox.Location = new System.Drawing.Point(35, 273);
             this.nalichieDogOMatOtvetstvennostiCheckBox.Name = "nalichieDogOMatOtvetstvennostiCheckBox";
-            this.nalichieDogOMatOtvetstvennostiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieDogOMatOtvetstvennostiCheckBox.Size = new System.Drawing.Size(144, 24);
             this.nalichieDogOMatOtvetstvennostiCheckBox.TabIndex = 149;
-            this.nalichieDogOMatOtvetstvennostiCheckBox.Text = "checkBox13";
+            this.nalichieDogOMatOtvetstvennostiCheckBox.Text = "Д-р о мат. отв-ти";
             this.nalichieDogOMatOtvetstvennostiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieDolzhnInstrukciiLabel
-            // 
-            nalichieDolzhnInstrukciiLabel.AutoSize = true;
-            nalichieDolzhnInstrukciiLabel.Location = new System.Drawing.Point(158, 2585);
-            nalichieDolzhnInstrukciiLabel.Name = "nalichieDolzhnInstrukciiLabel";
-            nalichieDolzhnInstrukciiLabel.Size = new System.Drawing.Size(129, 13);
-            nalichieDolzhnInstrukciiLabel.TabIndex = 150;
-            nalichieDolzhnInstrukciiLabel.Text = "Nalichie Dolzhn Instrukcii:";
             // 
             // nalichieDolzhnInstrukciiCheckBox
             // 
             this.nalichieDolzhnInstrukciiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieDolzhnInstrukcii", true));
-            this.nalichieDolzhnInstrukciiCheckBox.Location = new System.Drawing.Point(402, 2580);
+            this.nalichieDolzhnInstrukciiCheckBox.Location = new System.Drawing.Point(35, 303);
             this.nalichieDolzhnInstrukciiCheckBox.Name = "nalichieDolzhnInstrukciiCheckBox";
-            this.nalichieDolzhnInstrukciiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieDolzhnInstrukciiCheckBox.Size = new System.Drawing.Size(131, 24);
             this.nalichieDolzhnInstrukciiCheckBox.TabIndex = 151;
-            this.nalichieDolzhnInstrukciiCheckBox.Text = "checkBox13";
+            this.nalichieDolzhnInstrukciiCheckBox.Text = "Должн. инструкция";
             this.nalichieDolzhnInstrukciiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieSoglasijaNaNochLabel
-            // 
-            nalichieSoglasijaNaNochLabel.AutoSize = true;
-            nalichieSoglasijaNaNochLabel.Location = new System.Drawing.Point(158, 2615);
-            nalichieSoglasijaNaNochLabel.Name = "nalichieSoglasijaNaNochLabel";
-            nalichieSoglasijaNaNochLabel.Size = new System.Drawing.Size(139, 13);
-            nalichieSoglasijaNaNochLabel.TabIndex = 152;
-            nalichieSoglasijaNaNochLabel.Text = "Nalichie Soglasija Na Noch:";
             // 
             // nalichieSoglasijaNaNochCheckBox
             // 
             this.nalichieSoglasijaNaNochCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieSoglasijaNaNoch", true));
-            this.nalichieSoglasijaNaNochCheckBox.Location = new System.Drawing.Point(402, 2610);
+            this.nalichieSoglasijaNaNochCheckBox.Location = new System.Drawing.Point(35, 483);
             this.nalichieSoglasijaNaNochCheckBox.Name = "nalichieSoglasijaNaNochCheckBox";
-            this.nalichieSoglasijaNaNochCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieSoglasijaNaNochCheckBox.Size = new System.Drawing.Size(162, 24);
             this.nalichieSoglasijaNaNochCheckBox.TabIndex = 153;
-            this.nalichieSoglasijaNaNochCheckBox.Text = "checkBox13";
+            this.nalichieSoglasijaNaNochCheckBox.Text = "Согласие на работу ночью";
             this.nalichieSoglasijaNaNochCheckBox.UseVisualStyleBackColor = true;
-            this.nalichieSoglasijaNaNochCheckBox.CheckedChanged += new System.EventHandler(this.nalichieSoglasijaNaNochCheckBox_CheckedChanged);
-            // 
-            // nalichieSoglasijaNaFotoLabel
-            // 
-            nalichieSoglasijaNaFotoLabel.AutoSize = true;
-            nalichieSoglasijaNaFotoLabel.Location = new System.Drawing.Point(158, 2645);
-            nalichieSoglasijaNaFotoLabel.Name = "nalichieSoglasijaNaFotoLabel";
-            nalichieSoglasijaNaFotoLabel.Size = new System.Drawing.Size(134, 13);
-            nalichieSoglasijaNaFotoLabel.TabIndex = 154;
-            nalichieSoglasijaNaFotoLabel.Text = "Nalichie Soglasija Na Foto:";
             // 
             // nalichieSoglasijaNaFotoCheckBox
             // 
             this.nalichieSoglasijaNaFotoCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieSoglasijaNaFoto", true));
-            this.nalichieSoglasijaNaFotoCheckBox.Location = new System.Drawing.Point(402, 2640);
+            this.nalichieSoglasijaNaFotoCheckBox.Location = new System.Drawing.Point(35, 513);
             this.nalichieSoglasijaNaFotoCheckBox.Name = "nalichieSoglasijaNaFotoCheckBox";
-            this.nalichieSoglasijaNaFotoCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieSoglasijaNaFotoCheckBox.Size = new System.Drawing.Size(195, 24);
             this.nalichieSoglasijaNaFotoCheckBox.TabIndex = 155;
-            this.nalichieSoglasijaNaFotoCheckBox.Text = "checkBox13";
+            this.nalichieSoglasijaNaFotoCheckBox.Text = "Соглас. на использ. фото";
             this.nalichieSoglasijaNaFotoCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieTrudovojKnijkiLabel
-            // 
-            nalichieTrudovojKnijkiLabel.AutoSize = true;
-            nalichieTrudovojKnijkiLabel.Location = new System.Drawing.Point(158, 2675);
-            nalichieTrudovojKnijkiLabel.Name = "nalichieTrudovojKnijkiLabel";
-            nalichieTrudovojKnijkiLabel.Size = new System.Drawing.Size(121, 13);
-            nalichieTrudovojKnijkiLabel.TabIndex = 156;
-            nalichieTrudovojKnijkiLabel.Text = "Nalichie Trudovoj Knijki:";
             // 
             // nalichieTrudovojKnijkiCheckBox
             // 
             this.nalichieTrudovojKnijkiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieTrudovojKnijki", true));
-            this.nalichieTrudovojKnijkiCheckBox.Location = new System.Drawing.Point(402, 2670);
+            this.nalichieTrudovojKnijkiCheckBox.Location = new System.Drawing.Point(35, 333);
             this.nalichieTrudovojKnijkiCheckBox.Name = "nalichieTrudovojKnijkiCheckBox";
-            this.nalichieTrudovojKnijkiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieTrudovojKnijkiCheckBox.Size = new System.Drawing.Size(144, 24);
             this.nalichieTrudovojKnijkiCheckBox.TabIndex = 157;
-            this.nalichieTrudovojKnijkiCheckBox.Text = "checkBox13";
+            this.nalichieTrudovojKnijkiCheckBox.Text = "Трудовая книжка";
             this.nalichieTrudovojKnijkiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieZajavlNaVidachuTrudovojLabel
-            // 
-            nalichieZajavlNaVidachuTrudovojLabel.AutoSize = true;
-            nalichieZajavlNaVidachuTrudovojLabel.Location = new System.Drawing.Point(158, 2705);
-            nalichieZajavlNaVidachuTrudovojLabel.Name = "nalichieZajavlNaVidachuTrudovojLabel";
-            nalichieZajavlNaVidachuTrudovojLabel.Size = new System.Drawing.Size(184, 13);
-            nalichieZajavlNaVidachuTrudovojLabel.TabIndex = 158;
-            nalichieZajavlNaVidachuTrudovojLabel.Text = "Nalichie Zajavl Na Vidachu Trudovoj:";
+            this.nalichieTrudovojKnijkiCheckBox.MouseHover += new System.EventHandler(this.nalichieTrudovojKnijkiCheckBox_MouseHover);
             // 
             // nalichieZajavlNaVidachuTrudovojCheckBox
             // 
             this.nalichieZajavlNaVidachuTrudovojCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieZajavlNaVidachuTrudovoj", true));
-            this.nalichieZajavlNaVidachuTrudovojCheckBox.Location = new System.Drawing.Point(402, 2700);
+            this.nalichieZajavlNaVidachuTrudovojCheckBox.Location = new System.Drawing.Point(35, 363);
             this.nalichieZajavlNaVidachuTrudovojCheckBox.Name = "nalichieZajavlNaVidachuTrudovojCheckBox";
-            this.nalichieZajavlNaVidachuTrudovojCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieZajavlNaVidachuTrudovojCheckBox.Size = new System.Drawing.Size(231, 24);
             this.nalichieZajavlNaVidachuTrudovojCheckBox.TabIndex = 159;
-            this.nalichieZajavlNaVidachuTrudovojCheckBox.Text = "checkBox13";
+            this.nalichieZajavlNaVidachuTrudovojCheckBox.Text = "Заявл. на выдачу труд. книжки";
             this.nalichieZajavlNaVidachuTrudovojCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieZajavlNaPolstavkiLabel
-            // 
-            nalichieZajavlNaPolstavkiLabel.AutoSize = true;
-            nalichieZajavlNaPolstavkiLabel.Location = new System.Drawing.Point(158, 2735);
-            nalichieZajavlNaPolstavkiLabel.Name = "nalichieZajavlNaPolstavkiLabel";
-            nalichieZajavlNaPolstavkiLabel.Size = new System.Drawing.Size(143, 13);
-            nalichieZajavlNaPolstavkiLabel.TabIndex = 160;
-            nalichieZajavlNaPolstavkiLabel.Text = "Nalichie Zajavl Na Polstavki:";
+            this.nalichieZajavlNaVidachuTrudovojCheckBox.MouseHover += new System.EventHandler(this.nalichieZajavlNaVidachuTrudovojCheckBox_MouseHover);
             // 
             // nalichieZajavlNaPolstavkiCheckBox
             // 
             this.nalichieZajavlNaPolstavkiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieZajavlNaPolstavki", true));
-            this.nalichieZajavlNaPolstavkiCheckBox.Location = new System.Drawing.Point(402, 2730);
+            this.nalichieZajavlNaPolstavkiCheckBox.Location = new System.Drawing.Point(35, 543);
             this.nalichieZajavlNaPolstavkiCheckBox.Name = "nalichieZajavlNaPolstavkiCheckBox";
-            this.nalichieZajavlNaPolstavkiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieZajavlNaPolstavkiCheckBox.Size = new System.Drawing.Size(144, 24);
             this.nalichieZajavlNaPolstavkiCheckBox.TabIndex = 161;
-            this.nalichieZajavlNaPolstavkiCheckBox.Text = "checkBox13";
+            this.nalichieZajavlNaPolstavkiCheckBox.Text = "Заявл. на полставки";
             this.nalichieZajavlNaPolstavkiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieKopiiInnLabel
-            // 
-            nalichieKopiiInnLabel.AutoSize = true;
-            nalichieKopiiInnLabel.Location = new System.Drawing.Point(158, 2765);
-            nalichieKopiiInnLabel.Name = "nalichieKopiiInnLabel";
-            nalichieKopiiInnLabel.Size = new System.Drawing.Size(92, 13);
-            nalichieKopiiInnLabel.TabIndex = 162;
-            nalichieKopiiInnLabel.Text = "Nalichie Kopii Inn:";
+            this.nalichieZajavlNaPolstavkiCheckBox.MouseHover += new System.EventHandler(this.nalichieZajavlNaPolstavkiCheckBox_MouseHover);
             // 
             // nalichieKopiiInnCheckBox
             // 
             this.nalichieKopiiInnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieKopiiInn", true));
-            this.nalichieKopiiInnCheckBox.Location = new System.Drawing.Point(402, 2760);
+            this.nalichieKopiiInnCheckBox.Location = new System.Drawing.Point(35, 393);
             this.nalichieKopiiInnCheckBox.Name = "nalichieKopiiInnCheckBox";
-            this.nalichieKopiiInnCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieKopiiInnCheckBox.Size = new System.Drawing.Size(101, 24);
             this.nalichieKopiiInnCheckBox.TabIndex = 163;
-            this.nalichieKopiiInnCheckBox.Text = "checkBox13";
+            this.nalichieKopiiInnCheckBox.Text = "Копия ИНН";
             this.nalichieKopiiInnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieKopiiSnilsLabel
-            // 
-            nalichieKopiiSnilsLabel.AutoSize = true;
-            nalichieKopiiSnilsLabel.Location = new System.Drawing.Point(158, 2795);
-            nalichieKopiiSnilsLabel.Name = "nalichieKopiiSnilsLabel";
-            nalichieKopiiSnilsLabel.Size = new System.Drawing.Size(99, 13);
-            nalichieKopiiSnilsLabel.TabIndex = 164;
-            nalichieKopiiSnilsLabel.Text = "Nalichie Kopii Snils:";
             // 
             // nalichieKopiiSnilsCheckBox
             // 
             this.nalichieKopiiSnilsCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieKopiiSnils", true));
-            this.nalichieKopiiSnilsCheckBox.Location = new System.Drawing.Point(402, 2790);
+            this.nalichieKopiiSnilsCheckBox.Location = new System.Drawing.Point(35, 423);
             this.nalichieKopiiSnilsCheckBox.Name = "nalichieKopiiSnilsCheckBox";
-            this.nalichieKopiiSnilsCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieKopiiSnilsCheckBox.Size = new System.Drawing.Size(101, 24);
             this.nalichieKopiiSnilsCheckBox.TabIndex = 165;
-            this.nalichieKopiiSnilsCheckBox.Text = "checkBox13";
+            this.nalichieKopiiSnilsCheckBox.Text = "Копия СНИЛС";
             this.nalichieKopiiSnilsCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieSanKnizhkiLabel
-            // 
-            nalichieSanKnizhkiLabel.AutoSize = true;
-            nalichieSanKnizhkiLabel.Location = new System.Drawing.Point(158, 2825);
-            nalichieSanKnizhkiLabel.Name = "nalichieSanKnizhkiLabel";
-            nalichieSanKnizhkiLabel.Size = new System.Drawing.Size(107, 13);
-            nalichieSanKnizhkiLabel.TabIndex = 166;
-            nalichieSanKnizhkiLabel.Text = "Nalichie San Knizhki:";
             // 
             // nalichieSanKnizhkiCheckBox
             // 
             this.nalichieSanKnizhkiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieSanKnizhki", true));
-            this.nalichieSanKnizhkiCheckBox.Location = new System.Drawing.Point(402, 2820);
+            this.nalichieSanKnizhkiCheckBox.Location = new System.Drawing.Point(35, 453);
             this.nalichieSanKnizhkiCheckBox.Name = "nalichieSanKnizhkiCheckBox";
-            this.nalichieSanKnizhkiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichieSanKnizhkiCheckBox.Size = new System.Drawing.Size(162, 24);
             this.nalichieSanKnizhkiCheckBox.TabIndex = 167;
-            this.nalichieSanKnizhkiCheckBox.Text = "checkBox13";
+            this.nalichieSanKnizhkiCheckBox.Text = "Санитарная книжка";
             this.nalichieSanKnizhkiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichieZajavlObUvolneniiLabel
-            // 
-            nalichieZajavlObUvolneniiLabel.AutoSize = true;
-            nalichieZajavlObUvolneniiLabel.Location = new System.Drawing.Point(158, 2855);
-            nalichieZajavlObUvolneniiLabel.Name = "nalichieZajavlObUvolneniiLabel";
-            nalichieZajavlObUvolneniiLabel.Size = new System.Drawing.Size(144, 13);
-            nalichieZajavlObUvolneniiLabel.TabIndex = 168;
-            nalichieZajavlObUvolneniiLabel.Text = "Nalichie Zajavl Ob Uvolnenii:";
-            // 
-            // nalichieZajavlObUvolneniiCheckBox
-            // 
-            this.nalichieZajavlObUvolneniiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichieZajavlObUvolnenii", true));
-            this.nalichieZajavlObUvolneniiCheckBox.Location = new System.Drawing.Point(402, 2850);
-            this.nalichieZajavlObUvolneniiCheckBox.Name = "nalichieZajavlObUvolneniiCheckBox";
-            this.nalichieZajavlObUvolneniiCheckBox.Size = new System.Drawing.Size(200, 24);
-            this.nalichieZajavlObUvolneniiCheckBox.TabIndex = 169;
-            this.nalichieZajavlObUvolneniiCheckBox.Text = "checkBox13";
-            this.nalichieZajavlObUvolneniiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePrikazaObUvolneniiLabel
-            // 
-            nalichiePrikazaObUvolneniiLabel.AutoSize = true;
-            nalichiePrikazaObUvolneniiLabel.Location = new System.Drawing.Point(158, 2885);
-            nalichiePrikazaObUvolneniiLabel.Name = "nalichiePrikazaObUvolneniiLabel";
-            nalichiePrikazaObUvolneniiLabel.Size = new System.Drawing.Size(150, 13);
-            nalichiePrikazaObUvolneniiLabel.TabIndex = 170;
-            nalichiePrikazaObUvolneniiLabel.Text = "Nalichie Prikaza Ob Uvolnenii:";
-            // 
-            // nalichiePrikazaObUvolneniiCheckBox
-            // 
-            this.nalichiePrikazaObUvolneniiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePrikazaObUvolnenii", true));
-            this.nalichiePrikazaObUvolneniiCheckBox.Location = new System.Drawing.Point(402, 2880);
-            this.nalichiePrikazaObUvolneniiCheckBox.Name = "nalichiePrikazaObUvolneniiCheckBox";
-            this.nalichiePrikazaObUvolneniiCheckBox.Size = new System.Drawing.Size(200, 24);
-            this.nalichiePrikazaObUvolneniiCheckBox.TabIndex = 171;
-            this.nalichiePrikazaObUvolneniiCheckBox.Text = "checkBox13";
-            this.nalichiePrikazaObUvolneniiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaAnketeLabel
-            // 
-            nalichiePodpisiNaAnketeLabel.AutoSize = true;
-            nalichiePodpisiNaAnketeLabel.Location = new System.Drawing.Point(158, 2915);
-            nalichiePodpisiNaAnketeLabel.Name = "nalichiePodpisiNaAnketeLabel";
-            nalichiePodpisiNaAnketeLabel.Size = new System.Drawing.Size(139, 13);
-            nalichiePodpisiNaAnketeLabel.TabIndex = 172;
-            nalichiePodpisiNaAnketeLabel.Text = "Nalichie Podpisi Na Ankete:";
+            this.nalichieSanKnizhkiCheckBox.MouseHover += new System.EventHandler(this.nalichieSanKnizhkiCheckBox_MouseHover);
             // 
             // nalichiePodpisiNaAnketeCheckBox
             // 
             this.nalichiePodpisiNaAnketeCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaAnkete", true));
-            this.nalichiePodpisiNaAnketeCheckBox.Location = new System.Drawing.Point(402, 2910);
+            this.nalichiePodpisiNaAnketeCheckBox.Location = new System.Drawing.Point(768, 63);
             this.nalichiePodpisiNaAnketeCheckBox.Name = "nalichiePodpisiNaAnketeCheckBox";
-            this.nalichiePodpisiNaAnketeCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaAnketeCheckBox.Size = new System.Drawing.Size(117, 24);
             this.nalichiePodpisiNaAnketeCheckBox.TabIndex = 173;
-            this.nalichiePodpisiNaAnketeCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaAnketeCheckBox.Text = "На анкете";
             this.nalichiePodpisiNaAnketeCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaLichnKart2strLabel
-            // 
-            nalichiePodpisiNaLichnKart2strLabel.AutoSize = true;
-            nalichiePodpisiNaLichnKart2strLabel.Location = new System.Drawing.Point(158, 2945);
-            nalichiePodpisiNaLichnKart2strLabel.Name = "nalichiePodpisiNaLichnKart2strLabel";
-            nalichiePodpisiNaLichnKart2strLabel.Size = new System.Drawing.Size(170, 13);
-            nalichiePodpisiNaLichnKart2strLabel.TabIndex = 174;
-            nalichiePodpisiNaLichnKart2strLabel.Text = "Nalichie Podpisi Na Lichn Kart2str:";
             // 
             // nalichiePodpisiNaLichnKart2strCheckBox
             // 
             this.nalichiePodpisiNaLichnKart2strCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaLichnKart2str", true));
-            this.nalichiePodpisiNaLichnKart2strCheckBox.Location = new System.Drawing.Point(402, 2940);
+            this.nalichiePodpisiNaLichnKart2strCheckBox.Location = new System.Drawing.Point(768, 93);
             this.nalichiePodpisiNaLichnKart2strCheckBox.Name = "nalichiePodpisiNaLichnKart2strCheckBox";
-            this.nalichiePodpisiNaLichnKart2strCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaLichnKart2strCheckBox.Size = new System.Drawing.Size(163, 24);
             this.nalichiePodpisiNaLichnKart2strCheckBox.TabIndex = 175;
-            this.nalichiePodpisiNaLichnKart2strCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaLichnKart2strCheckBox.Text = "На 2-й стр. личн. карт.";
             this.nalichiePodpisiNaLichnKart2strCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaPrikazeOPriemeLabel
-            // 
-            nalichiePodpisiNaPrikazeOPriemeLabel.AutoSize = true;
-            nalichiePodpisiNaPrikazeOPriemeLabel.Location = new System.Drawing.Point(158, 2975);
-            nalichiePodpisiNaPrikazeOPriemeLabel.Name = "nalichiePodpisiNaPrikazeOPriemeLabel";
-            nalichiePodpisiNaPrikazeOPriemeLabel.Size = new System.Drawing.Size(183, 13);
-            nalichiePodpisiNaPrikazeOPriemeLabel.TabIndex = 176;
-            nalichiePodpisiNaPrikazeOPriemeLabel.Text = "Nalichie Podpisi Na Prikaze OPrieme:";
             // 
             // nalichiePodpisiNaPrikazeOPriemeCheckBox
             // 
             this.nalichiePodpisiNaPrikazeOPriemeCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaPrikazeOPrieme", true));
-            this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Location = new System.Drawing.Point(402, 2970);
+            this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Location = new System.Drawing.Point(768, 182);
             this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Name = "nalichiePodpisiNaPrikazeOPriemeCheckBox";
-            this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaPrikazeOPriemeCheckBox.TabIndex = 177;
-            this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaPrikazeOPriemeCheckBox.Text = "На приказе о приеме";
             this.nalichiePodpisiNaPrikazeOPriemeCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaTrudovomDogovoreLabel
-            // 
-            nalichiePodpisiNaTrudovomDogovoreLabel.AutoSize = true;
-            nalichiePodpisiNaTrudovomDogovoreLabel.Location = new System.Drawing.Point(158, 3005);
-            nalichiePodpisiNaTrudovomDogovoreLabel.Name = "nalichiePodpisiNaTrudovomDogovoreLabel";
-            nalichiePodpisiNaTrudovomDogovoreLabel.Size = new System.Drawing.Size(203, 13);
-            nalichiePodpisiNaTrudovomDogovoreLabel.TabIndex = 178;
-            nalichiePodpisiNaTrudovomDogovoreLabel.Text = "Nalichie Podpisi Na Trudovom Dogovore:";
             // 
             // nalichiePodpisiNaTrudovomDogovoreCheckBox
             // 
             this.nalichiePodpisiNaTrudovomDogovoreCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaTrudovomDogovore", true));
-            this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Location = new System.Drawing.Point(402, 3000);
+            this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Location = new System.Drawing.Point(768, 212);
             this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Name = "nalichiePodpisiNaTrudovomDogovoreCheckBox";
-            this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Size = new System.Drawing.Size(188, 24);
             this.nalichiePodpisiNaTrudovomDogovoreCheckBox.TabIndex = 179;
-            this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaTrudovomDogovoreCheckBox.Text = "На трудовом договоре (2 шт.)";
             this.nalichiePodpisiNaTrudovomDogovoreCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaZajavleniiNaRabotuLabel
-            // 
-            nalichiePodpisiNaZajavleniiNaRabotuLabel.AutoSize = true;
-            nalichiePodpisiNaZajavleniiNaRabotuLabel.Location = new System.Drawing.Point(158, 3035);
-            nalichiePodpisiNaZajavleniiNaRabotuLabel.Name = "nalichiePodpisiNaZajavleniiNaRabotuLabel";
-            nalichiePodpisiNaZajavleniiNaRabotuLabel.Size = new System.Drawing.Size(205, 13);
-            nalichiePodpisiNaZajavleniiNaRabotuLabel.TabIndex = 180;
-            nalichiePodpisiNaZajavleniiNaRabotuLabel.Text = "Nalichie Podpisi Na Zajavlenii Na Rabotu:";
             // 
             // nalichiePodpisiNaZajavleniiNaRabotuCheckBox
             // 
             this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaZajavleniiNaRabotu", true));
-            this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Location = new System.Drawing.Point(402, 3030);
+            this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Location = new System.Drawing.Point(768, 242);
             this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Name = "nalichiePodpisiNaZajavleniiNaRabotuCheckBox";
-            this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.TabIndex = 181;
-            this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.Text = "На заявл. на работу";
             this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaDogOMatOtvetstvennostiLabel
-            // 
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel.AutoSize = true;
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel.Location = new System.Drawing.Point(158, 3065);
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel.Name = "nalichiePodpisiNaDogOMatOtvetstvennostiLabel";
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel.Size = new System.Drawing.Size(231, 13);
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel.TabIndex = 182;
-            nalichiePodpisiNaDogOMatOtvetstvennostiLabel.Text = "Nalichie Podpisi Na Dog OMat Otvetstvennosti:";
             // 
             // nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox
             // 
             this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaDogOMatOtvetstvennosti", true));
-            this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Location = new System.Drawing.Point(402, 3060);
+            this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Location = new System.Drawing.Point(768, 272);
             this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Name = "nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox";
-            this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.TabIndex = 183;
-            this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.Text = "На д-ре о мат. отв-ти";
             this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaDolzhnInstrukciiLabel
-            // 
-            nalichiePodpisiNaDolzhnInstrukciiLabel.AutoSize = true;
-            nalichiePodpisiNaDolzhnInstrukciiLabel.Location = new System.Drawing.Point(158, 3095);
-            nalichiePodpisiNaDolzhnInstrukciiLabel.Name = "nalichiePodpisiNaDolzhnInstrukciiLabel";
-            nalichiePodpisiNaDolzhnInstrukciiLabel.Size = new System.Drawing.Size(183, 13);
-            nalichiePodpisiNaDolzhnInstrukciiLabel.TabIndex = 184;
-            nalichiePodpisiNaDolzhnInstrukciiLabel.Text = "Nalichie Podpisi Na Dolzhn Instrukcii:";
             // 
             // nalichiePodpisiNaDolzhnInstrukciiCheckBox
             // 
             this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaDolzhnInstrukcii", true));
-            this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Location = new System.Drawing.Point(402, 3090);
+            this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Location = new System.Drawing.Point(768, 302);
             this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Name = "nalichiePodpisiNaDolzhnInstrukciiCheckBox";
-            this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.TabIndex = 185;
-            this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.Text = "На должн. инстр-ии";
             this.nalichiePodpisiNaDolzhnInstrukciiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaSoglasiiNaNochLabel
-            // 
-            nalichiePodpisiNaSoglasiiNaNochLabel.AutoSize = true;
-            nalichiePodpisiNaSoglasiiNaNochLabel.Location = new System.Drawing.Point(158, 3125);
-            nalichiePodpisiNaSoglasiiNaNochLabel.Name = "nalichiePodpisiNaSoglasiiNaNochLabel";
-            nalichiePodpisiNaSoglasiiNaNochLabel.Size = new System.Drawing.Size(187, 13);
-            nalichiePodpisiNaSoglasiiNaNochLabel.TabIndex = 186;
-            nalichiePodpisiNaSoglasiiNaNochLabel.Text = "Nalichie Podpisi Na Soglasii Na Noch:";
             // 
             // nalichiePodpisiNaSoglasiiNaNochCheckBox
             // 
             this.nalichiePodpisiNaSoglasiiNaNochCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaSoglasiiNaNoch", true));
-            this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Location = new System.Drawing.Point(402, 3120);
+            this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Location = new System.Drawing.Point(768, 481);
             this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Name = "nalichiePodpisiNaSoglasiiNaNochCheckBox";
-            this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaSoglasiiNaNochCheckBox.TabIndex = 187;
-            this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaSoglasiiNaNochCheckBox.Text = "На согл. на работу ночью";
             this.nalichiePodpisiNaSoglasiiNaNochCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaSoglasiiNaFotoLabel
-            // 
-            nalichiePodpisiNaSoglasiiNaFotoLabel.AutoSize = true;
-            nalichiePodpisiNaSoglasiiNaFotoLabel.Location = new System.Drawing.Point(158, 3155);
-            nalichiePodpisiNaSoglasiiNaFotoLabel.Name = "nalichiePodpisiNaSoglasiiNaFotoLabel";
-            nalichiePodpisiNaSoglasiiNaFotoLabel.Size = new System.Drawing.Size(182, 13);
-            nalichiePodpisiNaSoglasiiNaFotoLabel.TabIndex = 188;
-            nalichiePodpisiNaSoglasiiNaFotoLabel.Text = "Nalichie Podpisi Na Soglasii Na Foto:";
             // 
             // nalichiePodpisiNaSoglasiiNaFotoCheckBox
             // 
             this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaSoglasiiNaFoto", true));
-            this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Location = new System.Drawing.Point(402, 3150);
+            this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Location = new System.Drawing.Point(768, 512);
             this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Name = "nalichiePodpisiNaSoglasiiNaFotoCheckBox";
-            this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.TabIndex = 189;
-            this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.Text = "На согл. на исп. фото";
             this.nalichiePodpisiNaSoglasiiNaFotoCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaZajavlNaVidachuTrudovojLabel
-            // 
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel.AutoSize = true;
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel.Location = new System.Drawing.Point(158, 3185);
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel.Name = "nalichiePodpisiNaZajavlNaVidachuTrudovojLabel";
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel.Size = new System.Drawing.Size(238, 13);
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel.TabIndex = 190;
-            nalichiePodpisiNaZajavlNaVidachuTrudovojLabel.Text = "Nalichie Podpisi Na Zajavl Na Vidachu Trudovoj:";
             // 
             // nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox
             // 
             this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaZajavlNaVidachuTrudovoj", true));
-            this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Location = new System.Drawing.Point(402, 3180);
+            this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Location = new System.Drawing.Point(768, 365);
             this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Name = "nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox";
-            this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Size = new System.Drawing.Size(229, 24);
             this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.TabIndex = 191;
-            this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.Text = "На заявл. на выдачу труд. книжки";
             this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaZajavlNaPolstavkiLabel
-            // 
-            nalichiePodpisiNaZajavlNaPolstavkiLabel.AutoSize = true;
-            nalichiePodpisiNaZajavlNaPolstavkiLabel.Location = new System.Drawing.Point(158, 3215);
-            nalichiePodpisiNaZajavlNaPolstavkiLabel.Name = "nalichiePodpisiNaZajavlNaPolstavkiLabel";
-            nalichiePodpisiNaZajavlNaPolstavkiLabel.Size = new System.Drawing.Size(197, 13);
-            nalichiePodpisiNaZajavlNaPolstavkiLabel.TabIndex = 192;
-            nalichiePodpisiNaZajavlNaPolstavkiLabel.Text = "Nalichie Podpisi Na Zajavl Na Polstavki:";
             // 
             // nalichiePodpisiNaZajavlNaPolstavkiCheckBox
             // 
             this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaZajavlNaPolstavki", true));
-            this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Location = new System.Drawing.Point(402, 3210);
+            this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Location = new System.Drawing.Point(768, 541);
             this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Name = "nalichiePodpisiNaZajavlNaPolstavkiCheckBox";
-            this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Size = new System.Drawing.Size(156, 24);
             this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.TabIndex = 193;
-            this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.Text = "На звявл. на полставки";
             this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaPVTRLabel
-            // 
-            nalichiePodpisiNaPVTRLabel.AutoSize = true;
-            nalichiePodpisiNaPVTRLabel.Location = new System.Drawing.Point(158, 3245);
-            nalichiePodpisiNaPVTRLabel.Name = "nalichiePodpisiNaPVTRLabel";
-            nalichiePodpisiNaPVTRLabel.Size = new System.Drawing.Size(134, 13);
-            nalichiePodpisiNaPVTRLabel.TabIndex = 194;
-            nalichiePodpisiNaPVTRLabel.Text = "Nalichie Podpisi Na PVTR:";
             // 
             // nalichiePodpisiNaPVTRCheckBox
             // 
             this.nalichiePodpisiNaPVTRCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaPVTR", true));
-            this.nalichiePodpisiNaPVTRCheckBox.Location = new System.Drawing.Point(402, 3240);
+            this.nalichiePodpisiNaPVTRCheckBox.Location = new System.Drawing.Point(768, 572);
             this.nalichiePodpisiNaPVTRCheckBox.Name = "nalichiePodpisiNaPVTRCheckBox";
-            this.nalichiePodpisiNaPVTRCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaPVTRCheckBox.Size = new System.Drawing.Size(229, 24);
             this.nalichiePodpisiNaPVTRCheckBox.TabIndex = 195;
-            this.nalichiePodpisiNaPVTRCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaPVTRCheckBox.Text = "На правилах внутр.труд.расп";
             this.nalichiePodpisiNaPVTRCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaPravIspPersDannihLabel
-            // 
-            nalichiePodpisiNaPravIspPersDannihLabel.AutoSize = true;
-            nalichiePodpisiNaPravIspPersDannihLabel.Location = new System.Drawing.Point(158, 3275);
-            nalichiePodpisiNaPravIspPersDannihLabel.Name = "nalichiePodpisiNaPravIspPersDannihLabel";
-            nalichiePodpisiNaPravIspPersDannihLabel.Size = new System.Drawing.Size(205, 13);
-            nalichiePodpisiNaPravIspPersDannihLabel.TabIndex = 196;
-            nalichiePodpisiNaPravIspPersDannihLabel.Text = "Nalichie Podpisi Na Prav Isp Pers Dannih:";
             // 
             // nalichiePodpisiNaPravIspPersDannihCheckBox
             // 
             this.nalichiePodpisiNaPravIspPersDannihCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaPravIspPersDannih", true));
-            this.nalichiePodpisiNaPravIspPersDannihCheckBox.Location = new System.Drawing.Point(402, 3270);
+            this.nalichiePodpisiNaPravIspPersDannihCheckBox.Location = new System.Drawing.Point(768, 602);
             this.nalichiePodpisiNaPravIspPersDannihCheckBox.Name = "nalichiePodpisiNaPravIspPersDannihCheckBox";
-            this.nalichiePodpisiNaPravIspPersDannihCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaPravIspPersDannihCheckBox.Size = new System.Drawing.Size(198, 24);
             this.nalichiePodpisiNaPravIspPersDannihCheckBox.TabIndex = 197;
-            this.nalichiePodpisiNaPravIspPersDannihCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaPravIspPersDannihCheckBox.Text = "На правилах исп. перс.данных";
             this.nalichiePodpisiNaPravIspPersDannihCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaInstrPoOhrTrudaLabel
-            // 
-            nalichiePodpisiNaInstrPoOhrTrudaLabel.AutoSize = true;
-            nalichiePodpisiNaInstrPoOhrTrudaLabel.Location = new System.Drawing.Point(158, 3305);
-            nalichiePodpisiNaInstrPoOhrTrudaLabel.Name = "nalichiePodpisiNaInstrPoOhrTrudaLabel";
-            nalichiePodpisiNaInstrPoOhrTrudaLabel.Size = new System.Drawing.Size(192, 13);
-            nalichiePodpisiNaInstrPoOhrTrudaLabel.TabIndex = 198;
-            nalichiePodpisiNaInstrPoOhrTrudaLabel.Text = "Nalichie Podpisi Na Instr Po Ohr Truda:";
             // 
             // nalichiePodpisiNaInstrPoOhrTrudaCheckBox
             // 
             this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaInstrPoOhrTruda", true));
-            this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Location = new System.Drawing.Point(402, 3300);
+            this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Location = new System.Drawing.Point(768, 632);
             this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Name = "nalichiePodpisiNaInstrPoOhrTrudaCheckBox";
-            this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Size = new System.Drawing.Size(200, 24);
+            this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Size = new System.Drawing.Size(188, 24);
             this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.TabIndex = 199;
-            this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Text = "checkBox13";
+            this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.Text = "На инстр. по охр. труда";
             this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaZajavlObUvolnLabel
-            // 
-            nalichiePodpisiNaZajavlObUvolnLabel.AutoSize = true;
-            nalichiePodpisiNaZajavlObUvolnLabel.Location = new System.Drawing.Point(158, 3335);
-            nalichiePodpisiNaZajavlObUvolnLabel.Name = "nalichiePodpisiNaZajavlObUvolnLabel";
-            nalichiePodpisiNaZajavlObUvolnLabel.Size = new System.Drawing.Size(182, 13);
-            nalichiePodpisiNaZajavlObUvolnLabel.TabIndex = 200;
-            nalichiePodpisiNaZajavlObUvolnLabel.Text = "Nalichie Podpisi Na Zajavl Ob Uvoln:";
-            // 
-            // nalichiePodpisiNaZajavlObUvolnCheckBox
-            // 
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaZajavlObUvoln", true));
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Location = new System.Drawing.Point(402, 3330);
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Name = "nalichiePodpisiNaZajavlObUvolnCheckBox";
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Size = new System.Drawing.Size(200, 24);
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.TabIndex = 201;
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.Text = "checkBox13";
-            this.nalichiePodpisiNaZajavlObUvolnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaPrikazeObUvolnLabel
-            // 
-            nalichiePodpisiNaPrikazeObUvolnLabel.AutoSize = true;
-            nalichiePodpisiNaPrikazeObUvolnLabel.Location = new System.Drawing.Point(158, 3365);
-            nalichiePodpisiNaPrikazeObUvolnLabel.Name = "nalichiePodpisiNaPrikazeObUvolnLabel";
-            nalichiePodpisiNaPrikazeObUvolnLabel.Size = new System.Drawing.Size(188, 13);
-            nalichiePodpisiNaPrikazeObUvolnLabel.TabIndex = 202;
-            nalichiePodpisiNaPrikazeObUvolnLabel.Text = "Nalichie Podpisi Na Prikaze Ob Uvoln:";
-            // 
-            // nalichiePodpisiNaPrikazeObUvolnCheckBox
-            // 
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaPrikazeObUvoln", true));
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Location = new System.Drawing.Point(402, 3360);
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Name = "nalichiePodpisiNaPrikazeObUvolnCheckBox";
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Size = new System.Drawing.Size(200, 24);
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.TabIndex = 203;
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.Text = "checkBox13";
-            this.nalichiePodpisiNaPrikazeObUvolnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiNaLichnKart4strLabel
-            // 
-            nalichiePodpisiNaLichnKart4strLabel.AutoSize = true;
-            nalichiePodpisiNaLichnKart4strLabel.Location = new System.Drawing.Point(158, 3395);
-            nalichiePodpisiNaLichnKart4strLabel.Name = "nalichiePodpisiNaLichnKart4strLabel";
-            nalichiePodpisiNaLichnKart4strLabel.Size = new System.Drawing.Size(170, 13);
-            nalichiePodpisiNaLichnKart4strLabel.TabIndex = 204;
-            nalichiePodpisiNaLichnKart4strLabel.Text = "Nalichie Podpisi Na Lichn Kart4str:";
-            // 
-            // nalichiePodpisiNaLichnKart4strCheckBox
-            // 
-            this.nalichiePodpisiNaLichnKart4strCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiNaLichnKart4str", true));
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Location = new System.Drawing.Point(402, 3390);
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Name = "nalichiePodpisiNaLichnKart4strCheckBox";
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Size = new System.Drawing.Size(200, 24);
-            this.nalichiePodpisiNaLichnKart4strCheckBox.TabIndex = 205;
-            this.nalichiePodpisiNaLichnKart4strCheckBox.Text = "checkBox13";
-            this.nalichiePodpisiNaLichnKart4strCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // nalichiePodpisiVKnigeUchetaTrudKnLabel
-            // 
-            nalichiePodpisiVKnigeUchetaTrudKnLabel.AutoSize = true;
-            nalichiePodpisiVKnigeUchetaTrudKnLabel.Location = new System.Drawing.Point(158, 3425);
-            nalichiePodpisiVKnigeUchetaTrudKnLabel.Name = "nalichiePodpisiVKnigeUchetaTrudKnLabel";
-            nalichiePodpisiVKnigeUchetaTrudKnLabel.Size = new System.Drawing.Size(201, 13);
-            nalichiePodpisiVKnigeUchetaTrudKnLabel.TabIndex = 206;
-            nalichiePodpisiVKnigeUchetaTrudKnLabel.Text = "Nalichie Podpisi VKnige Ucheta Trud Kn:";
-            // 
-            // nalichiePodpisiVKnigeUchetaTrudKnCheckBox
-            // 
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.DataBindings.Add(new System.Windows.Forms.Binding("CheckState", this.personalBindingSource, "NalichiePodpisiVKnigeUchetaTrudKn", true));
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Location = new System.Drawing.Point(402, 3420);
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Name = "nalichiePodpisiVKnigeUchetaTrudKnCheckBox";
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Size = new System.Drawing.Size(200, 24);
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.TabIndex = 207;
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.Text = "checkBox13";
-            this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // tabNomerLabel
-            // 
-            tabNomerLabel.AutoSize = true;
-            tabNomerLabel.Location = new System.Drawing.Point(158, 3453);
-            tabNomerLabel.Name = "tabNomerLabel";
-            tabNomerLabel.Size = new System.Drawing.Size(63, 13);
-            tabNomerLabel.TabIndex = 208;
-            tabNomerLabel.Text = "Tab Nomer:";
             // 
             // tabNomerTextBox
             // 
             this.tabNomerTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "TabNomer", true));
-            this.tabNomerTextBox.Location = new System.Drawing.Point(402, 3450);
+            this.tabNomerTextBox.Location = new System.Drawing.Point(270, 58);
             this.tabNomerTextBox.Name = "tabNomerTextBox";
             this.tabNomerTextBox.Size = new System.Drawing.Size(200, 20);
             this.tabNomerTextBox.TabIndex = 209;
-            // 
-            // checkBox13
-            // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Location = new System.Drawing.Point(32, 587);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(86, 17);
-            this.checkBox13.TabIndex = 210;
-            this.checkBox13.Text = "checkBox13";
-            this.checkBox13.UseVisualStyleBackColor = true;
-            // 
-            // checkBox14
-            // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Location = new System.Drawing.Point(32, 624);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(86, 17);
-            this.checkBox14.TabIndex = 211;
-            this.checkBox14.Text = "checkBox14";
-            this.checkBox14.UseVisualStyleBackColor = true;
-            // 
-            // checkBox15
-            // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Location = new System.Drawing.Point(32, 662);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(86, 17);
-            this.checkBox15.TabIndex = 212;
-            this.checkBox15.Text = "checkBox15";
-            this.checkBox15.UseVisualStyleBackColor = true;
-            // 
-            // checkBox16
-            // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Location = new System.Drawing.Point(32, 699);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(86, 17);
-            this.checkBox16.TabIndex = 213;
-            this.checkBox16.Text = "checkBox16";
-            this.checkBox16.UseVisualStyleBackColor = true;
-            // 
-            // checkBox17
-            // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Location = new System.Drawing.Point(32, 736);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(86, 17);
-            this.checkBox17.TabIndex = 214;
-            this.checkBox17.Text = "checkBox17";
-            this.checkBox17.UseVisualStyleBackColor = true;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new System.Drawing.Point(29, 132);
-            label1.Name = "label1";
-            label1.Size = new System.Drawing.Size(107, 13);
-            label1.TabIndex = 215;
-            label1.Text = "Наличие документа";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new System.Drawing.Point(175, 132);
-            label2.Name = "label2";
-            label2.Size = new System.Drawing.Size(122, 13);
-            label2.TabIndex = 216;
-            label2.Text = "Распечатать документ";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new System.Drawing.Point(359, 132);
-            label3.Name = "label3";
-            label3.Size = new System.Drawing.Size(114, 13);
-            label3.TabIndex = 217;
-            label3.Text = "Образец заполнения";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new System.Drawing.Point(542, 132);
-            label4.Name = "label4";
-            label4.Size = new System.Drawing.Size(162, 13);
-            label4.TabIndex = 218;
-            label4.Text = "Наличие подписей сотрудника";
+            this.tabNomerTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tabNomerTextBox_KeyPress);
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(178, 153);
+            this.button6.Location = new System.Drawing.Point(257, 64);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(153, 23);
             this.button6.TabIndex = 219;
@@ -2511,7 +1278,7 @@
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(178, 187);
+            this.button7.Location = new System.Drawing.Point(257, 93);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(153, 23);
             this.button7.TabIndex = 220;
@@ -2520,295 +1287,727 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(362, 187);
+            this.button8.Location = new System.Drawing.Point(507, 93);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(148, 23);
             this.button8.TabIndex = 221;
             this.button8.Text = "Личная карточка";
             this.button8.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // formPanel
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Location = new System.Drawing.Point(545, 159);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(76, 17);
-            this.checkBox18.TabIndex = 222;
-            this.checkBox18.Text = "на анкете";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.formPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.formPanel.Controls.Add(this.comboBox8);
+            this.formPanel.Controls.Add(this.comboBox7);
+            this.formPanel.Controls.Add(this.comboBox5);
+            this.formPanel.Controls.Add(this.comboBox4);
+            this.formPanel.Controls.Add(this.comboBox3);
+            this.formPanel.Controls.Add(this.comboBox2);
+            this.formPanel.Controls.Add(this.comboBox6);
+            this.formPanel.Controls.Add(this.comboBox1);
+            this.formPanel.Controls.Add(this.textBox1);
+            this.formPanel.Controls.Add(label7);
+            this.formPanel.Controls.Add(this.button1);
+            this.formPanel.Controls.Add(this.label6);
+            this.formPanel.Controls.Add(this.label8);
+            this.formPanel.Controls.Add(tabNomerLabel);
+            this.formPanel.Controls.Add(this.tabNomerTextBox);
+            this.formPanel.Controls.Add(this.label5);
+            this.formPanel.Controls.Add(fioPolnostjuLabel);
+            this.formPanel.Controls.Add(this.fioPolnostjuTextBox);
+            this.formPanel.Controls.Add(innLabel);
+            this.formPanel.Controls.Add(this.innTextBox);
+            this.formPanel.Controls.Add(snilsLabel);
+            this.formPanel.Controls.Add(this.snilsTextBox);
+            this.formPanel.Controls.Add(polLabel);
+            this.formPanel.Controls.Add(pasportNoLabel);
+            this.formPanel.Controls.Add(this.pasportNoTextBox);
+            this.formPanel.Controls.Add(dataVidachiPasportaLabel);
+            this.formPanel.Controls.Add(this.dataVidachiPasportaDateTimePicker);
+            this.formPanel.Controls.Add(pasportVidanLabel);
+            this.formPanel.Controls.Add(this.pasportVidanTextBox);
+            this.formPanel.Controls.Add(adresPoPropiskeLabel);
+            this.formPanel.Controls.Add(this.adresPoPropiskeTextBox);
+            this.formPanel.Controls.Add(indexPoPropiskeLabel);
+            this.formPanel.Controls.Add(this.indexPoPropiskeTextBox);
+            this.formPanel.Controls.Add(adresFakticheskiiLabel);
+            this.formPanel.Controls.Add(this.adresFakticheskiiTextBox);
+            this.formPanel.Controls.Add(indexFakticheskiiLabel);
+            this.formPanel.Controls.Add(this.indexFakticheskiiTextBox);
+            this.formPanel.Controls.Add(telefonLabel);
+            this.formPanel.Controls.Add(this.telefonTextBox);
+            this.formPanel.Controls.Add(dataRozhdenijaLabel);
+            this.formPanel.Controls.Add(this.dataRozhdenijaDateTimePicker);
+            this.formPanel.Controls.Add(mestoRozhdenijaLabel);
+            this.formPanel.Controls.Add(this.primechanijaTextBox);
+            this.formPanel.Controls.Add(this.mestoRozhdenijaTextBox);
+            this.formPanel.Controls.Add(primechanijaLabel);
+            this.formPanel.Controls.Add(mestoRozhdenijaKodLabel);
+            this.formPanel.Controls.Add(this.mestoRozhdenijaKodTextBox);
+            this.formPanel.Controls.Add(grazhdanstvoLabel);
+            this.formPanel.Controls.Add(grazhdanstvoKodLabel);
+            this.formPanel.Controls.Add(this.ispitSrokTextBox);
+            this.formPanel.Controls.Add(this.grazhdanstvoKodTextBox);
+            this.formPanel.Controls.Add(ispitSrokLabel);
+            this.formPanel.Controls.Add(obrazovanijeLabel);
+            this.formPanel.Controls.Add(this.okonchanijeTDDateTimePicker);
+            this.formPanel.Controls.Add(okonchanijeTDLabel);
+            this.formPanel.Controls.Add(obrazovanijeKodLabel);
+            this.formPanel.Controls.Add(this.dataPrikazaOPriemeDateTimePicker);
+            this.formPanel.Controls.Add(this.obrazovanijeKodTextBox);
+            this.formPanel.Controls.Add(dataPrikazaOPriemeLabel);
+            this.formPanel.Controls.Add(statusVOrganizatsiiLabel);
+            this.formPanel.Controls.Add(this.dataTDDateTimePicker);
+            this.formPanel.Controls.Add(dataTDLabel);
+            this.formPanel.Controls.Add(professijaLabel);
+            this.formPanel.Controls.Add(this.nomerTDTextBox);
+            this.formPanel.Controls.Add(nomerTDLabel);
+            this.formPanel.Controls.Add(professijaKodLabel);
+            this.formPanel.Controls.Add(this.okladPropisjuTextBox);
+            this.formPanel.Controls.Add(this.professijaKodTextBox);
+            this.formPanel.Controls.Add(okladPropisjuLabel);
+            this.formPanel.Controls.Add(professijaDrugajaLabel);
+            this.formPanel.Controls.Add(this.okladCiframiTextBox);
+            this.formPanel.Controls.Add(okladCiframiLabel);
+            this.formPanel.Controls.Add(professijaDrugajaKodLabel);
+            this.formPanel.Controls.Add(this.professijaDrugajaKodTextBox);
+            this.formPanel.Controls.Add(vidRabotiLabel);
+            this.formPanel.Controls.Add(dataNachalaRabotiLabel);
+            this.formPanel.Controls.Add(this.dataNachalaRabotiDateTimePicker);
+            this.formPanel.Controls.Add(kharakterRabotiLabel);
+            this.formPanel.Location = new System.Drawing.Point(3, 701);
+            this.formPanel.Name = "formPanel";
+            this.formPanel.Size = new System.Drawing.Size(1011, 643);
+            this.formPanel.TabIndex = 224;
+            this.formPanel.Visible = false;
             // 
-            // checkBox19
+            // button1
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Location = new System.Drawing.Point(545, 191);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(137, 17);
-            this.checkBox19.TabIndex = 223;
-            this.checkBox19.Text = "на 2-й стр. личн. карт.";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(29, 84);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(237, 23);
+            this.button1.TabIndex = 247;
+            this.button1.Text = "Список табельных номеров";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.Location = new System.Drawing.Point(26, 113);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(159, 16);
+            this.label6.TabIndex = 247;
+            this.label6.Text = "Личная информация";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.Location = new System.Drawing.Point(534, 4);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(173, 16);
+            this.label8.TabIndex = 245;
+            this.label8.Text = "Информация о работе";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(25, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(179, 20);
+            this.label5.TabIndex = 244;
+            this.label5.Text = "Заполнение данных";
+            // 
+            // formButton
+            // 
+            this.formButton.Location = new System.Drawing.Point(3, 672);
+            this.formButton.Name = "formButton";
+            this.formButton.Size = new System.Drawing.Size(1011, 23);
+            this.formButton.TabIndex = 225;
+            this.formButton.Text = "Показать/ скрыть форму заполнения данных";
+            this.formButton.UseVisualStyleBackColor = true;
+            this.formButton.Click += new System.EventHandler(this.formButton_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(257, 188);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(153, 23);
+            this.button10.TabIndex = 226;
+            this.button10.Text = "Приказ о приеме";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(257, 219);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(153, 23);
+            this.button11.TabIndex = 227;
+            this.button11.Text = "Трудовой договор";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(257, 249);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(153, 23);
+            this.button12.TabIndex = 228;
+            this.button12.Text = "Заявление на работу";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(257, 279);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(153, 23);
+            this.button13.TabIndex = 229;
+            this.button13.Text = "Д-р о мат. отв-ти";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(257, 308);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(153, 23);
+            this.button14.TabIndex = 230;
+            this.button14.Text = "Дожн. инструкция";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(507, 274);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(153, 23);
+            this.button16.TabIndex = 234;
+            this.button16.Text = "Д-р о мат. отв-ти";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(507, 244);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(153, 23);
+            this.button17.TabIndex = 233;
+            this.button17.Text = "Заявление на работу";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(507, 214);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(153, 23);
+            this.button18.TabIndex = 232;
+            this.button18.Text = "Трудовой договор";
+            this.button18.UseVisualStyleBackColor = true;
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(507, 183);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(153, 23);
+            this.button19.TabIndex = 231;
+            this.button19.Text = "Приказ о приеме";
+            this.button19.UseVisualStyleBackColor = true;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(507, 304);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(153, 23);
+            this.button15.TabIndex = 235;
+            this.button15.Text = "Дожн. инструкция";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(507, 334);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(153, 23);
+            this.button20.TabIndex = 236;
+            this.button20.Text = "Трудовая книжка";
+            this.button20.UseVisualStyleBackColor = true;
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(257, 363);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(153, 23);
+            this.button21.TabIndex = 237;
+            this.button21.Text = "Заявл. на выдачу труд. книжки";
+            this.button21.UseVisualStyleBackColor = true;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(507, 363);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(153, 23);
+            this.button22.TabIndex = 238;
+            this.button22.Text = "Заявл. на выдачу труд. книжки";
+            this.button22.UseVisualStyleBackColor = true;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(257, 489);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(153, 23);
+            this.button23.TabIndex = 239;
+            this.button23.Text = "Согл. на работу ночью";
+            this.button23.UseVisualStyleBackColor = true;
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(257, 519);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(153, 23);
+            this.button24.TabIndex = 240;
+            this.button24.Text = "Согл. на использ. фото";
+            this.button24.UseVisualStyleBackColor = true;
+            // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(507, 484);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(153, 23);
+            this.button25.TabIndex = 241;
+            this.button25.Text = "Согл. на работу ночью";
+            this.button25.UseVisualStyleBackColor = true;
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(507, 514);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(153, 23);
+            this.button26.TabIndex = 242;
+            this.button26.Text = "Согл. на использ. фото";
+            this.button26.UseVisualStyleBackColor = true;
+            // 
+            // button27
+            // 
+            this.button27.Location = new System.Drawing.Point(507, 542);
+            this.button27.Name = "button27";
+            this.button27.Size = new System.Drawing.Size(153, 23);
+            this.button27.TabIndex = 243;
+            this.button27.Text = "Заявл. на полставки";
+            this.button27.UseVisualStyleBackColor = true;
+            // 
+            // docPanel
+            // 
+            this.docPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.docPanel.Controls.Add(this.label2);
+            this.docPanel.Controls.Add(label4);
+            this.docPanel.Controls.Add(this.button27);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox);
+            this.docPanel.Controls.Add(this.button26);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaPravIspPersDannihCheckBox);
+            this.docPanel.Controls.Add(this.button25);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaPVTRCheckBox);
+            this.docPanel.Controls.Add(this.button24);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox);
+            this.docPanel.Controls.Add(this.button23);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox);
+            this.docPanel.Controls.Add(this.button22);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaSoglasiiNaFotoCheckBox);
+            this.docPanel.Controls.Add(this.button21);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaSoglasiiNaNochCheckBox);
+            this.docPanel.Controls.Add(this.button20);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaDolzhnInstrukciiCheckBox);
+            this.docPanel.Controls.Add(this.button15);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox);
+            this.docPanel.Controls.Add(this.button16);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox);
+            this.docPanel.Controls.Add(this.button17);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaTrudovomDogovoreCheckBox);
+            this.docPanel.Controls.Add(this.button18);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaPrikazeOPriemeCheckBox);
+            this.docPanel.Controls.Add(this.button19);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaLichnKart2strCheckBox);
+            this.docPanel.Controls.Add(this.nalichiePodpisiNaAnketeCheckBox);
+            this.docPanel.Controls.Add(this.button14);
+            this.docPanel.Controls.Add(this.nalichieSanKnizhkiCheckBox);
+            this.docPanel.Controls.Add(this.nalichieKopiiSnilsCheckBox);
+            this.docPanel.Controls.Add(this.button13);
+            this.docPanel.Controls.Add(this.nalichieKopiiInnCheckBox);
+            this.docPanel.Controls.Add(this.button12);
+            this.docPanel.Controls.Add(this.nalichieZajavlNaPolstavkiCheckBox);
+            this.docPanel.Controls.Add(this.button11);
+            this.docPanel.Controls.Add(this.nalichieZajavlNaVidachuTrudovojCheckBox);
+            this.docPanel.Controls.Add(this.button10);
+            this.docPanel.Controls.Add(this.nalichieTrudovojKnijkiCheckBox);
+            this.docPanel.Controls.Add(this.nalichieSoglasijaNaFotoCheckBox);
+            this.docPanel.Controls.Add(this.nalichieSoglasijaNaNochCheckBox);
+            this.docPanel.Controls.Add(this.button8);
+            this.docPanel.Controls.Add(this.nalichieDolzhnInstrukciiCheckBox);
+            this.docPanel.Controls.Add(this.button7);
+            this.docPanel.Controls.Add(this.nalichieDogOMatOtvetstvennostiCheckBox);
+            this.docPanel.Controls.Add(this.button6);
+            this.docPanel.Controls.Add(this.nalichieZajavlenijaNaRabotuCheckBox);
+            this.docPanel.Controls.Add(this.nalichieTrudovogoDogovoraCheckBox);
+            this.docPanel.Controls.Add(label3);
+            this.docPanel.Controls.Add(this.nalichiePrikazaOPriemeCheckBox);
+            this.docPanel.Controls.Add(this.nalichieKopiiPasportaCheckBox);
+            this.docPanel.Controls.Add(label1);
+            this.docPanel.Controls.Add(this.nalichieFotoCheckBox);
+            this.docPanel.Controls.Add(this.nalichieAnketiCheckBox);
+            this.docPanel.Controls.Add(this.nalichieLichnKartochkiCheckBox);
+            this.docPanel.Location = new System.Drawing.Point(3, 3);
+            this.docPanel.Name = "docPanel";
+            this.docPanel.Size = new System.Drawing.Size(1011, 663);
+            this.docPanel.TabIndex = 244;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(244, 30);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(179, 16);
+            this.label2.TabIndex = 245;
+            this.label2.Text = "Распечатать документ";
+            this.label2.MouseHover += new System.EventHandler(this.label2_MouseHover);
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Controls.Add(this.docPanel);
+            this.flowLayoutPanel1.Controls.Add(this.formButton);
+            this.flowLayoutPanel1.Controls.Add(this.formPanel);
+            this.flowLayoutPanel1.Controls.Add(this.toDocFormButton);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 40);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1014, 1390);
+            this.flowLayoutPanel1.TabIndex = 246;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new System.Drawing.Point(534, 324);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(136, 13);
+            label7.TabIndex = 248;
+            label7.Text = "Номер приказа о приеме";
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.IndianRed;
+            this.textBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.personalBindingSource, "NomerTD", true));
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
+            this.textBox1.Location = new System.Drawing.Point(778, 321);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(200, 20);
+            this.textBox1.TabIndex = 249;
+            // 
+            // toDocFormButton
+            // 
+            this.toDocFormButton.Location = new System.Drawing.Point(3, 1350);
+            this.toDocFormButton.Name = "toDocFormButton";
+            this.toDocFormButton.Size = new System.Drawing.Size(1011, 23);
+            this.toDocFormButton.TabIndex = 245;
+            this.toDocFormButton.Text = "Перейти к форме для заполнения документов";
+            this.toDocFormButton.UseVisualStyleBackColor = true;
+            this.toDocFormButton.Click += new System.EventHandler(this.toDocFormButton_Click);
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.AutoSize = false;
+            this.bindingNavigatorAddNewItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources.newCrossGreen;
+            this.bindingNavigatorAddNewItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.ImageTransparentColor = System.Drawing.Color.Transparent;
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(27, 27);
+            this.bindingNavigatorAddNewItem.Text = "Добавить";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.AutoSize = false;
+            this.bindingNavigatorDeleteItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources.newCrossRed;
+            this.bindingNavigatorDeleteItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.ImageTransparentColor = System.Drawing.Color.Transparent;
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(27, 27);
+            this.bindingNavigatorDeleteItem.Text = "Удалить";
+            // 
+            // bindingNavigatorMoveFirstItem
+            // 
+            this.bindingNavigatorMoveFirstItem.AutoSize = false;
+            this.bindingNavigatorMoveFirstItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources._1234;
+            this.bindingNavigatorMoveFirstItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.bindingNavigatorMoveFirstItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveFirstItem.Image")));
+            this.bindingNavigatorMoveFirstItem.Name = "bindingNavigatorMoveFirstItem";
+            this.bindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveFirstItem.Size = new System.Drawing.Size(27, 27);
+            this.bindingNavigatorMoveFirstItem.Text = "Переместить в начало";
+            // 
+            // bindingNavigatorMovePreviousItem
+            // 
+            this.bindingNavigatorMovePreviousItem.AutoSize = false;
+            this.bindingNavigatorMovePreviousItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources.play2;
+            this.bindingNavigatorMovePreviousItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.bindingNavigatorMovePreviousItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMovePreviousItem.Image")));
+            this.bindingNavigatorMovePreviousItem.Name = "bindingNavigatorMovePreviousItem";
+            this.bindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMovePreviousItem.Size = new System.Drawing.Size(27, 27);
+            this.bindingNavigatorMovePreviousItem.Text = "Переместить назад";
+            // 
+            // bindingNavigatorMoveNextItem
+            // 
+            this.bindingNavigatorMoveNextItem.AutoSize = false;
+            this.bindingNavigatorMoveNextItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources.play;
+            this.bindingNavigatorMoveNextItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.bindingNavigatorMoveNextItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveNextItem.Image")));
+            this.bindingNavigatorMoveNextItem.Name = "bindingNavigatorMoveNextItem";
+            this.bindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveNextItem.Size = new System.Drawing.Size(27, 27);
+            this.bindingNavigatorMoveNextItem.Text = "Переместить вперед";
+            this.bindingNavigatorMoveNextItem.Click += new System.EventHandler(this.bindingNavigatorMoveNextItem_Click);
+            // 
+            // bindingNavigatorMoveLastItem
+            // 
+            this.bindingNavigatorMoveLastItem.AutoSize = false;
+            this.bindingNavigatorMoveLastItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources._123;
+            this.bindingNavigatorMoveLastItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.bindingNavigatorMoveLastItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorMoveLastItem.Image")));
+            this.bindingNavigatorMoveLastItem.Name = "bindingNavigatorMoveLastItem";
+            this.bindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorMoveLastItem.Size = new System.Drawing.Size(27, 27);
+            this.bindingNavigatorMoveLastItem.Text = "Переместить в конец";
+            // 
+            // personalBindingNavigatorSaveItem
+            // 
+            this.personalBindingNavigatorSaveItem.AutoSize = false;
+            this.personalBindingNavigatorSaveItem.BackgroundImage = global::WindowsForms_Diploma_NevskiiProekt.Properties.Resources.newSave;
+            this.personalBindingNavigatorSaveItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.personalBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.None;
+            this.personalBindingNavigatorSaveItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.personalBindingNavigatorSaveItem.Image = ((System.Drawing.Image)(resources.GetObject("personalBindingNavigatorSaveItem.Image")));
+            this.personalBindingNavigatorSaveItem.ImageTransparentColor = System.Drawing.Color.Transparent;
+            this.personalBindingNavigatorSaveItem.Name = "personalBindingNavigatorSaveItem";
+            this.personalBindingNavigatorSaveItem.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.personalBindingNavigatorSaveItem.Size = new System.Drawing.Size(27, 27);
+            this.personalBindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.personalBindingNavigatorSaveItem.Click += new System.EventHandler(this.personalBindingNavigatorSaveItem_Click);
+            // 
+            // toolStripMainButton
+            // 
+            this.toolStripMainButton.AutoSize = false;
+            this.toolStripMainButton.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.toolStripMainButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.toolStripMainButton.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toolStripMainButton.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMainButton.Image")));
+            this.toolStripMainButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripMainButton.Name = "toolStripMainButton";
+            this.toolStripMainButton.Size = new System.Drawing.Size(197, 27);
+            this.toolStripMainButton.Text = "Главное меню";
+            this.toolStripMainButton.Click += new System.EventHandler(this.toolStripMainButton_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DataSource = this.kindOfWorkBindingSource;
+            this.comboBox1.DisplayMember = "VidRaboti";
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(270, 31);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 21);
+            this.comboBox1.TabIndex = 250;
+            // 
+            // kindOfWorkBindingSource
+            // 
+            this.kindOfWorkBindingSource.DataMember = "KindOfWork";
+            this.kindOfWorkBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // kindOfWorkTableAdapter
+            // 
+            this.kindOfWorkTableAdapter.ClearBeforeFill = true;
+            // 
+            // comboBox6
+            // 
+            this.comboBox6.DataSource = this.sexBindingSource;
+            this.comboBox6.DisplayMember = "Sex";
+            this.comboBox6.FormattingEnabled = true;
+            this.comboBox6.Location = new System.Drawing.Point(270, 216);
+            this.comboBox6.Name = "comboBox6";
+            this.comboBox6.Size = new System.Drawing.Size(200, 21);
+            this.comboBox6.TabIndex = 250;
+            // 
+            // sexBindingSource
+            // 
+            this.sexBindingSource.DataMember = "Sex";
+            this.sexBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // sexTableAdapter
+            // 
+            this.sexTableAdapter.ClearBeforeFill = true;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.DataSource = this.kodiOkinGrazhdanstvoBindingSource;
+            this.comboBox2.DisplayMember = "VidiGrazhdanstva";
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(270, 528);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(200, 21);
+            this.comboBox2.TabIndex = 251;
+            // 
+            // comboBox3
+            // 
+            this.comboBox3.DataSource = this.kodiOkinObrazovanijeBindingSource;
+            this.comboBox3.DisplayMember = "UrovenObrazovanija";
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(270, 579);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(200, 21);
+            this.comboBox3.TabIndex = 252;
+            // 
+            // kodiOkinObrazovanijeBindingSource
+            // 
+            this.kodiOkinObrazovanijeBindingSource.DataMember = "KodiOkinObrazovanije";
+            this.kodiOkinObrazovanijeBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // kodiOkinObrazovanijeTableAdapter
+            // 
+            this.kodiOkinObrazovanijeTableAdapter.ClearBeforeFill = true;
+            // 
+            // kodiOkinGrazhdanstvoBindingSource
+            // 
+            this.kodiOkinGrazhdanstvoBindingSource.DataMember = "KodiOkinGrazhdanstvo";
+            this.kodiOkinGrazhdanstvoBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // kodiOkinGrazhdanstvoTableAdapter
+            // 
+            this.kodiOkinGrazhdanstvoTableAdapter.ClearBeforeFill = true;
+            // 
+            // comboBox4
+            // 
+            this.comboBox4.DataSource = this.statusInOrganizationBindingSource;
+            this.comboBox4.DisplayMember = "StatusVOrganizatsii";
+            this.comboBox4.FormattingEnabled = true;
+            this.comboBox4.Location = new System.Drawing.Point(778, 32);
+            this.comboBox4.Name = "comboBox4";
+            this.comboBox4.Size = new System.Drawing.Size(200, 21);
+            this.comboBox4.TabIndex = 253;
+            // 
+            // statusInOrganizationBindingSource
+            // 
+            this.statusInOrganizationBindingSource.DataMember = "StatusInOrganization";
+            this.statusInOrganizationBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // statusInOrganizationTableAdapter
+            // 
+            this.statusInOrganizationTableAdapter.ClearBeforeFill = true;
+            // 
+            // comboBox5
+            // 
+            this.comboBox5.DataSource = this.personalBindingSource1;
+            this.comboBox5.DisplayMember = "Professija";
+            this.comboBox5.FormattingEnabled = true;
+            this.comboBox5.Location = new System.Drawing.Point(778, 58);
+            this.comboBox5.Name = "comboBox5";
+            this.comboBox5.Size = new System.Drawing.Size(200, 21);
+            this.comboBox5.TabIndex = 254;
+            // 
+            // languagesBindingSource
+            // 
+            this.languagesBindingSource.DataMember = "Languages";
+            this.languagesBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // languagesTableAdapter
+            // 
+            this.languagesTableAdapter.ClearBeforeFill = true;
+            // 
+            // manningTableBindingSource
+            // 
+            this.manningTableBindingSource.DataMember = "ManningTable";
+            this.manningTableBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // manningTableTableAdapter
+            // 
+            this.manningTableTableAdapter.ClearBeforeFill = true;
+            // 
+            // personalBindingSource1
+            // 
+            this.personalBindingSource1.DataMember = "Personal";
+            this.personalBindingSource1.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // comboBox7
+            // 
+            this.comboBox7.DataSource = this.personalBindingSource1;
+            this.comboBox7.DisplayMember = "Professija";
+            this.comboBox7.FormattingEnabled = true;
+            this.comboBox7.Location = new System.Drawing.Point(778, 110);
+            this.comboBox7.Name = "comboBox7";
+            this.comboBox7.Size = new System.Drawing.Size(200, 21);
+            this.comboBox7.TabIndex = 255;
+            // 
+            // comboBox8
+            // 
+            this.comboBox8.DataSource = this.characterOfWorkBindingSource;
+            this.comboBox8.DisplayMember = "KharakterRaboti";
+            this.comboBox8.FormattingEnabled = true;
+            this.comboBox8.Location = new System.Drawing.Point(778, 188);
+            this.comboBox8.Name = "comboBox8";
+            this.comboBox8.Size = new System.Drawing.Size(200, 21);
+            this.comboBox8.TabIndex = 256;
+            // 
+            // characterOfWorkBindingSource
+            // 
+            this.characterOfWorkBindingSource.DataMember = "CharacterOfWork";
+            this.characterOfWorkBindingSource.DataSource = this.diploma_NevskiiProectDataSet;
+            // 
+            // characterOfWorkTableAdapter
+            // 
+            this.characterOfWorkTableAdapter.ClearBeforeFill = true;
             // 
             // AddForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(934, 864);
-            this.Controls.Add(this.checkBox19);
-            this.Controls.Add(this.checkBox18);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(label4);
-            this.Controls.Add(label3);
-            this.Controls.Add(label2);
-            this.Controls.Add(label1);
-            this.Controls.Add(this.checkBox17);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(personal_pkLabel);
-            this.Controls.Add(this.personal_pkTextBox);
-            this.Controls.Add(nazvanijeOrganizatsi_fkLabel);
-            this.Controls.Add(this.nazvanijeOrganizatsi_fkTextBox);
-            this.Controls.Add(fioPolnostjuLabel);
-            this.Controls.Add(this.fioPolnostjuTextBox);
-            this.Controls.Add(innLabel);
-            this.Controls.Add(this.innTextBox);
-            this.Controls.Add(snilsLabel);
-            this.Controls.Add(this.snilsTextBox);
-            this.Controls.Add(polLabel);
-            this.Controls.Add(this.polTextBox);
-            this.Controls.Add(pasportNoLabel);
-            this.Controls.Add(this.pasportNoTextBox);
-            this.Controls.Add(dataVidachiPasportaLabel);
-            this.Controls.Add(this.dataVidachiPasportaDateTimePicker);
-            this.Controls.Add(pasportVidanLabel);
-            this.Controls.Add(this.pasportVidanTextBox);
-            this.Controls.Add(adresPoPropiskeLabel);
-            this.Controls.Add(this.adresPoPropiskeTextBox);
-            this.Controls.Add(indexPoPropiskeLabel);
-            this.Controls.Add(this.indexPoPropiskeTextBox);
-            this.Controls.Add(adresFakticheskiiLabel);
-            this.Controls.Add(this.adresFakticheskiiTextBox);
-            this.Controls.Add(indexFakticheskiiLabel);
-            this.Controls.Add(this.indexFakticheskiiTextBox);
-            this.Controls.Add(telefonLabel);
-            this.Controls.Add(this.telefonTextBox);
-            this.Controls.Add(dataRozhdenijaLabel);
-            this.Controls.Add(this.dataRozhdenijaDateTimePicker);
-            this.Controls.Add(mestoRozhdenijaLabel);
-            this.Controls.Add(this.mestoRozhdenijaTextBox);
-            this.Controls.Add(mestoRozhdenijaKodLabel);
-            this.Controls.Add(this.mestoRozhdenijaKodTextBox);
-            this.Controls.Add(grazhdanstvoLabel);
-            this.Controls.Add(this.grazhdanstvoTextBox);
-            this.Controls.Add(grazhdanstvoKodLabel);
-            this.Controls.Add(this.grazhdanstvoKodTextBox);
-            this.Controls.Add(obrazovanijeLabel);
-            this.Controls.Add(this.obrazovanijeTextBox);
-            this.Controls.Add(obrazovanijeKodLabel);
-            this.Controls.Add(this.obrazovanijeKodTextBox);
-            this.Controls.Add(statusVOrganizatsiiLabel);
-            this.Controls.Add(this.statusVOrganizatsiiTextBox);
-            this.Controls.Add(professijaLabel);
-            this.Controls.Add(this.professijaTextBox);
-            this.Controls.Add(professijaKodLabel);
-            this.Controls.Add(this.professijaKodTextBox);
-            this.Controls.Add(professijaDrugajaLabel);
-            this.Controls.Add(this.professijaDrugajaTextBox);
-            this.Controls.Add(professijaDrugajaKodLabel);
-            this.Controls.Add(this.professijaDrugajaKodTextBox);
-            this.Controls.Add(dataNachalaRabotiLabel);
-            this.Controls.Add(this.dataNachalaRabotiDateTimePicker);
-            this.Controls.Add(kharakterRabotiLabel);
-            this.Controls.Add(this.kharakterRabotiTextBox);
-            this.Controls.Add(vidRabotiLabel);
-            this.Controls.Add(this.vidRabotiTextBox);
-            this.Controls.Add(okladCiframiLabel);
-            this.Controls.Add(this.okladCiframiTextBox);
-            this.Controls.Add(okladPropisjuLabel);
-            this.Controls.Add(this.okladPropisjuTextBox);
-            this.Controls.Add(nomerTDLabel);
-            this.Controls.Add(this.nomerTDTextBox);
-            this.Controls.Add(dataTDLabel);
-            this.Controls.Add(this.dataTDDateTimePicker);
-            this.Controls.Add(dataPrikazaOPriemeLabel);
-            this.Controls.Add(this.dataPrikazaOPriemeDateTimePicker);
-            this.Controls.Add(okonchanijeTDLabel);
-            this.Controls.Add(this.okonchanijeTDDateTimePicker);
-            this.Controls.Add(ispitSrokLabel);
-            this.Controls.Add(this.ispitSrokTextBox);
-            this.Controls.Add(dataUvolnenijaLabel);
-            this.Controls.Add(this.dataUvolnenijaDateTimePicker);
-            this.Controls.Add(osnovanijeUvolnenijaLabel);
-            this.Controls.Add(this.osnovanijeUvolnenijaTextBox);
-            this.Controls.Add(primechanijaLabel);
-            this.Controls.Add(this.primechanijaTextBox);
-            this.Controls.Add(dljaZapolnenijaIOFamilijaLabel);
-            this.Controls.Add(this.dljaZapolnenijaIOFamilijaTextBox);
-            this.Controls.Add(dljaZapolnenijaFamilijaIOLabel);
-            this.Controls.Add(this.dljaZapolnenijaFamilijaIOTextBox);
-            this.Controls.Add(dljaZapolnenijaFamilijaLabel);
-            this.Controls.Add(this.dljaZapolnenijaFamilijaTextBox);
-            this.Controls.Add(dljaZapolnenijaImjaLabel);
-            this.Controls.Add(this.dljaZapolnenijaImjaTextBox);
-            this.Controls.Add(dljaZapolnenijaOtchestvoLabel);
-            this.Controls.Add(this.dljaZapolnenijaOtchestvoTextBox);
-            this.Controls.Add(dljaZapolnenijaLKPasportVidanLine1Label);
-            this.Controls.Add(this.dljaZapolnenijaLKPasportVidanLine1TextBox);
-            this.Controls.Add(dljaZapolnenijaLKPasportVidanLine2Label);
-            this.Controls.Add(this.dljaZapolnenijaLKPasportVidanLine2TextBox);
-            this.Controls.Add(dljaZapolnenijaLKAdresPoPropiskeLine1Label);
-            this.Controls.Add(this.dljaZapolnenijaLKAdresPoPropiskeLine1TextBox);
-            this.Controls.Add(dljaZapolnenijaLKAdresPoPropiskeLine2Label);
-            this.Controls.Add(this.dljaZapolnenijaLKAdresPoPropiskeLine2TextBox);
-            this.Controls.Add(dljaZapolnenijaLKAdresFakticheskiiLine1Label);
-            this.Controls.Add(this.dljaZapolnenijaLKAdresFakticheskiiLine1TextBox);
-            this.Controls.Add(dljaZapolnenijaLKAdresFakticheskiiLine2Label);
-            this.Controls.Add(this.dljaZapolnenijaLKAdresFakticheskiiLine2TextBox);
-            this.Controls.Add(dljaZapolnenijaDogMOAdresLine1Label);
-            this.Controls.Add(this.dljaZapolnenijaDogMOAdresLine1TextBox);
-            this.Controls.Add(dljaZapolnenijaDogMOAdresLine2Label);
-            this.Controls.Add(this.dljaZapolnenijaDogMOAdresLine2TextBox);
-            this.Controls.Add(dljaZapolnenijaZajavlenijaFIOLine1Label);
-            this.Controls.Add(this.dljaZapolnenijaZajavlenijaFIOLine1TextBox);
-            this.Controls.Add(dljaZapolnenijaZajavlenijaFIOLine2Label);
-            this.Controls.Add(this.dljaZapolnenijaZajavlenijaFIOLine2TextBox);
-            this.Controls.Add(dljaZapolnenijaOsnovanijePrikazaOPriemeLabel);
-            this.Controls.Add(this.dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox);
-            this.Controls.Add(dljaZapolnenijaOsnovanijeUvolnenijaLine1Label);
-            this.Controls.Add(this.dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox);
-            this.Controls.Add(dljaZapolnenijaOsnovanijeUvolnenijaLine2Label);
-            this.Controls.Add(this.dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox);
-            this.Controls.Add(dljaZapolnenijaOsnovanijePrikazaObUvolnLabel);
-            this.Controls.Add(this.dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox);
-            this.Controls.Add(nalichieAnketiLabel);
-            this.Controls.Add(this.nalichieAnketiCheckBox);
-            this.Controls.Add(nalichieLichnKartochkiLabel);
-            this.Controls.Add(this.nalichieLichnKartochkiCheckBox);
-            this.Controls.Add(nalichieFotoLabel);
-            this.Controls.Add(this.nalichieFotoCheckBox);
-            this.Controls.Add(nalichieKopiiPasportaLabel);
-            this.Controls.Add(this.nalichieKopiiPasportaCheckBox);
-            this.Controls.Add(nalichiePrikazaOPriemeLabel);
-            this.Controls.Add(this.nalichiePrikazaOPriemeCheckBox);
-            this.Controls.Add(nalichieTrudovogoDogovoraLabel);
-            this.Controls.Add(this.nalichieTrudovogoDogovoraCheckBox);
-            this.Controls.Add(nalichieZajavlenijaNaRabotuLabel);
-            this.Controls.Add(this.nalichieZajavlenijaNaRabotuCheckBox);
-            this.Controls.Add(nalichieDogOMatOtvetstvennostiLabel);
-            this.Controls.Add(this.nalichieDogOMatOtvetstvennostiCheckBox);
-            this.Controls.Add(nalichieDolzhnInstrukciiLabel);
-            this.Controls.Add(this.nalichieDolzhnInstrukciiCheckBox);
-            this.Controls.Add(nalichieSoglasijaNaNochLabel);
-            this.Controls.Add(this.nalichieSoglasijaNaNochCheckBox);
-            this.Controls.Add(nalichieSoglasijaNaFotoLabel);
-            this.Controls.Add(this.nalichieSoglasijaNaFotoCheckBox);
-            this.Controls.Add(nalichieTrudovojKnijkiLabel);
-            this.Controls.Add(this.nalichieTrudovojKnijkiCheckBox);
-            this.Controls.Add(nalichieZajavlNaVidachuTrudovojLabel);
-            this.Controls.Add(this.nalichieZajavlNaVidachuTrudovojCheckBox);
-            this.Controls.Add(nalichieZajavlNaPolstavkiLabel);
-            this.Controls.Add(this.nalichieZajavlNaPolstavkiCheckBox);
-            this.Controls.Add(nalichieKopiiInnLabel);
-            this.Controls.Add(this.nalichieKopiiInnCheckBox);
-            this.Controls.Add(nalichieKopiiSnilsLabel);
-            this.Controls.Add(this.nalichieKopiiSnilsCheckBox);
-            this.Controls.Add(nalichieSanKnizhkiLabel);
-            this.Controls.Add(this.nalichieSanKnizhkiCheckBox);
-            this.Controls.Add(nalichieZajavlObUvolneniiLabel);
-            this.Controls.Add(this.nalichieZajavlObUvolneniiCheckBox);
-            this.Controls.Add(nalichiePrikazaObUvolneniiLabel);
-            this.Controls.Add(this.nalichiePrikazaObUvolneniiCheckBox);
-            this.Controls.Add(nalichiePodpisiNaAnketeLabel);
-            this.Controls.Add(this.nalichiePodpisiNaAnketeCheckBox);
-            this.Controls.Add(nalichiePodpisiNaLichnKart2strLabel);
-            this.Controls.Add(this.nalichiePodpisiNaLichnKart2strCheckBox);
-            this.Controls.Add(nalichiePodpisiNaPrikazeOPriemeLabel);
-            this.Controls.Add(this.nalichiePodpisiNaPrikazeOPriemeCheckBox);
-            this.Controls.Add(nalichiePodpisiNaTrudovomDogovoreLabel);
-            this.Controls.Add(this.nalichiePodpisiNaTrudovomDogovoreCheckBox);
-            this.Controls.Add(nalichiePodpisiNaZajavleniiNaRabotuLabel);
-            this.Controls.Add(this.nalichiePodpisiNaZajavleniiNaRabotuCheckBox);
-            this.Controls.Add(nalichiePodpisiNaDogOMatOtvetstvennostiLabel);
-            this.Controls.Add(this.nalichiePodpisiNaDogOMatOtvetstvennostiCheckBox);
-            this.Controls.Add(nalichiePodpisiNaDolzhnInstrukciiLabel);
-            this.Controls.Add(this.nalichiePodpisiNaDolzhnInstrukciiCheckBox);
-            this.Controls.Add(nalichiePodpisiNaSoglasiiNaNochLabel);
-            this.Controls.Add(this.nalichiePodpisiNaSoglasiiNaNochCheckBox);
-            this.Controls.Add(nalichiePodpisiNaSoglasiiNaFotoLabel);
-            this.Controls.Add(this.nalichiePodpisiNaSoglasiiNaFotoCheckBox);
-            this.Controls.Add(nalichiePodpisiNaZajavlNaVidachuTrudovojLabel);
-            this.Controls.Add(this.nalichiePodpisiNaZajavlNaVidachuTrudovojCheckBox);
-            this.Controls.Add(nalichiePodpisiNaZajavlNaPolstavkiLabel);
-            this.Controls.Add(this.nalichiePodpisiNaZajavlNaPolstavkiCheckBox);
-            this.Controls.Add(nalichiePodpisiNaPVTRLabel);
-            this.Controls.Add(this.nalichiePodpisiNaPVTRCheckBox);
-            this.Controls.Add(nalichiePodpisiNaPravIspPersDannihLabel);
-            this.Controls.Add(this.nalichiePodpisiNaPravIspPersDannihCheckBox);
-            this.Controls.Add(nalichiePodpisiNaInstrPoOhrTrudaLabel);
-            this.Controls.Add(this.nalichiePodpisiNaInstrPoOhrTrudaCheckBox);
-            this.Controls.Add(nalichiePodpisiNaZajavlObUvolnLabel);
-            this.Controls.Add(this.nalichiePodpisiNaZajavlObUvolnCheckBox);
-            this.Controls.Add(nalichiePodpisiNaPrikazeObUvolnLabel);
-            this.Controls.Add(this.nalichiePodpisiNaPrikazeObUvolnCheckBox);
-            this.Controls.Add(nalichiePodpisiNaLichnKart4strLabel);
-            this.Controls.Add(this.nalichiePodpisiNaLichnKart4strCheckBox);
-            this.Controls.Add(nalichiePodpisiVKnigeUchetaTrudKnLabel);
-            this.Controls.Add(this.nalichiePodpisiVKnigeUchetaTrudKnCheckBox);
-            this.Controls.Add(tabNomerLabel);
-            this.Controls.Add(this.tabNomerTextBox);
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.ClientSize = new System.Drawing.Size(1032, 761);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.personalBindingNavigator);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.checkBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "AddForm";
-            this.Text = "AddForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Прием на работу";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.AddForm_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddForm_FormClosed);
             this.Load += new System.EventHandler(this.AddForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.diploma_NevskiiProectDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.diploma_NevskiiProectDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.personalBindingNavigator)).EndInit();
             this.personalBindingNavigator.ResumeLayout(false);
             this.personalBindingNavigator.PerformLayout();
+            this.formPanel.ResumeLayout(false);
+            this.formPanel.PerformLayout();
+            this.docPanel.ResumeLayout(false);
+            this.docPanel.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kindOfWorkBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.sexBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodiOkinObrazovanijeBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kodiOkinGrazhdanstvoBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.statusInOrganizationBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.languagesBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.manningTableBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.personalBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.characterOfWorkBindingSource)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
         private Diploma_NevskiiProectDataSet diploma_NevskiiProectDataSet;
         private System.Windows.Forms.BindingSource personalBindingSource;
         private Diploma_NevskiiProectDataSetTableAdapters.PersonalTableAdapter personalTableAdapter;
@@ -2826,12 +2025,9 @@
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton personalBindingNavigatorSaveItem;
-        private System.Windows.Forms.TextBox personal_pkTextBox;
-        private System.Windows.Forms.TextBox nazvanijeOrganizatsi_fkTextBox;
         private System.Windows.Forms.TextBox fioPolnostjuTextBox;
         private System.Windows.Forms.TextBox innTextBox;
         private System.Windows.Forms.TextBox snilsTextBox;
-        private System.Windows.Forms.TextBox polTextBox;
         private System.Windows.Forms.TextBox pasportNoTextBox;
         private System.Windows.Forms.DateTimePicker dataVidachiPasportaDateTimePicker;
         private System.Windows.Forms.TextBox pasportVidanTextBox;
@@ -2843,18 +2039,11 @@
         private System.Windows.Forms.DateTimePicker dataRozhdenijaDateTimePicker;
         private System.Windows.Forms.TextBox mestoRozhdenijaTextBox;
         private System.Windows.Forms.TextBox mestoRozhdenijaKodTextBox;
-        private System.Windows.Forms.TextBox grazhdanstvoTextBox;
         private System.Windows.Forms.TextBox grazhdanstvoKodTextBox;
-        private System.Windows.Forms.TextBox obrazovanijeTextBox;
         private System.Windows.Forms.TextBox obrazovanijeKodTextBox;
-        private System.Windows.Forms.TextBox statusVOrganizatsiiTextBox;
-        private System.Windows.Forms.TextBox professijaTextBox;
         private System.Windows.Forms.TextBox professijaKodTextBox;
-        private System.Windows.Forms.TextBox professijaDrugajaTextBox;
         private System.Windows.Forms.TextBox professijaDrugajaKodTextBox;
         private System.Windows.Forms.DateTimePicker dataNachalaRabotiDateTimePicker;
-        private System.Windows.Forms.TextBox kharakterRabotiTextBox;
-        private System.Windows.Forms.TextBox vidRabotiTextBox;
         private System.Windows.Forms.TextBox okladCiframiTextBox;
         private System.Windows.Forms.TextBox okladPropisjuTextBox;
         private System.Windows.Forms.TextBox nomerTDTextBox;
@@ -2862,28 +2051,7 @@
         private System.Windows.Forms.DateTimePicker dataPrikazaOPriemeDateTimePicker;
         private System.Windows.Forms.DateTimePicker okonchanijeTDDateTimePicker;
         private System.Windows.Forms.TextBox ispitSrokTextBox;
-        private System.Windows.Forms.DateTimePicker dataUvolnenijaDateTimePicker;
-        private System.Windows.Forms.TextBox osnovanijeUvolnenijaTextBox;
         private System.Windows.Forms.TextBox primechanijaTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaIOFamilijaTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaFamilijaIOTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaFamilijaTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaImjaTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaOtchestvoTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaLKPasportVidanLine1TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaLKPasportVidanLine2TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaLKAdresPoPropiskeLine1TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaLKAdresPoPropiskeLine2TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaLKAdresFakticheskiiLine1TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaLKAdresFakticheskiiLine2TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaDogMOAdresLine1TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaDogMOAdresLine2TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaZajavlenijaFIOLine1TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaZajavlenijaFIOLine2TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaOsnovanijePrikazaOPriemeTextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaOsnovanijeUvolnenijaLine1TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaOsnovanijeUvolnenijaLine2TextBox;
-        private System.Windows.Forms.TextBox dljaZapolnenijaOsnovanijePrikazaObUvolnTextBox;
         private System.Windows.Forms.CheckBox nalichieAnketiCheckBox;
         private System.Windows.Forms.CheckBox nalichieLichnKartochkiCheckBox;
         private System.Windows.Forms.CheckBox nalichieFotoCheckBox;
@@ -2901,8 +2069,6 @@
         private System.Windows.Forms.CheckBox nalichieKopiiInnCheckBox;
         private System.Windows.Forms.CheckBox nalichieKopiiSnilsCheckBox;
         private System.Windows.Forms.CheckBox nalichieSanKnizhkiCheckBox;
-        private System.Windows.Forms.CheckBox nalichieZajavlObUvolneniiCheckBox;
-        private System.Windows.Forms.CheckBox nalichiePrikazaObUvolneniiCheckBox;
         private System.Windows.Forms.CheckBox nalichiePodpisiNaAnketeCheckBox;
         private System.Windows.Forms.CheckBox nalichiePodpisiNaLichnKart2strCheckBox;
         private System.Windows.Forms.CheckBox nalichiePodpisiNaPrikazeOPriemeCheckBox;
@@ -2917,20 +2083,64 @@
         private System.Windows.Forms.CheckBox nalichiePodpisiNaPVTRCheckBox;
         private System.Windows.Forms.CheckBox nalichiePodpisiNaPravIspPersDannihCheckBox;
         private System.Windows.Forms.CheckBox nalichiePodpisiNaInstrPoOhrTrudaCheckBox;
-        private System.Windows.Forms.CheckBox nalichiePodpisiNaZajavlObUvolnCheckBox;
-        private System.Windows.Forms.CheckBox nalichiePodpisiNaPrikazeObUvolnCheckBox;
-        private System.Windows.Forms.CheckBox nalichiePodpisiNaLichnKart4strCheckBox;
-        private System.Windows.Forms.CheckBox nalichiePodpisiVKnigeUchetaTrudKnCheckBox;
         private System.Windows.Forms.TextBox tabNomerTextBox;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
+        private System.Windows.Forms.Panel formPanel;
+        private System.Windows.Forms.Button formButton;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
+        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Panel docPanel;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.ToolStripButton toolStripMainButton;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button toDocFormButton;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.BindingSource kindOfWorkBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.KindOfWorkTableAdapter kindOfWorkTableAdapter;
+        private System.Windows.Forms.ComboBox comboBox6;
+        private System.Windows.Forms.BindingSource sexBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.SexTableAdapter sexTableAdapter;
+        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.BindingSource kodiOkinObrazovanijeBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.KodiOkinObrazovanijeTableAdapter kodiOkinObrazovanijeTableAdapter;
+        private System.Windows.Forms.BindingSource kodiOkinGrazhdanstvoBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.KodiOkinGrazhdanstvoTableAdapter kodiOkinGrazhdanstvoTableAdapter;
+        private System.Windows.Forms.ComboBox comboBox4;
+        private System.Windows.Forms.BindingSource statusInOrganizationBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.StatusInOrganizationTableAdapter statusInOrganizationTableAdapter;
+        private System.Windows.Forms.ComboBox comboBox5;
+        private System.Windows.Forms.BindingSource languagesBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.LanguagesTableAdapter languagesTableAdapter;
+        private System.Windows.Forms.BindingSource manningTableBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.ManningTableTableAdapter manningTableTableAdapter;
+        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.BindingSource personalBindingSource1;
+        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.BindingSource characterOfWorkBindingSource;
+        private Diploma_NevskiiProectDataSetTableAdapters.CharacterOfWorkTableAdapter characterOfWorkTableAdapter;
     }
 }

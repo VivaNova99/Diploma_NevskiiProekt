@@ -28,83 +28,99 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.toInformationButton = new System.Windows.Forms.Button();
+            this.toEditFormButton = new System.Windows.Forms.Button();
+            this.toAddFormButton = new System.Windows.Forms.Button();
+            this.toFireFormButton = new System.Windows.Forms.Button();
+            this.exitButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // toInformationButton
             // 
-            this.button1.Location = new System.Drawing.Point(84, 85);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(217, 40);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "ИНФОРМАЦИЯ ОБ ОРГАНИЗАЦИИ";
-            this.button1.UseVisualStyleBackColor = true;
+            this.toInformationButton.BackColor = System.Drawing.SystemColors.Control;
+            this.toInformationButton.Location = new System.Drawing.Point(84, 77);
+            this.toInformationButton.Name = "toInformationButton";
+            this.toInformationButton.Size = new System.Drawing.Size(217, 48);
+            this.toInformationButton.TabIndex = 0;
+            this.toInformationButton.Text = "ИНФОРМАЦИЯ ОБ ОРГАНИЗАЦИИ";
+            this.toInformationButton.UseVisualStyleBackColor = false;
+            this.toInformationButton.MouseLeave += new System.EventHandler(this.toInformationButton_MouseLeave);
+            this.toInformationButton.MouseHover += new System.EventHandler(this.toInformationButton_MouseHover);
             // 
-            // button2
+            // toEditFormButton
             // 
-            this.button2.Location = new System.Drawing.Point(84, 131);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(217, 41);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "ИНФОРМАЦИЯ О СОТРУДНИКАХ";
-            this.button2.UseVisualStyleBackColor = true;
+            this.toEditFormButton.Location = new System.Drawing.Point(84, 131);
+            this.toEditFormButton.Name = "toEditFormButton";
+            this.toEditFormButton.Size = new System.Drawing.Size(217, 48);
+            this.toEditFormButton.TabIndex = 1;
+            this.toEditFormButton.Text = "ИНФОРМАЦИЯ О СОТРУДНИКАХ";
+            this.toEditFormButton.UseVisualStyleBackColor = true;
+            this.toEditFormButton.Click += new System.EventHandler(this.button2_Click);
+            this.toEditFormButton.MouseLeave += new System.EventHandler(this.toEditFormButton_MouseLeave);
+            this.toEditFormButton.MouseHover += new System.EventHandler(this.toEditFormButton_MouseHover);
             // 
-            // button3
+            // toAddFormButton
             // 
-            this.button3.Location = new System.Drawing.Point(84, 178);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(217, 40);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "ПРИЕМ НА РАБОТУ";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.toAddFormButton.Location = new System.Drawing.Point(84, 185);
+            this.toAddFormButton.Name = "toAddFormButton";
+            this.toAddFormButton.Size = new System.Drawing.Size(217, 48);
+            this.toAddFormButton.TabIndex = 2;
+            this.toAddFormButton.Text = "ПРИЕМ НА РАБОТУ";
+            this.toAddFormButton.UseVisualStyleBackColor = true;
+            this.toAddFormButton.Click += new System.EventHandler(this.button3_Click);
+            this.toAddFormButton.MouseLeave += new System.EventHandler(this.toAddFormButton_MouseLeave);
+            this.toAddFormButton.MouseHover += new System.EventHandler(this.toAddFormButton_MouseHover);
             // 
-            // button4
+            // toFireFormButton
             // 
-            this.button4.Location = new System.Drawing.Point(84, 224);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(217, 37);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "УВОЛЬНЕНИЕ";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.toFireFormButton.Location = new System.Drawing.Point(84, 239);
+            this.toFireFormButton.Name = "toFireFormButton";
+            this.toFireFormButton.Size = new System.Drawing.Size(217, 48);
+            this.toFireFormButton.TabIndex = 3;
+            this.toFireFormButton.Text = "УВОЛЬНЕНИЕ";
+            this.toFireFormButton.UseVisualStyleBackColor = true;
+            this.toFireFormButton.Click += new System.EventHandler(this.button4_Click);
+            this.toFireFormButton.MouseLeave += new System.EventHandler(this.toFireFormButton_MouseLeave);
+            this.toFireFormButton.MouseHover += new System.EventHandler(this.toFireFormButton_MouseHover);
             // 
-            // button5
+            // exitButton
             // 
-            this.button5.Location = new System.Drawing.Point(84, 361);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(217, 41);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "ВЫХОД";
-            this.button5.UseVisualStyleBackColor = true;
+            this.exitButton.Location = new System.Drawing.Point(84, 361);
+            this.exitButton.Name = "exitButton";
+            this.exitButton.Size = new System.Drawing.Size(217, 41);
+            this.exitButton.TabIndex = 4;
+            this.exitButton.Text = "ВЫХОД";
+            this.exitButton.UseVisualStyleBackColor = true;
+            this.exitButton.Click += new System.EventHandler(this.button5_Click);
+            this.exitButton.MouseLeave += new System.EventHandler(this.exitButton_MouseLeave);
+            this.exitButton.MouseHover += new System.EventHandler(this.exitButton_MouseHover);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 498);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.exitButton);
+            this.Controls.Add(this.toFireFormButton);
+            this.Controls.Add(this.toAddFormButton);
+            this.Controls.Add(this.toEditFormButton);
+            this.Controls.Add(this.toInformationButton);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Главное меню";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button toInformationButton;
+        private System.Windows.Forms.Button toEditFormButton;
+        private System.Windows.Forms.Button toAddFormButton;
+        private System.Windows.Forms.Button toFireFormButton;
+        private System.Windows.Forms.Button exitButton;
     }
 }
 
